@@ -1,0 +1,67 @@
+﻿__________________________________________________________________________________________
+
+Package "Eyes Animator"
+Version 1.0.6
+
+Made by FImpossible Creations - Filip Moeglich
+https://www.FilipMoeglich.pl
+Mail: FImpossibleGames@Gmail.com or Filip.Moeglich@Gmail.com
+
+__________________________________________________________________________________________
+
+Unity Connect: https://connect.unity.com/u/5b2e9407880c6425c117fab1
+Youtube: https://www.youtube.com/fimpossiblegames
+Facebook: https://www.facebook.com/FImpossibleCreations
+Twitter (@FimpossibleC): https://twitter.com/FImpossibleC
+Google+: https://plus.google.com/u/3/115325467674876785237
+
+__________________________________________________________________________________________
+Description:
+
+Eyes Animator is component which will animate eye spheres to behave like real or to behave more cartoon like, it's up to you!
+
+Eye movement is a small detail thing, but when it suddenly appear in your project, you can feel that it was truly missing.
+Component have intuitive settings which you can use to design your custom movement for eyes.
+Animation is procedural and constatly random - no repetitions, it's only using game object's rotation.
+
+Algorithm is simulating eyes point of interest lag for more realism, which effect you can adjust with simple slider.
+There is also random eyes movement simulation, with different presets: 
+From calm through nervous to psychical cues - movement of eyes when someone is lying / trying to remember sound etc.
+
+All you need to have are eyes sphere models or eye bones in your 3D model.
+
+Main features:
+-Includes interactive demo scenes
+-Includes full source code with detailed commentary
+
+- Quickly setup component with custom inspector
+- Easily change target objects to follow by eyes
+- Blend eye animation and effects you apply in component
+- Easily set clamp ranges with inspector visualization
+
+__________________________________________________________________________________________
+Changelog:
+
+v1.0.6
+- Fixes for inspector window
+- Now 'Auto Find' will not only try to find head bone but also eye bones and eyelids
+- Variable 'RootFixer' removed because new rotation fixing algorithm is working universally
+
+V1.0.5
+- Some fixes for inspector window
+- "EyeLids" list now will be automatically filled with objects from "Upper Eyelids" and "Lower Eyelids" lists
+- Added button "Focus On Close Rotations" to help adjusting eyelids close rotations
+- Added variable "Min Open Value" to blinking component so you can close character's eyes a little as default eyes pose
+- Added guide gizmo arrows to help debug algorithm
+
+V1.0.3
+- Added 'Additional Eyelids Motion' for FEyesAnimatorBlinking component, so you can controll eyelids' opening a little when character is looking up and closing a bit when looking down - it gives more natural effect
+- Added 'LagStiffness' variable for some more controll over lag effect
+
+V1.0.2
+- Added icon on the right inside hierarchy to easily find objects with attached EyesAnimator
+- Added component menu so you will find Eyes Animator components also under "Add Component" > "FImpossible Creations" > "Eyes Animator"
+
+V1.0.1
+- Added prefabs for single eye setups of eye animator
+- Few fixes for inspector windows

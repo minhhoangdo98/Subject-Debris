@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Dat
+  - Noise
+  - PlayerCollider
+  - DealDamageTrigger
+  - EnemyCollider
+  - Enemy
+  - Tuong
+  - ButtonAction
+  - Destroyable
+  - Death
+  - InteractObject
+  - ActionText
+  - Player3d
+  - HpBar
+  - EnergyBar
+  - PlayerImage
+  - BlackScreen
+  - FadeOut
+  - FadeIn
+  - Rain
+  - UICamera
+  - BlockEnemy
+  - PatrolPoint
+  - Boss
+  - Music
+  - Bag
+  - Model
+  - Ally
+  - AllyCollider
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - ParticleEffect
+  - DiaHinh
+  - Not2D
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

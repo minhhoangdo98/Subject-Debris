@@ -1,0 +1,7 @@
+﻿Optmize Map
+Phim tat
+Change voice
+Itween: movement object, shake
+Optimize game: Light: baked, texture
+bieu cam tren mat nhan vat vroid: vrm blend shape proxy / blend shape
+Xuat ten cac bieu cam cua tung nhan vat ra file bieucam.txt, ham dat trong CharacterObject.cs

@@ -1,0 +1,7 @@
+If you already have "Look Animator" asset in your project, you can import this package for two additional components
+which will have feature to sync target of look / clamping ranges for "Eyes Animator" from "Look Animator".
+
+https://drive.google.com/open?id=1wCH8l4de2MYODGqOSgd9Rnf0Crmdjq7Z
+File "Eyes Animator - Look Animator Implementation.unitypackage"
+
+It have to be putted here as download because additional .unitypackage or other compressed files are not allowed to be inside asset store unity package.

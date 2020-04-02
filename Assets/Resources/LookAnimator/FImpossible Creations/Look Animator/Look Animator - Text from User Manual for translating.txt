@@ -1,0 +1,95 @@
+﻿This text is here for use with translator.
+
+Page 1:
+
+There are 3 movement axes each 
+for different dimension inside unity
+
+X called “right” 
+Y called “up” 
+and 
+Z called “forward”
+
+It’s recommended to all of your characters to face Z axis.
+
+Each skeletonal character imported to unity can have offsetted rotation inside bone’s hierarchy which sometimes is problem 
+when you animating bones.
+look animator provides algorithms to solve this problem, 
+if default preset called ‘parental’ will work wrong on your model (this preset should work on all models anyway) 
+you can use other preset or do it manually, But it’s advanced subject, 
+check video on FImpossible Creations’s youtube channel about manual axes tweaking with Look Animator.
+
+Animations for your characters sometimes can have not animated single bones.
+
+For example when you have neck containing 10 bones, some of them on some animations can not be animated because they don’t need to.
+
+this will cause error with head rotating contantly around, that’s because component is adding rotation value 
+each frame, and each frame unity’s animator component is refreshing rotations, so it cooperating well with look animator.
+
+to solve it you can use “bones not animated” count under “optional parameters” tab of component or add simple 
+keyframes inside animation for this bones.
+
+Page 2:
+
+Add look animator to your character’s
+game object and follow inspector.
+Inspector provides many helpful functions
+like auto finding buttons or highlighting 
+variables you should check before hitting play.
+hower on fields to check what this variables means.
+
+Object to follow is main look target, you can use methods like “Set Look Target” or “Set moment Look Target” 
+to override main target for time defined by you, when component lost them, character will look at “object to follow” again.
+
+Lead bone is just skeleton’s head bone “auto find” button will try to find it automatically, after doing it click and check if it’s right bone.
+“Rotation speed” is main speed of changing bones rotations smoothly
+“ultra smoother” is feature which is making 
+animation look softer
+it’ recommended to use it but you souldn’t go to high with this value when “rotation speed” is low.
+
+“Start after tpose” is running component after first frames, when character model is going to animation pose, 
+thanks to that component can use reference rotations for further features more precisely.
+
+Limiting rotation angles tab shows you clearly what it does so it don’t need much description.
+
+We should discuss only about “elastic range” feature.
+
+This variable makes clamp ranges become elastic to simulate muscles effort for reaching target rotation.
+
+“Additional controll parameters” tab is containing useful tweak variables.
+
+
+Blend to original will blend pose to animator’s.
+
+Look reference offset can be used to offset source position of casting sight line.
+
+Anchor resource point will freeze
+source position of casting sight line
+check tooltip for more.
+
+Lead bone weight can be used to ease
+rotation of head bone looking at target.
+
+Page 3:
+
+It depends what type of game you are making, some settings can look in one genre better in other weaker.
+For example in third person camera ultra smoother can make animation more noicable.
+
+It’s recommended to use backbones when you have some spine bones, 
+but be sure you don’t finish on root bone, so whole model will rotate instead of only spine. 
+
+This feature will make animation look more organic and detailed.
+spread value is up to you to tweak, 
+it will define how spine bones will be affected by rotations.
+
+Animate with source is important feature, it is keeping whole animation motion when animating look rotations.
+
+It’s making animation look more connected with keyframed animation, also it can be used for rotating spine as aiming to reach hitting position.
+
+Monitor animator will try to fit with bone’s offsets to currectly played animation, it can be useful in extremal situations for strange creatures.
+
+Compensation bones can make your animation look much nicer.
+most noticable during big spine rotations in vertical axis.
+blend value setted to 0.5 is just right.
+You can use component also on animals, when you use here spine bones they will rotate legs also, so you can use compensation bones, put here first legs and set compensation weight set to 1.
+

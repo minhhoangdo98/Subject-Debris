@@ -1,0 +1,1519 @@
+fileFormatVersion: 2
+guid: 4f9574e6141f3054e8309ad2aa9ed584
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3439415270235023333
+    second: Earth2_0
+  - first:
+      213: 1347166160486230194
+    second: Earth2_1
+  - first:
+      213: 5511381745293526131
+    second: Earth2_2
+  - first:
+      213: -8474863174726888159
+    second: Earth2_3
+  - first:
+      213: 519251122347237912
+    second: Earth2_4
+  - first:
+      213: -3075399802451323702
+    second: Earth2_5
+  - first:
+      213: 1901446178397838512
+    second: Earth2_6
+  - first:
+      213: 7001777774788837151
+    second: Earth2_7
+  - first:
+      213: 8296250850231894254
+    second: Earth2_8
+  - first:
+      213: -934881554105463981
+    second: Earth2_9
+  - first:
+      213: 2833861807241152409
+    second: Earth2_10
+  - first:
+      213: -4417407404925031607
+    second: Earth2_11
+  - first:
+      213: -1860062998248619468
+    second: Earth2_12
+  - first:
+      213: 2396070358206867314
+    second: Earth2_13
+  - first:
+      213: 6878514141634061174
+    second: Earth2_14
+  - first:
+      213: -4370224751318012780
+    second: Earth2_15
+  - first:
+      213: 2058026814593936723
+    second: Earth2_16
+  - first:
+      213: -4736480093334285253
+    second: Earth2_17
+  - first:
+      213: 290900701306265689
+    second: Earth2_18
+  - first:
+      213: -8476876253598941317
+    second: Earth2_19
+  - first:
+      213: 3555626563720623425
+    second: Earth2_20
+  - first:
+      213: -1987530314072878500
+    second: Earth2_21
+  - first:
+      213: -7208372028943721644
+    second: Earth2_22
+  - first:
+      213: 2452882060036487151
+    second: Earth2_23
+  - first:
+      213: -6790531607905911810
+    second: Earth2_24
+  - first:
+      213: -2449008034590000444
+    second: Earth2_25
+  - first:
+      213: 8575484055927097102
+    second: Earth2_26
+  - first:
+      213: -6527617433767696989
+    second: Earth2_27
+  - first:
+      213: -7880421815258232399
+    second: Earth2_28
+  - first:
+      213: 6587400738061564922
+    second: Earth2_29
+  - first:
+      213: 3560490101988939113
+    second: Earth2_30
+  - first:
+      213: 2083471582702047176
+    second: Earth2_31
+  - first:
+      213: -2400592574705031370
+    second: Earth2_32
+  - first:
+      213: -6031734119041686414
+    second: Earth2_33
+  - first:
+      213: -204654680803912379
+    second: Earth2_34
+  - first:
+      213: -1002408456901085798
+    second: Earth2_35
+  - first:
+      213: 6152093353419212094
+    second: Earth2_36
+  - first:
+      213: 2208434837603694314
+    second: Earth2_37
+  - first:
+      213: 366635940884320840
+    second: Earth2_38
+  - first:
+      213: 634801805410502670
+    second: Earth2_39
+  - first:
+      213: -126895863293321353
+    second: Earth2_40
+  - first:
+      213: 129250949800954444
+    second: Earth2_41
+  - first:
+      213: 3108706536118773028
+    second: Earth2_42
+  - first:
+      213: -5890451158749189759
+    second: Earth2_43
+  - first:
+      213: 7459372874198413826
+    second: Earth2_44
+  - first:
+      213: 3103342699539290235
+    second: Earth2_45
+  - first:
+      213: 8933908686350677852
+    second: Earth2_46
+  - first:
+      213: -2031572698113913791
+    second: Earth2_47
+  - first:
+      213: -652215873657054253
+    second: Earth2_48
+  - first:
+      213: -3689849480685160964
+    second: Earth2_49
+  - first:
+      213: 1547881868756504790
+    second: Earth2_50
+  - first:
+      213: -3847511620133605641
+    second: Earth2_51
+  - first:
+      213: -4834466299720553981
+    second: Earth2_52
+  - first:
+      213: 3526945506419440334
+    second: Earth2_53
+  - first:
+      213: -2272554565933068731
+    second: Earth2_54
+  - first:
+      213: 7581151963669232079
+    second: Earth2_55
+  - first:
+      213: 3953255591097817742
+    second: Earth2_56
+  - first:
+      213: 1714314057957625928
+    second: Earth2_57
+  - first:
+      213: -383975403751652992
+    second: Earth2_58
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Earth2_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 605
+        width: 84
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7596e65bd8ad68b4a8c59af408cf3a4e
+      internalID: -3439415270235023333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 601
+        width: 100
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9299732a95c8c4594e37184014ef5d
+      internalID: 1347166160486230194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_2
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 596
+        width: 115
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df394b9b79f5ee4184be54070accae0
+      internalID: 5511381745293526131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 589
+        width: 130
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c4c3b8b102bce4cae88f4534d9cda2
+      internalID: -8474863174726888159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_4
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 583
+        width: 152
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4413651b00eef1443a5c33d48ccb2007
+      internalID: 519251122347237912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_5
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 497
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3733c1748c7e1e64bbc97f0f75505031
+      internalID: -3075399802451323702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_6
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 492
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba71cb2be64090b4a83fc3182ddfe18f
+      internalID: 1901446178397838512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 385
+        width: 172
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb6c41521d99b24a8103bde5f085473
+      internalID: 7001777774788837151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_8
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 386
+        width: 182
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd2c1679a9a7c741a9617463d9a620e
+      internalID: 8296250850231894254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_9
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 405
+        width: 101
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec5a1e9863fdbb41a9b47631673e550
+      internalID: -934881554105463981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_10
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 457
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133486c38a64e6f49b6454784872dd9e
+      internalID: 2833861807241152409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_11
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 458
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348344266aa9537419b33752f6ffa5d8
+      internalID: -4417407404925031607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_12
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 456
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22eabfe1729d5f46b629027a89271b1
+      internalID: -1860062998248619468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_13
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 449
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfa06544d881024b819a6540200e584
+      internalID: 2396070358206867314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_14
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 401
+        width: 100
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b57d5af9fdb5d4a885988254d74f24
+      internalID: 6878514141634061174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_15
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 396
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0edd10d60f4d048a202252ac689dc4
+      internalID: -4370224751318012780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_16
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 405
+        width: 130
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15470be16332b64faa559ef38ab99fa
+      internalID: 2058026814593936723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_17
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 399
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96dbd5c3fae9b840bfe637cb97cff2c
+      internalID: -4736480093334285253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_18
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 357
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998cb1bbb1397ab479b84f0d16bfcfc3
+      internalID: 290900701306265689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_19
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 366
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d1f3cb125560346afbf0250fafc234
+      internalID: -8476876253598941317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_20
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 350
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f106add0691626479fa7aecbeb72933
+      internalID: 3555626563720623425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 348
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9448b7d95ec91f49ae7109e9983f528
+      internalID: -1987530314072878500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_22
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 323
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82661fe2d08b47744b6f89c3f9a02ae3
+      internalID: -7208372028943721644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_23
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 345
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a02b102f0e0534fbc7e8b263b697ee
+      internalID: 2452882060036487151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_24
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 339
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920655f09b3ec814388b0ba22f799021
+      internalID: -6790531607905911810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_25
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 311
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27af3770c133b0a4484bc7ab9ba7fd9c
+      internalID: -2449008034590000444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_26
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 293
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4a12ae59854614b8d41b4929a77d85
+      internalID: 8575484055927097102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_27
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 319
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d3f10e90af1b54ebbbc83071288a61
+      internalID: -6527617433767696989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 286
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab2e70e8c666b04fbaaa2e672031a73
+      internalID: -7880421815258232399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_29
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 274
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3044bdea5f565414e93050920b6ba7d8
+      internalID: 6587400738061564922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 292
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559212de71c4e86469f966b6e8e2a001
+      internalID: 3560490101988939113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_31
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 292
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6b9bae9392db64ca8ba44e159c25d3
+      internalID: 2083471582702047176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_32
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 285
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d8a8f46247d0341af9a98f86087c2c
+      internalID: -2400592574705031370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_33
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 293
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b095e626c544fd48ae4878aedd59080
+      internalID: -6031734119041686414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_34
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 253
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dd3950640eec943b2d45981d0db4d2
+      internalID: -204654680803912379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_35
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 273
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fbbaa40a7280f44be5258cb0f5899e
+      internalID: -1002408456901085798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_36
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 277
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0731c1849efd74c93b63e09e6fcc4a
+      internalID: 6152093353419212094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_37
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 222
+        width: 23
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f506a379fe6bb94cb9dc497ef10bd96
+      internalID: 2208434837603694314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_38
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 247
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4b451c13260b84eac091f34e93bcda
+      internalID: 366635940884320840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_39
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 249
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60179781838f5dc478b293095f8b7c98
+      internalID: 634801805410502670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 215
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95a363551dad5e43b7a7259b17ac6b4
+      internalID: -126895863293321353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_41
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 263
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bddf1e429af7e41803306b1428da7e
+      internalID: 129250949800954444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_42
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 226
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6347fa27cdcd60e49893a08dc89304b9
+      internalID: 3108706536118773028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_43
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 238
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398aeef4058d3324ea1bd55dc4910987
+      internalID: -5890451158749189759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_44
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 265
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118180165e9b5404dad8a8bf51ef8234
+      internalID: 7459372874198413826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_45
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 221
+        width: 96
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b320d396879b045a327dd160e41858
+      internalID: 3103342699539290235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_46
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 217
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fead62a83a8bc449d8c287bcb0aa9a
+      internalID: 8933908686350677852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_47
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 213
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b43c0b5301b0c3478b83bdb7565d133
+      internalID: -2031572698113913791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_48
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 224
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2344975c482344fbcc6e65fdb510f6
+      internalID: -652215873657054253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_49
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 232
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5081d414d64e27044a7f4100e6f380f3
+      internalID: -3689849480685160964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_50
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 209
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e24bb457e797ee4183dee93162efe5e
+      internalID: 1547881868756504790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_51
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 208
+        width: 142
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1434b571dd1100a409d427213346b0aa
+      internalID: -3847511620133605641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_52
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 206
+        width: 142
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e45aaeccd0d58848a923f560967549e
+      internalID: -4834466299720553981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 205
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbac5eb2988747498b9422d71e4a8a4
+      internalID: 3526945506419440334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_54
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 203
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b185960941b2c4c92497ce3aa7cbeb
+      internalID: -2272554565933068731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_55
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 196
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a872b9dfa5467148b74fb6c5b1c3666
+      internalID: 7581151963669232079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_56
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 14
+        width: 142
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59484a7dd1b0fc24492f83cc0ec055ed
+      internalID: 3953255591097817742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_57
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 14
+        width: 142
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da0698c565c7ef48a32921fd447ecf4
+      internalID: 1714314057957625928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Earth2_58
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 14
+        width: 142
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddb6d1e1e415b04ab12d0e06e684868
+      internalID: -383975403751652992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e84e1ba1c3ab2fa47b30f7df0a2709c3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

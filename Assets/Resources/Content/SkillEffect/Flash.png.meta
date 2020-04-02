@@ -1,0 +1,3355 @@
+fileFormatVersion: 2
+guid: cb5041b42c4244a4aa14353f1360461c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6578892327267529403
+    second: Flash_0
+  - first:
+      213: -4221598902092674775
+    second: Flash_1
+  - first:
+      213: 5564759131187023308
+    second: Flash_2
+  - first:
+      213: 4175653292564332668
+    second: Flash_3
+  - first:
+      213: 917622954545057210
+    second: Flash_4
+  - first:
+      213: -8994050219209162570
+    second: Flash_5
+  - first:
+      213: 6134425590651783313
+    second: Flash_6
+  - first:
+      213: -3297625524827019315
+    second: Flash_7
+  - first:
+      213: -216811517340796845
+    second: Flash_8
+  - first:
+      213: 5715448596964827120
+    second: Flash_9
+  - first:
+      213: 9158609098299303134
+    second: Flash_10
+  - first:
+      213: 318310925811718884
+    second: Flash_11
+  - first:
+      213: -5366041884839604906
+    second: Flash_12
+  - first:
+      213: -423363237269482617
+    second: Flash_13
+  - first:
+      213: -6433574656872368683
+    second: Flash_14
+  - first:
+      213: -8666935462281986432
+    second: Flash_15
+  - first:
+      213: -4339339743314233422
+    second: Flash_16
+  - first:
+      213: -8351365600036116673
+    second: Flash_17
+  - first:
+      213: -5526051869957827713
+    second: Flash_18
+  - first:
+      213: -6685852689524352534
+    second: Flash_19
+  - first:
+      213: -1152838802698441151
+    second: Flash_20
+  - first:
+      213: 7214501665212676554
+    second: Flash_21
+  - first:
+      213: 6805248322104943993
+    second: Flash_22
+  - first:
+      213: -1787721396820686580
+    second: Flash_23
+  - first:
+      213: -5991723889187371688
+    second: Flash_24
+  - first:
+      213: 1468753819048591977
+    second: Flash_25
+  - first:
+      213: 3403817241115372866
+    second: Flash_26
+  - first:
+      213: -1106361352393036530
+    second: Flash_27
+  - first:
+      213: -3072878215276774420
+    second: Flash_28
+  - first:
+      213: 729606697917760406
+    second: Flash_29
+  - first:
+      213: 6916471162238379595
+    second: Flash_30
+  - first:
+      213: 6078210438528405651
+    second: Flash_31
+  - first:
+      213: -8617411917483018328
+    second: Flash_32
+  - first:
+      213: -7155236227530499087
+    second: Flash_33
+  - first:
+      213: 7066106622862863147
+    second: Flash_34
+  - first:
+      213: -7651392748557250659
+    second: Flash_35
+  - first:
+      213: -1445457075301126383
+    second: Flash_36
+  - first:
+      213: 3980317375015332502
+    second: Flash_37
+  - first:
+      213: 6859438636762848085
+    second: Flash_38
+  - first:
+      213: 7442200303581439659
+    second: Flash_39
+  - first:
+      213: 4270452845324899963
+    second: Flash_40
+  - first:
+      213: -5575301565787480364
+    second: Flash_41
+  - first:
+      213: -7161875157625487348
+    second: Flash_42
+  - first:
+      213: -7873350499459364970
+    second: Flash_43
+  - first:
+      213: 3870749817305241080
+    second: Flash_44
+  - first:
+      213: -8724713787177723939
+    second: Flash_45
+  - first:
+      213: -6746097611700347433
+    second: Flash_46
+  - first:
+      213: -7778589380161577698
+    second: Flash_47
+  - first:
+      213: -2651966094555417150
+    second: Flash_48
+  - first:
+      213: 6189395795174729402
+    second: Flash_49
+  - first:
+      213: -2555069165047809036
+    second: Flash_50
+  - first:
+      213: -1938329671609592575
+    second: Flash_51
+  - first:
+      213: 8726905297824599843
+    second: Flash_52
+  - first:
+      213: 8870081247279898250
+    second: Flash_53
+  - first:
+      213: 5615929717848541179
+    second: Flash_54
+  - first:
+      213: 9075195502748801314
+    second: Flash_55
+  - first:
+      213: 926310580900271681
+    second: Flash_56
+  - first:
+      213: 1715934011401877611
+    second: Flash_57
+  - first:
+      213: -7871436201731868116
+    second: Flash_58
+  - first:
+      213: -7834502425258928573
+    second: Flash_59
+  - first:
+      213: -660013758712276794
+    second: Flash_60
+  - first:
+      213: -2257997977870658713
+    second: Flash_61
+  - first:
+      213: 6988528606100346355
+    second: Flash_62
+  - first:
+      213: 267412978767565778
+    second: Flash_63
+  - first:
+      213: -2524849650989085170
+    second: Flash_64
+  - first:
+      213: -1457760534681627202
+    second: Flash_65
+  - first:
+      213: -6641830403868933933
+    second: Flash_66
+  - first:
+      213: -74907370664055717
+    second: Flash_67
+  - first:
+      213: 3376248102768975151
+    second: Flash_68
+  - first:
+      213: 4177524197564339631
+    second: Flash_69
+  - first:
+      213: 5006952968377552262
+    second: Flash_70
+  - first:
+      213: 6415137083425795527
+    second: Flash_71
+  - first:
+      213: 155007824552238191
+    second: Flash_72
+  - first:
+      213: 6779939320968694530
+    second: Flash_73
+  - first:
+      213: -3839946761703174687
+    second: Flash_74
+  - first:
+      213: -1252864630577770354
+    second: Flash_75
+  - first:
+      213: 4198058811713179103
+    second: Flash_76
+  - first:
+      213: 3429210729824938126
+    second: Flash_77
+  - first:
+      213: 6048217785507338880
+    second: Flash_78
+  - first:
+      213: 7904732521774623023
+    second: Flash_79
+  - first:
+      213: 8964272242908878779
+    second: Flash_80
+  - first:
+      213: 3223630453766547638
+    second: Flash_81
+  - first:
+      213: 3633961635452749326
+    second: Flash_82
+  - first:
+      213: 6461034895793128376
+    second: Flash_83
+  - first:
+      213: -783530853093977508
+    second: Flash_84
+  - first:
+      213: 2856457620478580831
+    second: Flash_85
+  - first:
+      213: 5134947787615241858
+    second: Flash_86
+  - first:
+      213: 4642224456439524408
+    second: Flash_87
+  - first:
+      213: 3410066957887927364
+    second: Flash_88
+  - first:
+      213: 5459615402897748207
+    second: Flash_89
+  - first:
+      213: 2051578536318992921
+    second: Flash_90
+  - first:
+      213: -3002729860235245587
+    second: Flash_91
+  - first:
+      213: -3841534158066717408
+    second: Flash_92
+  - first:
+      213: -1796060849787869032
+    second: Flash_93
+  - first:
+      213: -9098010947405355736
+    second: Flash_94
+  - first:
+      213: -4395970924016152582
+    second: Flash_95
+  - first:
+      213: -1697796321703990229
+    second: Flash_96
+  - first:
+      213: -5289345698135191096
+    second: Flash_97
+  - first:
+      213: 279116713367586753
+    second: Flash_98
+  - first:
+      213: -601692914064053365
+    second: Flash_99
+  - first:
+      213: 2095559909168871675
+    second: Flash_100
+  - first:
+      213: -5116222287201452252
+    second: Flash_101
+  - first:
+      213: 2551599918956231709
+    second: Flash_102
+  - first:
+      213: 2896402281183351436
+    second: Flash_103
+  - first:
+      213: 544410994221558691
+    second: Flash_104
+  - first:
+      213: 8191134624604252521
+    second: Flash_105
+  - first:
+      213: 6560227572589443012
+    second: Flash_106
+  - first:
+      213: 1978044211725858778
+    second: Flash_107
+  - first:
+      213: 445906772895120754
+    second: Flash_108
+  - first:
+      213: -611265219172768948
+    second: Flash_109
+  - first:
+      213: -3554662354461790698
+    second: Flash_110
+  - first:
+      213: -4031207196326420927
+    second: Flash_111
+  - first:
+      213: 8208493236018454993
+    second: Flash_112
+  - first:
+      213: -5326840546396923999
+    second: Flash_113
+  - first:
+      213: 1458058498081453455
+    second: Flash_114
+  - first:
+      213: 2508114459675049804
+    second: Flash_115
+  - first:
+      213: 3268032539602829240
+    second: Flash_116
+  - first:
+      213: -7771956339585123657
+    second: Flash_117
+  - first:
+      213: 6302245234007219611
+    second: Flash_118
+  - first:
+      213: 9152131590095062305
+    second: Flash_119
+  - first:
+      213: -1900529566880852843
+    second: Flash_120
+  - first:
+      213: -7124628050145536312
+    second: Flash_121
+  - first:
+      213: -3473517906970348264
+    second: Flash_122
+  - first:
+      213: -1472543760626444362
+    second: Flash_123
+  - first:
+      213: -7826552630980396013
+    second: Flash_124
+  - first:
+      213: -934985777792178008
+    second: Flash_125
+  - first:
+      213: 8849449898909601305
+    second: Flash_126
+  - first:
+      213: 5172859810451229290
+    second: Flash_127
+  - first:
+      213: -6000978293240205698
+    second: Flash_128
+  - first:
+      213: 2978282298568416281
+    second: Flash_129
+  - first:
+      213: -7627833005113205906
+    second: Flash_130
+  - first:
+      213: 8307978233094566467
+    second: Flash_131
+  - first:
+      213: 479933814843668975
+    second: Flash_132
+  - first:
+      213: 6878284099075357661
+    second: Flash_133
+  - first:
+      213: -3928479548770774252
+    second: Flash_134
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flash_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 525
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1c8529358b0d04098cd8f358f3bf77
+      internalID: -6578892327267529403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 529
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b3fdfaaf519584c9536783b060b1cc
+      internalID: -4221598902092674775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 531
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab33c6010a84fc41b30cd716f3321c8
+      internalID: 5564759131187023308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_3
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 520
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745e39e97b9f8954298e871047d34c21
+      internalID: 4175653292564332668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 530
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72009b97371af1a40ab67a801b2aed69
+      internalID: 917622954545057210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_5
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 507
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b740917b9ff3c7f44b479c826fc010c0
+      internalID: -8994050219209162570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_6
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 532
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ba55b53ab953a40bec096a9611afe8
+      internalID: 6134425590651783313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_7
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 547
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127f77e0ec6d44243b8897dd3ce751e9
+      internalID: -3297625524827019315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_8
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 506
+        width: 17
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d627af17ad79cbb4da48524ada58f4c9
+      internalID: -216811517340796845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_9
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 496
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94aa380144bd3d2468ef2e5a895dc8b2
+      internalID: 5715448596964827120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_10
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 483
+        width: 74
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec942efbf975cf429ba8a1fb87af5cc
+      internalID: 9158609098299303134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_11
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 492
+        width: 18
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24853e7c12298704dbf238425fc2e72c
+      internalID: 318310925811718884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 541
+        width: 4
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5194cd682532626478844ac815c336b1
+      internalID: -5366041884839604906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_13
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 507
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ff1d2da1aa557418b002bb9e0b94db
+      internalID: -423363237269482617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_14
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 532
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea21c43fa1664eb4a8af00ae6add9560
+      internalID: -6433574656872368683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_15
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 540
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6613a60375ee30344928b7e73db1dd82
+      internalID: -8666935462281986432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_16
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 490
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34241689f9c9e7847b7e7a8b79d85236
+      internalID: -4339339743314233422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 496
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11fb3413d6829c4fa99017d89b5abd4
+      internalID: -8351365600036116673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_18
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 532
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54c50b430aab084ebbdb1f59a7be6a2
+      internalID: -5526051869957827713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_19
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 516
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4f5f37ba35d844b8cc1db32dd05807
+      internalID: -6685852689524352534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_20
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 519
+        width: 5
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77fbca09d34eb045b637645207c02fe
+      internalID: -1152838802698441151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_21
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 528
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39151906de0909429cd69cc4f0409b6
+      internalID: 7214501665212676554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_22
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 518
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b0059c177110a469d47464a7d86ad3
+      internalID: 6805248322104943993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_23
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 486
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f6c0a8a7c2d6d4a9542ccf6f3f39e7
+      internalID: -1787721396820686580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_24
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 516
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac5713dbbb0a5243b8e7fc799a16b0a
+      internalID: -5991723889187371688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_25
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 503
+        width: 11
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d345dd1dcd3b314a987c460958d4920
+      internalID: 1468753819048591977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_26
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 519
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bc7c9cee2711744b8be323e392fc1a
+      internalID: 3403817241115372866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_27
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 491
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b316d57f02df3ec46bf79eb29e2ca3a9
+      internalID: -1106361352393036530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_28
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 486
+        width: 58
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664c6b79e1cbc4045a526fdf22b4d710
+      internalID: -3072878215276774420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_29
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 494
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863b0f9dccf62a04fb8fe9b6b1655063
+      internalID: 729606697917760406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_30
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 506
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac0f430c612f1e40b673ee488088691
+      internalID: 6916471162238379595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 514
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab331fba751a224696fcb2d954db8fb
+      internalID: 6078210438528405651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_32
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 489
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997eeac153f44834eab2825e6c7bb13e
+      internalID: -8617411917483018328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_33
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 487
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b17a2546e395f4aa87efa4dcbe733e
+      internalID: -7155236227530499087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_34
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 469
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1584bcd442181d409fd57e45863e3e5
+      internalID: 7066106622862863147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_35
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 502
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d1ad7167a0e7e4f866ad77b965855b
+      internalID: -7651392748557250659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_36
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 492
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044c32c22368a42499363b1fe5bc76db
+      internalID: -1445457075301126383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_37
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 487
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ea5c186d20a6c4aa714c7934914f37
+      internalID: 3980317375015332502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_38
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 500
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf1fc35f3bffe44b874e8c80361bfd1
+      internalID: 6859438636762848085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_39
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 483
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8192821fa4a97e4d8656d02e4179ca1
+      internalID: 7442200303581439659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_40
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 487
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3596e5aab1170704894d41781e0f5b7b
+      internalID: 4270452845324899963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_41
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 480
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26de539ceb86fa14e981de1c4cf6e3f7
+      internalID: -5575301565787480364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_42
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 480
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2a3f1c1af93934c82a66ddb110cd25
+      internalID: -7161875157625487348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_43
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 480
+        width: 51
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f71a8c719ff2b7409685daa226e30a6
+      internalID: -7873350499459364970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_44
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 491
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8addb7cb0181c42918b325db4654e5
+      internalID: 3870749817305241080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_45
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 451
+        width: 75
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5af7eb1eae9f4a4da81fa6f071034c9
+      internalID: -8724713787177723939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_46
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 488
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de934ab9c276ab489a304c1e879a36c
+      internalID: -6746097611700347433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_47
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 484
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b92ea90e88197a40b2342e459ceea76
+      internalID: -7778589380161577698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_48
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 492
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebb8044e8e966c499b0c96fc98edba3
+      internalID: -2651966094555417150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_49
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 484
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329412e975baaa640926b5b90e9aca9c
+      internalID: 6189395795174729402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_50
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 481
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95faea2ae65e73d4fbebe200a37118fe
+      internalID: -2555069165047809036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_51
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 470
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f118d0dc82316124abda5f523e7cacdf
+      internalID: -1938329671609592575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_52
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 482
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5eac68427434442909d0adff31b8b8
+      internalID: 8726905297824599843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_53
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 481
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfd5780bd02d234592129df2f682a37
+      internalID: 8870081247279898250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_54
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 486
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69cf3047d5af224b942f129adda77bf
+      internalID: 5615929717848541179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_55
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 472
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c4d226039936748bd342b0e005ec15
+      internalID: 9075195502748801314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_56
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 473
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22356cf02024fe044bc22e78bcb1ee9c
+      internalID: 926310580900271681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_57
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 475
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb7068e4401e4b4ab71a48ffefe56c8
+      internalID: 1715934011401877611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_58
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 410
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66eed77fbd372004aa9794c21b340f14
+      internalID: -7871436201731868116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_59
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 470
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481ba014ad7502c489133dbaded85555
+      internalID: -7834502425258928573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_60
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 477
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc96829400725ee4391c29130626fe09
+      internalID: -660013758712276794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_61
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 472
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdc24b4224dbe047b2d1dee4857cac9
+      internalID: -2257997977870658713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_62
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 457
+        width: 51
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb1c8c88535c1247ae339e5272c7af6
+      internalID: 6988528606100346355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_63
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 476
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b587df978daa9914889b1c52fa90213f
+      internalID: 267412978767565778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_64
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 451
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd26428f6d85c1468187a57a7a3f7c8
+      internalID: -2524849650989085170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_65
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 469
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffaee51d96f1974194af628c2656834
+      internalID: -1457760534681627202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_66
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 458
+        width: 49
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b05706117c528d42999d02f7a0c576c
+      internalID: -6641830403868933933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_67
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 434
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a63cbfee70dc3f48a57ab09d9153b3f
+      internalID: -74907370664055717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_68
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 456
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dbcdb3f69f1b94f9d0c043a63b8e10
+      internalID: 3376248102768975151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_69
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 433
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2324bc6c36825eb4d9d6f1cd1d253a8b
+      internalID: 4177524197564339631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_70
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 425
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c4d511030d45b4eb73b57e70474e21
+      internalID: 5006952968377552262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_71
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 452
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43478c12be8b46647a2416fbb5232f1d
+      internalID: 6415137083425795527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_72
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 442
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e5024d9e962f74cae65e9fb0f61d0b
+      internalID: 155007824552238191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_73
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 428
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a6a6083adfc2045b73734ca762ad61
+      internalID: 6779939320968694530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_74
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 444
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0664452f9d253d4796e75745e60180b
+      internalID: -3839946761703174687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_75
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 446
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2724cad6209d749b8f2ecdf83135f4
+      internalID: -1252864630577770354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_76
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 430
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d6e6381d91b174b848f9f6cbaa1548
+      internalID: 4198058811713179103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_77
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 441
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6912ac27b713d7e45bc1b0b68ec0c957
+      internalID: 3429210729824938126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_78
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 408
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f94981d54df5e840a25f82ccd466c42
+      internalID: 6048217785507338880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_79
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 455
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a639c3b6bdf804a9028256f5c3fa9d
+      internalID: 7904732521774623023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_80
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 428
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3ba180e0f5b834780ed49cc6da2b7b
+      internalID: 8964272242908878779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_81
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 429
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fe67b13afae1d46b15e671568fe86e
+      internalID: 3223630453766547638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_82
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 442
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5260142aa0917a439e705f80641ac68
+      internalID: 3633961635452749326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_83
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 434
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4ec32fa71fc834aa54780d1de56e13
+      internalID: 6461034895793128376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_84
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 438
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f425b7d44258f4db15dfe3a418b03f
+      internalID: -783530853093977508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_85
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 418
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3b1d82a7d9c074eb1efd59ecf50527
+      internalID: 2856457620478580831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_86
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 444
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe82db355d468b49888dbd786001de5
+      internalID: 5134947787615241858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_87
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 410
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5200641088e0622489b2f9e6597495ca
+      internalID: 4642224456439524408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_88
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 416
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d5e5e2025350246acd17eb73334732
+      internalID: 3410066957887927364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_89
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 436
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd54030fb65c53645ae8fa601db3eb94
+      internalID: 5459615402897748207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_90
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 423
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5253190dcfe0046bc1ce342d08f9ba
+      internalID: 2051578536318992921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c99e059e9c64d94a95238c8fd0cd579
+      internalID: -3002729860235245587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_92
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 429
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330cee56ad95ebc4e9e189f687d0eae4
+      internalID: -3841534158066717408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_93
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 425
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a1794afd5fc5e41a0b52d7558055d3
+      internalID: -1796060849787869032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_94
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 427
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5dbefeb4d291d4fb4de7ce43621e1e
+      internalID: -9098010947405355736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_95
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 423
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfebd410348c89a48a0eaa43c2bfdb1e
+      internalID: -4395970924016152582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_96
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 420
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6174ab8db34745c4aa06cfa412ef1083
+      internalID: -1697796321703990229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_97
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 422
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f68e3f990a5b5440bff8dced021ee4f
+      internalID: -5289345698135191096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_98
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 408
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a06eeaa9cdb32458f041cd843db78d
+      internalID: 279116713367586753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_99
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 405
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbf2908f70f6314794ee6c0ba5500b0
+      internalID: -601692914064053365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_100
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 413
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255f6dc1d9e54ae4d8499408fc595e93
+      internalID: 2095559909168871675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_101
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 400
+        width: 4
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51db13c046afdd4a8f5263ee77b3b4d
+      internalID: -5116222287201452252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_102
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 395
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7269320cd3819234dbfcf6b68c28f47b
+      internalID: 2551599918956231709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_103
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 400
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c542627ded0edfb4ab8b2e4a840b6ec4
+      internalID: 2896402281183351436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_104
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 392
+        width: 5
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9445ed80403df70469e35a0797951636
+      internalID: 544410994221558691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_105
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 292
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23d386ab0e1f334fa9b6afee18ab989
+      internalID: 8191134624604252521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_106
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 310
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6e7a0cc7af4b448b8d434a18a3b869
+      internalID: 6560227572589443012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_107
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 293
+        width: 8
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3241d8fe2bb79fa47be7f6b28a7afa38
+      internalID: 1978044211725858778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_108
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 314
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e48e033a72434741bcf77c4fe684746
+      internalID: 445906772895120754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_109
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 306
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2ee1b09183e954ea55dc7960c15c88
+      internalID: -611265219172768948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_110
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 260
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7659da3660f18bd4f89eeabac279374a
+      internalID: -3554662354461790698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_111
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c729d7a0866459489abbb37ee2a35c6
+      internalID: -4031207196326420927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_112
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 244
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae64f0676d9f2fb48a6baba29df00e17
+      internalID: 8208493236018454993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_113
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3cfb04d441a7247bd580e11e00a5b2
+      internalID: -5326840546396923999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_114
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 300
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80019853beb56904e9273e58ee1fccb4
+      internalID: 1458058498081453455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_115
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 296
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98d9e2fd3213ee44b47f667a45c5348
+      internalID: 2508114459675049804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_116
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 295
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496335faeed30d44b93086fc24fb2ae3
+      internalID: 3268032539602829240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_117
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 292
+        width: 20
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11586ae105c38cd4c8bc85a265c3ac6f
+      internalID: -7771956339585123657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_118
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 284
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34221ee234d0117438d93ff3c9573d14
+      internalID: 6302245234007219611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_119
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 271
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9a794df969d0f42a1a62f11c8e20e5
+      internalID: 9152131590095062305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_120
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 286
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a14141baa66b1744a9a7d4f29308660
+      internalID: -1900529566880852843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_121
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 253
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4b3da4551a5234eae7fe8ad22c2efa
+      internalID: -7124628050145536312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_122
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 249
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a182503a0ed334ca7fd14806c22a6f
+      internalID: -3473517906970348264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_123
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 246
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acacd7666330c2f41af3767c6e92a036
+      internalID: -1472543760626444362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_124
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 252
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5a407012a87714bbebfd44d793c92f
+      internalID: -7826552630980396013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_125
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 262
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7a8ac224396824db156df8255acdc9
+      internalID: -934985777792178008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_126
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 259
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a536b58c0664b842b89d2118655c31e
+      internalID: 8849449898909601305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_127
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 266
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6def6e7ccb135c946926a557039703eb
+      internalID: 5172859810451229290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_128
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 258
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd2d5ecd052f324caf6ebe235a2da4f
+      internalID: -6000978293240205698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_129
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 228
+        width: 7
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994fa80fb4908f64c93121de3d2db452
+      internalID: 2978282298568416281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_130
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 152
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99ee6363eac70247afb28ee793af19b
+      internalID: -7627833005113205906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_131
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 52
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd7ff0037c7784449552871b0e3ec3f
+      internalID: 8307978233094566467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_132
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 28
+        width: 136
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4d61726c7d94949989858b94ca6dd4
+      internalID: 479933814843668975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_133
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 8
+        width: 176
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26e3ad8110096048997ea8b2159ef62
+      internalID: 6878284099075357661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flash_134
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b665149eb452b304c977df5a75bc1749
+      internalID: -3928479548770774252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d40c12f20ccf32c42ba6e2e505b13f30
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

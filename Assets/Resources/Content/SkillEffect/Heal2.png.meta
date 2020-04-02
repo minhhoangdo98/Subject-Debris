@@ -1,0 +1,1807 @@
+fileFormatVersion: 2
+guid: 5d37922a4733998438ae995380ebc204
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8287671527311847662
+    second: Heal2_0
+  - first:
+      213: 103109651992824778
+    second: Heal2_1
+  - first:
+      213: -1134993894623368399
+    second: Heal2_2
+  - first:
+      213: -989999170238503841
+    second: Heal2_3
+  - first:
+      213: 1703311162923727276
+    second: Heal2_4
+  - first:
+      213: 3941088517044466528
+    second: Heal2_5
+  - first:
+      213: -6865023501909778226
+    second: Heal2_6
+  - first:
+      213: 1513794978000268550
+    second: Heal2_7
+  - first:
+      213: -2448657223268487643
+    second: Heal2_8
+  - first:
+      213: -2298122143688802696
+    second: Heal2_9
+  - first:
+      213: 8385219600655968919
+    second: Heal2_10
+  - first:
+      213: -6874623716219125328
+    second: Heal2_11
+  - first:
+      213: -6561392657729228579
+    second: Heal2_12
+  - first:
+      213: 1041123727161238688
+    second: Heal2_13
+  - first:
+      213: -3021286725407443443
+    second: Heal2_14
+  - first:
+      213: 5448173253433122187
+    second: Heal2_15
+  - first:
+      213: -8458478946226619411
+    second: Heal2_16
+  - first:
+      213: 4076606171752925492
+    second: Heal2_17
+  - first:
+      213: 548742948867101678
+    second: Heal2_18
+  - first:
+      213: 5226129931963807146
+    second: Heal2_19
+  - first:
+      213: -8941260057071967805
+    second: Heal2_20
+  - first:
+      213: 5060627826921514962
+    second: Heal2_21
+  - first:
+      213: -7619510143190556020
+    second: Heal2_22
+  - first:
+      213: 2421105194496809182
+    second: Heal2_23
+  - first:
+      213: 8385716339048745283
+    second: Heal2_24
+  - first:
+      213: 8454045255157191107
+    second: Heal2_25
+  - first:
+      213: -3998595270443497634
+    second: Heal2_26
+  - first:
+      213: 2348949756938061417
+    second: Heal2_27
+  - first:
+      213: 1478914934849669900
+    second: Heal2_28
+  - first:
+      213: 3437903671681512351
+    second: Heal2_29
+  - first:
+      213: 6457897133249225733
+    second: Heal2_30
+  - first:
+      213: -790148662945709529
+    second: Heal2_31
+  - first:
+      213: -5912595669210202342
+    second: Heal2_32
+  - first:
+      213: 633302838989958070
+    second: Heal2_33
+  - first:
+      213: -2399937997104593360
+    second: Heal2_34
+  - first:
+      213: 155748436593117884
+    second: Heal2_35
+  - first:
+      213: -2231538396447311748
+    second: Heal2_36
+  - first:
+      213: -2411452187506455598
+    second: Heal2_37
+  - first:
+      213: -1308725478113789738
+    second: Heal2_38
+  - first:
+      213: -7271945785284410073
+    second: Heal2_39
+  - first:
+      213: 4445115139634508196
+    second: Heal2_40
+  - first:
+      213: -6223750527267137156
+    second: Heal2_41
+  - first:
+      213: 7622737077783455828
+    second: Heal2_42
+  - first:
+      213: 4489806495412545028
+    second: Heal2_43
+  - first:
+      213: 5662447557323705305
+    second: Heal2_44
+  - first:
+      213: -6855150320960357125
+    second: Heal2_45
+  - first:
+      213: 4222552660447244043
+    second: Heal2_46
+  - first:
+      213: -5554478992895854055
+    second: Heal2_47
+  - first:
+      213: 8743588639575605094
+    second: Heal2_48
+  - first:
+      213: -4895222446304739838
+    second: Heal2_49
+  - first:
+      213: 4694662360221433350
+    second: Heal2_50
+  - first:
+      213: 1832788164816806211
+    second: Heal2_51
+  - first:
+      213: 4311294980034497748
+    second: Heal2_52
+  - first:
+      213: 2153213876874898058
+    second: Heal2_53
+  - first:
+      213: 6765491690781512124
+    second: Heal2_54
+  - first:
+      213: -4866149358327562069
+    second: Heal2_55
+  - first:
+      213: 554305777240104953
+    second: Heal2_56
+  - first:
+      213: -2572343746804442849
+    second: Heal2_57
+  - first:
+      213: 4370336728160077711
+    second: Heal2_58
+  - first:
+      213: -6447083528179882148
+    second: Heal2_59
+  - first:
+      213: -1292579536361256402
+    second: Heal2_60
+  - first:
+      213: -3384145494764759492
+    second: Heal2_61
+  - first:
+      213: -8065480464166694644
+    second: Heal2_62
+  - first:
+      213: -1764017875653615263
+    second: Heal2_63
+  - first:
+      213: -2171864158995068693
+    second: Heal2_64
+  - first:
+      213: -9115178943670940171
+    second: Heal2_65
+  - first:
+      213: -2831901241662161995
+    second: Heal2_66
+  - first:
+      213: -6892785778414506422
+    second: Heal2_67
+  - first:
+      213: -418802872674031263
+    second: Heal2_68
+  - first:
+      213: -5526040775278522049
+    second: Heal2_69
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Heal2_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1035
+        width: 136
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9d34cf92e868d4da7dd48dfe03ae64
+      internalID: 8287671527311847662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_1
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 975
+        width: 81
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ad419d8f63b31438703b75cdc855e9
+      internalID: 103109651992824778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 971
+        width: 81
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20b31697dab69746bbc930647f94ce9
+      internalID: -1134993894623368399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_3
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 979
+        width: 38
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd38a311543f7f4e9a967330ce9eb21
+      internalID: -989999170238503841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_4
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 979
+        width: 81
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd4238b3594a6d42901a64a92233a7b
+      internalID: 1703311162923727276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 786
+        width: 38
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766efa213e623df4bbb4dbb9df965371
+      internalID: 3941088517044466528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_6
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 785
+        width: 38
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e925fc335480e4c8447e6ae559cb8f
+      internalID: -6865023501909778226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_7
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 862
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b9b30e3da813f448fd4cd458cc443a
+      internalID: 1513794978000268550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_8
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 874
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64afd894e6cf9a6438089f3dbbb38aae
+      internalID: -2448657223268487643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_9
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 852
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc3d8e069eec5941836e8353fbb77dd
+      internalID: -2298122143688802696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_10
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 880
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f19846883dd96f4081ae9bcbf7a3a57
+      internalID: 8385219600655968919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_11
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 854
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52e52286f66c9a488a2362158f63364
+      internalID: -6874623716219125328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_12
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 845
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2293e751f1bf6794586087b390550fba
+      internalID: -6561392657729228579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_13
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 856
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fce6d8442d61c3448a6145c872010ea
+      internalID: 1041123727161238688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_14
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 836
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f031ec7234b494a904db5c3830bbfe
+      internalID: -3021286725407443443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_15
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 834
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2b2f97508998b4b900b0fb0b4c68a3
+      internalID: 5448173253433122187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_16
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 805
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703adf1e232f50544be7ee43c375dd8b
+      internalID: -8458478946226619411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_17
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 823
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1621c98520f40764b8ff61d2673c2f55
+      internalID: 4076606171752925492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_18
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 782
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d784ece0e7d945c4ca8cba2295b571ea
+      internalID: 548742948867101678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_19
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 798
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173c74fdf92434243969becab58f88ac
+      internalID: 5226129931963807146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_20
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 678
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8d9c689a3c8cc43819aa91a00beee9
+      internalID: -8941260057071967805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_21
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 674
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0510129ee5e99474894407fcc8185c4e
+      internalID: 5060627826921514962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_22
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 577
+        width: 124
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3bff50a39918e44a3f225969994e8b
+      internalID: -7619510143190556020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_23
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 577
+        width: 157
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3f08d86921acf4eb56bca960756c39
+      internalID: 2421105194496809182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_24
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 577
+        width: 174
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0640327acf2bb341a1cc35523a72340
+      internalID: 8385716339048745283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_25
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 649
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483e3c161d637984883b1359476f4c4b
+      internalID: 8454045255157191107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_26
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 577
+        width: 108
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2ab25ccea998f48a3ac453ce0d5ff7
+      internalID: -3998595270443497634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 385
+        width: 179
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6bca0371f80cf4fbd6a59e4d78a5e7
+      internalID: 2348949756938061417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_28
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 385
+        width: 182
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43708b2ee8bb7fa45962ba59f670e083
+      internalID: 1478914934849669900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_29
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 432
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf96319092248ac44ab18bdc428fd579
+      internalID: 3437903671681512351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_30
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 385
+        width: 166
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7befd110b5a1c3c4ca374a4bee5f4ecf
+      internalID: 6457897133249225733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_31
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 385
+        width: 109
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b201d6c27787764d8878c7cd1d4f06c
+      internalID: -790148662945709529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_32
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 385
+        width: 129
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cb4287ef031ea4aad1d14a703be272
+      internalID: -5912595669210202342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_33
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 336
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d142dd3c10c9584281dc3ae28349cce
+      internalID: 633302838989958070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_34
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 207
+        width: 132
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174defae990065b49a666ba6e0d8c787
+      internalID: -2399937997104593360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_35
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 212
+        width: 128
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf81c07dbba5d642a693f744c60aa3d
+      internalID: 155748436593117884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_36
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 193
+        width: 144
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdea645b32ec3648b790de570c420b7
+      internalID: -2231538396447311748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_37
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 193
+        width: 138
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07205dd849ea00b4399c91b98032b0da
+      internalID: -2411452187506455598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_38
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 201
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040863ba665c16446a7846c7895bcc59
+      internalID: -1308725478113789738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_39
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 22
+        width: 133
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3a2af7325a91146a1e0938b198c60e
+      internalID: -7271945785284410073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_40
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 22
+        width: 137
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf4628b391f7024fa6a075e0973400f
+      internalID: 4445115139634508196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_41
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 26
+        width: 139
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e601c747b40e5ce41bb6dd70e7d60fbb
+      internalID: -6223750527267137156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_42
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 50
+        width: 122
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972bd5ae68f04624ba85d4dac6e0d05f
+      internalID: 7622737077783455828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_43
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 48
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a30a0c2cc031e544a98a69ce9f66723
+      internalID: 4489806495412545028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_44
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 51
+        width: 102
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e1b28a4f80a9444a7a732cdc98607e
+      internalID: 5662447557323705305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_45
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 50
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b08e5c0e939978439ebdf68bd0b030f
+      internalID: -6855150320960357125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_46
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 39
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed571d3beda969046b1db70669c76c13
+      internalID: 4222552660447244043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_47
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 46
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138edfcd0458d1445b640acf1e601760
+      internalID: -5554478992895854055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_48
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee89953f71bbff94a88e9c21620c45e8
+      internalID: 8743588639575605094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_49
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 39
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333b73bcb5e75754b9b52a629eb7371e
+      internalID: -4895222446304739838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_50
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 46
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb62314d3be5dd4286af00c3dcae24e
+      internalID: 4694662360221433350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_51
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 43
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7bcdcd786a2a145868e851c59be1ae
+      internalID: 1832788164816806211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_52
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 25
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1574c087d959b448b26ee4c9eb138b
+      internalID: 4311294980034497748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_53
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 27
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed514c48eec1ef40a9487c5572462b1
+      internalID: 2153213876874898058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_54
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 38
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd217c24edaf7a042ae33aa65b492ec8
+      internalID: 6765491690781512124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_55
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 39
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c537536afc900944aa7f0c61145cb065
+      internalID: -4866149358327562069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_56
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 40
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fd37cf685299a4892bc3afb912b4a2
+      internalID: 554305777240104953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_57
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 25
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2cb2133c5b2984bb43284126e99d53
+      internalID: -2572343746804442849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_58
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 41
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd523067d955f44469933003bd5da535
+      internalID: 4370336728160077711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_59
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 30
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccbac10316071d4ebfe2f739e862947
+      internalID: -6447083528179882148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_60
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 30
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31546e081c03c04ea943f85003a85dc
+      internalID: -1292579536361256402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_61
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 29
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b796e03287c2e24cbe72f4ae64e8767
+      internalID: -3384145494764759492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_62
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 33
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2819b2dfcc1631444b15ca8ee205e932
+      internalID: -8065480464166694644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_63
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 30
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c945761cff3274cb8824df2d1b9b7f
+      internalID: -1764017875653615263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_64
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 28
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b4063638196e4498f09eedf0227056
+      internalID: -2171864158995068693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_65
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 33
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122667043e9216840a1c23c420158233
+      internalID: -9115178943670940171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_66
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 26
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabab7ee29ab4e74d8b20177bd4c5579
+      internalID: -2831901241662161995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_67
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 25
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d524d5ca75499784f874b3d59bfaa5b9
+      internalID: -6892785778414506422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_68
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 26
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c4740045154cf4c846fea38d6ebef9
+      internalID: -418802872674031263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heal2_69
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 29
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664a4dfedfdb701448e55b7189e2801a
+      internalID: -5526040775278522049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7381de5c5fec3c74f9a7648d6e0f60a6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

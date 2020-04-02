@@ -1,0 +1,5803 @@
+fileFormatVersion: 2
+guid: a3382abab862d534d97c3414cf248136
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Darkness4_0
+  - first:
+      213: 21300002
+    second: Darkness4_1
+  - first:
+      213: 21300004
+    second: Darkness4_2
+  - first:
+      213: 21300006
+    second: Darkness4_3
+  - first:
+      213: 21300008
+    second: Darkness4_4
+  - first:
+      213: 21300010
+    second: Darkness4_5
+  - first:
+      213: 21300012
+    second: Darkness4_6
+  - first:
+      213: 21300014
+    second: Darkness4_7
+  - first:
+      213: 21300016
+    second: Darkness4_8
+  - first:
+      213: 21300018
+    second: Darkness4_9
+  - first:
+      213: 21300020
+    second: Darkness4_10
+  - first:
+      213: 21300022
+    second: Darkness4_11
+  - first:
+      213: 21300024
+    second: Darkness4_12
+  - first:
+      213: 21300026
+    second: Darkness4_13
+  - first:
+      213: 21300028
+    second: Darkness4_14
+  - first:
+      213: 21300030
+    second: Darkness4_15
+  - first:
+      213: 21300032
+    second: Darkness4_16
+  - first:
+      213: 21300034
+    second: Darkness4_17
+  - first:
+      213: 21300036
+    second: Darkness4_18
+  - first:
+      213: 21300038
+    second: Darkness4_19
+  - first:
+      213: 21300040
+    second: Darkness4_20
+  - first:
+      213: 21300042
+    second: Darkness4_21
+  - first:
+      213: 21300044
+    second: Darkness4_22
+  - first:
+      213: 21300046
+    second: Darkness4_23
+  - first:
+      213: 21300048
+    second: Darkness4_24
+  - first:
+      213: 21300050
+    second: Darkness4_25
+  - first:
+      213: 21300052
+    second: Darkness4_26
+  - first:
+      213: 21300054
+    second: Darkness4_27
+  - first:
+      213: 21300056
+    second: Darkness4_28
+  - first:
+      213: 21300058
+    second: Darkness4_29
+  - first:
+      213: 21300060
+    second: Darkness4_30
+  - first:
+      213: 21300062
+    second: Darkness4_31
+  - first:
+      213: 21300064
+    second: Darkness4_32
+  - first:
+      213: 21300066
+    second: Darkness4_33
+  - first:
+      213: 21300068
+    second: Darkness4_34
+  - first:
+      213: 21300070
+    second: Darkness4_35
+  - first:
+      213: 21300072
+    second: Darkness4_36
+  - first:
+      213: 21300074
+    second: Darkness4_37
+  - first:
+      213: 21300076
+    second: Darkness4_38
+  - first:
+      213: 21300078
+    second: Darkness4_39
+  - first:
+      213: 21300080
+    second: Darkness4_40
+  - first:
+      213: 21300082
+    second: Darkness4_41
+  - first:
+      213: 21300084
+    second: Darkness4_42
+  - first:
+      213: 21300086
+    second: Darkness4_43
+  - first:
+      213: 21300088
+    second: Darkness4_44
+  - first:
+      213: 21300090
+    second: Darkness4_45
+  - first:
+      213: 21300092
+    second: Darkness4_46
+  - first:
+      213: 21300094
+    second: Darkness4_47
+  - first:
+      213: 21300096
+    second: Darkness4_48
+  - first:
+      213: 21300098
+    second: Darkness4_49
+  - first:
+      213: 21300100
+    second: Darkness4_50
+  - first:
+      213: 21300102
+    second: Darkness4_51
+  - first:
+      213: 21300104
+    second: Darkness4_52
+  - first:
+      213: 21300106
+    second: Darkness4_53
+  - first:
+      213: 21300108
+    second: Darkness4_54
+  - first:
+      213: 21300110
+    second: Darkness4_55
+  - first:
+      213: 21300112
+    second: Darkness4_56
+  - first:
+      213: 21300114
+    second: Darkness4_57
+  - first:
+      213: 21300116
+    second: Darkness4_58
+  - first:
+      213: 21300118
+    second: Darkness4_59
+  - first:
+      213: 21300120
+    second: Darkness4_60
+  - first:
+      213: 21300122
+    second: Darkness4_61
+  - first:
+      213: 21300124
+    second: Darkness4_62
+  - first:
+      213: 21300126
+    second: Darkness4_63
+  - first:
+      213: 21300128
+    second: Darkness4_64
+  - first:
+      213: 21300130
+    second: Darkness4_65
+  - first:
+      213: 21300132
+    second: Darkness4_66
+  - first:
+      213: 21300134
+    second: Darkness4_67
+  - first:
+      213: 21300136
+    second: Darkness4_68
+  - first:
+      213: 21300138
+    second: Darkness4_69
+  - first:
+      213: 21300140
+    second: Darkness4_70
+  - first:
+      213: 21300142
+    second: Darkness4_71
+  - first:
+      213: 21300144
+    second: Darkness4_72
+  - first:
+      213: 21300146
+    second: Darkness4_73
+  - first:
+      213: 21300148
+    second: Darkness4_74
+  - first:
+      213: 21300150
+    second: Darkness4_75
+  - first:
+      213: 21300152
+    second: Darkness4_76
+  - first:
+      213: 21300154
+    second: Darkness4_77
+  - first:
+      213: 21300156
+    second: Darkness4_78
+  - first:
+      213: 21300158
+    second: Darkness4_79
+  - first:
+      213: 21300160
+    second: Darkness4_80
+  - first:
+      213: 21300162
+    second: Darkness4_81
+  - first:
+      213: 21300164
+    second: Darkness4_82
+  - first:
+      213: 21300166
+    second: Darkness4_83
+  - first:
+      213: 21300168
+    second: Darkness4_84
+  - first:
+      213: 21300170
+    second: Darkness4_85
+  - first:
+      213: 21300172
+    second: Darkness4_86
+  - first:
+      213: 21300174
+    second: Darkness4_87
+  - first:
+      213: 21300176
+    second: Darkness4_88
+  - first:
+      213: 21300178
+    second: Darkness4_89
+  - first:
+      213: 21300180
+    second: Darkness4_90
+  - first:
+      213: 21300182
+    second: Darkness4_91
+  - first:
+      213: 21300184
+    second: Darkness4_92
+  - first:
+      213: 21300186
+    second: Darkness4_93
+  - first:
+      213: 21300188
+    second: Darkness4_94
+  - first:
+      213: 21300190
+    second: Darkness4_95
+  - first:
+      213: 21300192
+    second: Darkness4_96
+  - first:
+      213: 21300194
+    second: Darkness4_97
+  - first:
+      213: 21300196
+    second: Darkness4_98
+  - first:
+      213: 21300198
+    second: Darkness4_99
+  - first:
+      213: 21300200
+    second: Darkness4_100
+  - first:
+      213: 21300202
+    second: Darkness4_101
+  - first:
+      213: 21300204
+    second: Darkness4_102
+  - first:
+      213: 21300206
+    second: Darkness4_103
+  - first:
+      213: 21300208
+    second: Darkness4_104
+  - first:
+      213: 21300210
+    second: Darkness4_105
+  - first:
+      213: 21300212
+    second: Darkness4_106
+  - first:
+      213: 21300214
+    second: Darkness4_107
+  - first:
+      213: 21300216
+    second: Darkness4_108
+  - first:
+      213: 21300218
+    second: Darkness4_109
+  - first:
+      213: 21300220
+    second: Darkness4_110
+  - first:
+      213: 21300222
+    second: Darkness4_111
+  - first:
+      213: 21300224
+    second: Darkness4_112
+  - first:
+      213: 21300226
+    second: Darkness4_113
+  - first:
+      213: 21300228
+    second: Darkness4_114
+  - first:
+      213: 21300230
+    second: Darkness4_115
+  - first:
+      213: 21300232
+    second: Darkness4_116
+  - first:
+      213: 21300234
+    second: Darkness4_117
+  - first:
+      213: 21300236
+    second: Darkness4_118
+  - first:
+      213: 21300238
+    second: Darkness4_119
+  - first:
+      213: 21300240
+    second: Darkness4_120
+  - first:
+      213: 21300242
+    second: Darkness4_121
+  - first:
+      213: 21300244
+    second: Darkness4_122
+  - first:
+      213: 21300246
+    second: Darkness4_123
+  - first:
+      213: 21300248
+    second: Darkness4_124
+  - first:
+      213: 21300250
+    second: Darkness4_125
+  - first:
+      213: 21300252
+    second: Darkness4_126
+  - first:
+      213: 21300254
+    second: Darkness4_127
+  - first:
+      213: 21300256
+    second: Darkness4_128
+  - first:
+      213: 21300258
+    second: Darkness4_129
+  - first:
+      213: 21300260
+    second: Darkness4_130
+  - first:
+      213: 21300262
+    second: Darkness4_131
+  - first:
+      213: 21300264
+    second: Darkness4_132
+  - first:
+      213: 21300266
+    second: Darkness4_133
+  - first:
+      213: 21300268
+    second: Darkness4_134
+  - first:
+      213: 21300270
+    second: Darkness4_135
+  - first:
+      213: 21300272
+    second: Darkness4_136
+  - first:
+      213: 21300274
+    second: Darkness4_137
+  - first:
+      213: 21300276
+    second: Darkness4_138
+  - first:
+      213: 21300278
+    second: Darkness4_139
+  - first:
+      213: 21300280
+    second: Darkness4_140
+  - first:
+      213: 21300282
+    second: Darkness4_141
+  - first:
+      213: 21300284
+    second: Darkness4_142
+  - first:
+      213: 21300286
+    second: Darkness4_143
+  - first:
+      213: 21300288
+    second: Darkness4_144
+  - first:
+      213: 21300290
+    second: Darkness4_145
+  - first:
+      213: 21300292
+    second: Darkness4_146
+  - first:
+      213: 21300294
+    second: Darkness4_147
+  - first:
+      213: 21300296
+    second: Darkness4_148
+  - first:
+      213: 21300298
+    second: Darkness4_149
+  - first:
+      213: 21300300
+    second: Darkness4_150
+  - first:
+      213: 21300302
+    second: Darkness4_151
+  - first:
+      213: 21300304
+    second: Darkness4_152
+  - first:
+      213: 21300306
+    second: Darkness4_153
+  - first:
+      213: 21300308
+    second: Darkness4_154
+  - first:
+      213: 21300310
+    second: Darkness4_155
+  - first:
+      213: 21300312
+    second: Darkness4_156
+  - first:
+      213: 21300314
+    second: Darkness4_157
+  - first:
+      213: 21300316
+    second: Darkness4_158
+  - first:
+      213: 21300318
+    second: Darkness4_159
+  - first:
+      213: 21300320
+    second: Darkness4_160
+  - first:
+      213: 21300322
+    second: Darkness4_161
+  - first:
+      213: 21300324
+    second: Darkness4_162
+  - first:
+      213: 21300326
+    second: Darkness4_163
+  - first:
+      213: 21300328
+    second: Darkness4_164
+  - first:
+      213: 21300330
+    second: Darkness4_165
+  - first:
+      213: 21300332
+    second: Darkness4_166
+  - first:
+      213: 21300334
+    second: Darkness4_167
+  - first:
+      213: 21300336
+    second: Darkness4_168
+  - first:
+      213: 21300338
+    second: Darkness4_169
+  - first:
+      213: 21300340
+    second: Darkness4_170
+  - first:
+      213: 21300342
+    second: Darkness4_171
+  - first:
+      213: 21300344
+    second: Darkness4_172
+  - first:
+      213: 21300346
+    second: Darkness4_173
+  - first:
+      213: 21300348
+    second: Darkness4_174
+  - first:
+      213: 21300350
+    second: Darkness4_175
+  - first:
+      213: 21300352
+    second: Darkness4_176
+  - first:
+      213: 21300354
+    second: Darkness4_177
+  - first:
+      213: 21300356
+    second: Darkness4_178
+  - first:
+      213: 21300358
+    second: Darkness4_179
+  - first:
+      213: 21300360
+    second: Darkness4_180
+  - first:
+      213: 21300362
+    second: Darkness4_181
+  - first:
+      213: 21300364
+    second: Darkness4_182
+  - first:
+      213: 21300366
+    second: Darkness4_183
+  - first:
+      213: 21300368
+    second: Darkness4_184
+  - first:
+      213: 21300370
+    second: Darkness4_185
+  - first:
+      213: 21300372
+    second: Darkness4_186
+  - first:
+      213: 21300374
+    second: Darkness4_187
+  - first:
+      213: 21300376
+    second: Darkness4_188
+  - first:
+      213: 21300378
+    second: Darkness4_189
+  - first:
+      213: 21300380
+    second: Darkness4_190
+  - first:
+      213: 21300382
+    second: Darkness4_191
+  - first:
+      213: 21300384
+    second: Darkness4_192
+  - first:
+      213: 21300386
+    second: Darkness4_193
+  - first:
+      213: 21300388
+    second: Darkness4_194
+  - first:
+      213: 21300390
+    second: Darkness4_195
+  - first:
+      213: 21300392
+    second: Darkness4_196
+  - first:
+      213: 21300394
+    second: Darkness4_197
+  - first:
+      213: 21300396
+    second: Darkness4_198
+  - first:
+      213: 21300398
+    second: Darkness4_199
+  - first:
+      213: 21300400
+    second: Darkness4_200
+  - first:
+      213: 21300402
+    second: Darkness4_201
+  - first:
+      213: 21300404
+    second: Darkness4_202
+  - first:
+      213: 21300406
+    second: Darkness4_203
+  - first:
+      213: 21300408
+    second: Darkness4_204
+  - first:
+      213: 21300410
+    second: Darkness4_205
+  - first:
+      213: 21300412
+    second: Darkness4_206
+  - first:
+      213: 21300414
+    second: Darkness4_207
+  - first:
+      213: 21300416
+    second: Darkness4_208
+  - first:
+      213: 21300418
+    second: Darkness4_209
+  - first:
+      213: 21300420
+    second: Darkness4_210
+  - first:
+      213: 21300422
+    second: Darkness4_211
+  - first:
+      213: 21300424
+    second: Darkness4_212
+  - first:
+      213: 21300426
+    second: Darkness4_213
+  - first:
+      213: 21300428
+    second: Darkness4_214
+  - first:
+      213: 21300430
+    second: Darkness4_215
+  - first:
+      213: 21300432
+    second: Darkness4_216
+  - first:
+      213: 21300434
+    second: Darkness4_217
+  - first:
+      213: 21300436
+    second: Darkness4_218
+  - first:
+      213: 21300438
+    second: Darkness4_219
+  - first:
+      213: 21300440
+    second: Darkness4_220
+  - first:
+      213: 21300442
+    second: Darkness4_221
+  - first:
+      213: 21300444
+    second: Darkness4_222
+  - first:
+      213: 21300446
+    second: Darkness4_223
+  - first:
+      213: 21300448
+    second: Darkness4_224
+  - first:
+      213: 21300450
+    second: Darkness4_225
+  - first:
+      213: 21300452
+    second: Darkness4_226
+  - first:
+      213: 21300454
+    second: Darkness4_227
+  - first:
+      213: 21300456
+    second: Darkness4_228
+  - first:
+      213: 21300458
+    second: Darkness4_229
+  - first:
+      213: 21300460
+    second: Darkness4_230
+  - first:
+      213: 21300462
+    second: Darkness4_231
+  - first:
+      213: 21300464
+    second: Darkness4_232
+  - first:
+      213: 21300466
+    second: Darkness4_233
+  - first:
+      213: 21300468
+    second: Darkness4_234
+  - first:
+      213: 21300470
+    second: Darkness4_235
+  - first:
+      213: 21300472
+    second: Darkness4_236
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Darkness4_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1128
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a20d32aa16936a46ab2d403f342fbe2
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1110
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c04b2ee27ad6904f9146495332fdcac
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1115
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78ed4a7df4573647ba65e42188f99d4
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1122
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81d963cfcdb39c4b95b6755855fd83f
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1115
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edced4ececc14a4a91e52146eb7c343
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1122
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25cb61edfd980b4cb53e61121989448
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1107
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34477c576f37484db05bfead231922a
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_7
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1118
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a51616c58942bc4587aa611f1715c3b
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1114
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8087965496e1b124eb4beb2881df2dfe
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_9
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1124
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd44850baa1a14440a0b24d54d642d7a
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1117
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16394d17a6a4aa48abc355b79edceae
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_11
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1011
+        width: 145
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0777bef2b6e26654dbe96ff1e56ec75b
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_12
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1109
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234226564ff94164bbd5c7324cd8af5e
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1121
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f49f5f1c5457e44f92e2625c01f314c
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_14
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1124
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc296f31664b00048a66824a6188a129
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_15
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1106
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da9adff0e256744cb2b3a20d0e9bf95
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_16
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1121
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d76a4d518f20d04a91626ca88b1950a
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_17
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1109
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e8e232b4831d24c83a8c574685c650
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_18
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1011
+        width: 110
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9e6f5b67e513f409d8754202cd5272
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_19
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1123
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387fc12b5d84a6c43ae806e63bae998e
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_20
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1121
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33204bad48eabd46a234474b3ddc249
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_21
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1110
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef541f39b4783ec4d8b1eb3fa4ce8c25
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_22
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1095
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec136bedd73424e4e95755a6e7a1c591
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_23
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1126
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f8a75321c46894fbd1ced7c18a93bb
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_24
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1130
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840d35e02566b23439ea8770b1908e8c
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_25
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1102
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d85ff22fb0ce5347b04962c8d4b46db
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_26
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1113
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373be41f47c874e4b9fa1424647c851a
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_27
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1018
+        width: 101
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b34e04ded98e5940a04a1ec29fa139b
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_28
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1122
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc20a9480a1f8647a7c7aa5cbfe885d
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_29
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1115
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bd98d3b29276548b2fc6187361a1a8
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_30
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1116
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87274988756810f44b294d1ab66e0c07
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_31
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1118
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edd3449a1f4f344abeb481d8297c880
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_32
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1118
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3abc6fd0ab89f14e8afb038769f4d34
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_33
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1122
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e692487ce86444a9def4bff963c5cf
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_34
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1103
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b862599016fb848a365483de209fee
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_35
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1110
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e7265ce821da64c8b24c8c0e1f7bc8
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_36
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1117
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d230083d9604f43a0c6c1b15c9e7ea
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_37
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1104
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed34bc44ccf236469e784088cec794d
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_38
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1128
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cbdac0d2ba5ef4bb4428031d2f54eb
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_39
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1100
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde75812575d6d4449edeca30fbb9fdb
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_40
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1125
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31af073adc35c7f4f9f376cd8fea087c
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_41
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1007
+        width: 118
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59340d0d639d7714aabaca72c3093e65
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1104
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594fc8a1ac423bf46ae9302633fd8be0
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_43
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1114
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a421d305c3d70bf45b60cc0fc0cb8555
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_44
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1117
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a83b70fbb0113459316831477eac52
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_45
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1117
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883a6b00b39eea244b520be25ab9ecc4
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_46
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1114
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c8d0bbf8c8d1a48bace479570dffcc
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_47
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1113
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a648a989253394286ae5b54cf2b8cc
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_48
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1099
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e61e586acb8974aac9fb07d4acfef9
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_49
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1104
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d13ea9353eecd344843e949962fbd4b
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_50
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1106
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742ea225c84fb0e4699e2abfbc7e509f
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_51
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1105
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0686a8416db450c47b22f37ec7bbe1c9
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_52
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1110
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38910cedce2e78643b39ed9fc5134c89
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1111
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963e1dcbcf04bdd45874e6549633cf4b
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_54
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1091
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b73b07e34679b4295c90c80496cd56
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_55
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1104
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1dbb8c6cc5f3dc469c8b07fc4099861
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_56
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1110
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87218c936191e324da0662778928f4b7
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_57
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869c6035f601b124db6237ececb91acc
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_58
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1107
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7b35072d9c3b645990affb1fc60b48
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_59
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1103
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a63eed3916f60c439bb741b4ab8bbfb
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_60
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1104
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a07942e107ef444b19182865489a2c
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_61
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1011
+        width: 118
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07865d91a6a05c3408711b0ee5534a9d
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_62
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1076
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0622cfbf4eb38b541898b23a7a480e32
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_63
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1097
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89c91aef6d33294ebb93f4e04b44887
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_64
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1092
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f4e3656a7115440bdfc1a1cd09cdec
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_65
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1084
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb81dbff49fde7f4bad64f190498a7d6
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_66
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1100
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dbd02a0af89ca4e93e6b8c4a60cc3a
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_67
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1061
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20f4284538479d4eb1c014903282ca4
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_68
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1096
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9e28676ae557444aa9c8958acb929e
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_69
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1099
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46254ec1a1cc7a4b9fa7da2fa96c3c7
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_70
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1088
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4d377dc9afcbf4ca1c6b389874ae9a
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_71
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1096
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b0b8b5d1463f24b87f70d8bdf93c49
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_72
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1084
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba69ae2925e98d34aa903d9066d461a5
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_73
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1094
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a23f2528324cb478192b61c0c9f979
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_74
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1092
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32bcef2813fce246808986b27fcf537
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_75
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1079
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0628ef21eca6ea42b89478647fde416
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_76
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1087
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b8f5637d2ba5b418cbe13f87dcf200
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_77
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1086
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b15d2d86670a944a7d983dac29be95
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_78
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1079
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048e72651293e67478d3db9821ff3a97
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_79
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1075
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1a51dd64ae5be4b8749d3b62e781e4
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_80
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1083
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee5628af44a3224d8467f33387731ec
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_81
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1074
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2651e5a6fac464da2803332a07a70d
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_82
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1077
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea6ce3ad0c689343b31913f87af7f35
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_83
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1077
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37fd78468133324385acb642b548b59
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_84
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1085
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26efe515fb8837644b0f9e0ed20a9e1b
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_85
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1084
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44663ea3899f306499fffdf89047f4cf
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_86
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1066
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c5a6b233b6d4e45ae73d695fc78cbe
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_87
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1080
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e18568d21547c44b5c43e95703791e
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_88
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1075
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609766c21c15ba14dba0845d4cf0de5d
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_89
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1077
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0541ac28a9d8a9b4ead0e4de79e6941d
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_90
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1071
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721d5e8d8bea54849885e476930affcf
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_91
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1073
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9ae8d44fa0ae84fbe6a5733b3530d6
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_92
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1070
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bfd0e899c28544b870c4f8ee35bd5e
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_93
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1066
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a03dcdd52397c14a8f6ad9957b705b1
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_94
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1073
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d112f44a38d90748a2e88cc215355c4
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_95
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 1061
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e8fcb86f06c1d4d9bebf72a3e0ac41
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_96
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1057
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2e876ac742b1143aeede4e97852987
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_97
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1056
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af40ca4c977c48e4c885a2fa670d6fd6
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_98
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1056
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407e907569d7ef149b4a49384ac9f059
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_99
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1057
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c96a8a245bbd164189ef05554fd5ba4
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_100
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1064
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b670efc3b0577448174de08aa2e07d
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_101
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1059
+        width: 27
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e84b5f4fce2ca64a8b25f6e118ea36a
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_102
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1056
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3580677815898547bb09bdf137c2613
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_103
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1043
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c83e54120988848aa4e53d6a33c59e
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_104
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1056
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe8a1ab20f4a1f4e8acf87afb11bce2
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_105
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1060
+        width: 17
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d73bb117b44746469487a5d0d7f19cb
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_106
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1036
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21911155fde8b8f418a254e4d0a68848
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_107
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1059
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2ee3392c2345a4ab7cb7b222b90e4d
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_108
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1056
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0473f4e044c71847ab40a9352e29978
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_109
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1060
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44849783501ca264fb0d345db6be3e78
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_110
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1054
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2c2a6fae4cac1419b7bc4edd9d1f06
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_111
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1044
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9244ca8fc93bc498722ff4fe513183
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_112
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1047
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5ec7ce2e3d5ac448155e7b37587851
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_113
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1056
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556bc479096bfb54fa07f2a2e206cbd5
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_114
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1044
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c88ee4eed339d4893bccd34137ebc7
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_115
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1018
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e76da92ec9a3d64780f120fc3ea0785
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_116
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1020
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6f987ff45e54a4bb1fce896d70ec94
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_117
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1043
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547c8175176973441b88b64d09a5ff07
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_118
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1023
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2c555485c53ff4c8d2069314216416
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_119
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1035
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499ecdde230c475468a0d65d33b5dc8c
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_120
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1027
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8248e0308e8b86141b2e189ac8ea914d
+      internalID: 21300240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_121
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1031
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419d9f76b16e1d44abae90ef5b132abf
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_122
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1020
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd7800c7ff33ef4095c7a122a447d28
+      internalID: 21300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_123
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1024
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbcb57707634864a9d4acb3af637343
+      internalID: 21300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_124
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1031
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0e0a8d203abbf43903421a985ca78b
+      internalID: 21300248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_125
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1027
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4110a4c48a09b144bcec40767b0068c
+      internalID: 21300250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_126
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1026
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704fca011b44be44aae19364cc59e839
+      internalID: 21300252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_127
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1019
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0c0aee2d8bd9844bbf3d31e058268f
+      internalID: 21300254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_128
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1022
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1df5ddab8795b14083ad688b0c98dd2
+      internalID: 21300256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_129
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1015
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d2c78637a9e754ca69db8e9a39b85f
+      internalID: 21300258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_130
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1024
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a475d11b9cb38a4bb2496783a3871a8
+      internalID: 21300260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_131
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1020
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f86c2d2cde1994daefb92401c85857
+      internalID: 21300262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_132
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1004
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a3e54406da001439be7dee9a9c02e3
+      internalID: 21300264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_133
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1013
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c4efc83a1fcd145b4077c716b5a526
+      internalID: 21300266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_134
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1020
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5aa02a7165929747b56b45d77f1c1f0
+      internalID: 21300268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_135
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1012
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023b6de2de22ac54d8ce73f3f8e984be
+      internalID: 21300270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_136
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1014
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c2fad509e8de44494aedee1ef2a741
+      internalID: 21300272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_137
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1012
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f8638c61738164cbb6191180799249
+      internalID: 21300274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_138
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1016
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ce1f64b0f65324c9d79b62bd44aea5
+      internalID: 21300276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_139
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1008
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed36b6d3607bfe4bb5901cfee23f65d
+      internalID: 21300278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_140
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 999
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc755a58639f8164683c0ac8a968e634
+      internalID: 21300280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_141
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1010
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de565b57299848549b5c49152a11a926
+      internalID: 21300282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_142
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1006
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d43c5e94850d2b49b5abbe6da5606ac
+      internalID: 21300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_143
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1017
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e324af401143819449a3925dcce0493e
+      internalID: 21300286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_144
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1012
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b3fa7d6865247489bc2e8492eadfbf
+      internalID: 21300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_145
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1008
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309fa819a5832514fb9cf3836cbddab9
+      internalID: 21300290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_146
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 977
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9f74d588c700f499fe3ddd5f942418
+      internalID: 21300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_147
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1010
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119424a4073d0d84197be3f4614d2aeb
+      internalID: 21300294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_148
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 999
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b2575180b434f40adccc58fa2b83a5
+      internalID: 21300296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_149
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1007
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0080a9eb56683d2448a37945bb845ee1
+      internalID: 21300298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_150
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1004
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f5bceb8e75c6e41b3c4417abc3bee9
+      internalID: 21300300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_151
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 987
+        width: 5
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fa755d697d539438073c8b92cb0d68
+      internalID: 21300302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_152
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 999
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da178f62009b21429779c2cc09cae09
+      internalID: 21300304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_153
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 991
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab73a8bdf18dc0f47976691a6fea8395
+      internalID: 21300306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_154
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 993
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19600bde0c43d8046860a63639b3d7ab
+      internalID: 21300308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_155
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1010
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc400a27130745479dc37a1eb412db7
+      internalID: 21300310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_156
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1002
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59a68d2dbffe8f4f8c6d9db7092ed25
+      internalID: 21300312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_157
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 999
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafac4e9b13f7de44bf4668babbd9631
+      internalID: 21300314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_158
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1006
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc23888fc51d3b42baf63f5fb54715a
+      internalID: 21300316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_159
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 981
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105c072edd45ccb4881eb9f0ab6f7f43
+      internalID: 21300318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_160
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1006
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e531a177e422284a93afbbeee90c54e
+      internalID: 21300320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_161
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1000
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c753bdc758ef7534e88d4207f8cc7aac
+      internalID: 21300322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_162
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 996
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e95fffbc31b4641beaa950630310d3
+      internalID: 21300324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_163
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 991
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c7e66de8cae9342905992fff9c9b22
+      internalID: 21300326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_164
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1000
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22be084dcf83ed4b848738928159152
+      internalID: 21300328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_165
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 991
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657dee13d327af04e9bc7ec687646569
+      internalID: 21300330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_166
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 993
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1e8987e07d28d4384fa2b598a43291
+      internalID: 21300332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_167
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 993
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05297b28cf134e4dbe1710a9ef48d0e
+      internalID: 21300334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_168
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 984
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ba9d031b265d6458fecd23cde97bc4
+      internalID: 21300336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_169
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 996
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4a989b4e70237479bcb7cc9cc6851e
+      internalID: 21300338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_170
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 996
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65d38fa4231a1b40b008618c7f54656
+      internalID: 21300340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_171
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 968
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b8830504e47e44198ea9d6ce0292ed
+      internalID: 21300342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_172
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1004
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e7fe54d546dc64d8ceccbe188e2491
+      internalID: 21300344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_173
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 992
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16852953076012748bb46adc24aa14a9
+      internalID: 21300346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_174
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 994
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1311acdc824f78c468029c89325043d5
+      internalID: 21300348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_175
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 985
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6bf1fb7aa15734bb06cb3d88f8ca2f
+      internalID: 21300350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_176
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 982
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4076f3c2161f6d4eb937014c7a995e8
+      internalID: 21300352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_177
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 985
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e17134f8da78943a38d4100e9cb0c0
+      internalID: 21300354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_178
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 989
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374c79dbfe721314685ef9d7eced2c95
+      internalID: 21300356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_179
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 991
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20ee67c53465474e9b5d972cf05cc07
+      internalID: 21300358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_180
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 964
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d3877393b957043bfe78cd87c6f8e7
+      internalID: 21300360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_181
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 984
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a4abe72bb79b44db943f1f43de7493
+      internalID: 21300362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_182
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 974
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071a1f1868f9eb74f8e4f91503f5523f
+      internalID: 21300364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_183
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 985
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22a793a85b62ae47b9f60d51c3d1981
+      internalID: 21300366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_184
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 971
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a852fd79a434f14a9c5ffd1b2dfff73
+      internalID: 21300368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_185
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 981
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f946c5c18e81e47409180c1775bddb0f
+      internalID: 21300370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_186
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 987
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274969c7a3f8d7a44af5ef103efe16a5
+      internalID: 21300372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_187
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 976
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51f94b29ff95294db2e0156a6a9751a
+      internalID: 21300374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_188
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 982
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f2b70e2c08a4542a4c60365a4dc1a7
+      internalID: 21300376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_189
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 989
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add853a86e7d7334cbad8155311968a1
+      internalID: 21300378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_190
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 980
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac18e30b6b37cbb45994d71dcae0ef1e
+      internalID: 21300380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_191
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 966
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ac7ab20c2f37f41b47fb25506b083d
+      internalID: 21300382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_192
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 979
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f7ca476779564458c06f59f003791c
+      internalID: 21300384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_193
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 976
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a41f9616c35dc4483fce9ea5fa204f
+      internalID: 21300386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_194
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 974
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6ecfbe2ff23d84cb278da8eef17f15
+      internalID: 21300388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_195
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 978
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c59ddfdd0aae441a0a4e1a2a7f2441
+      internalID: 21300390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_196
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 969
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b573aa64f22ca8249a20f269b74445a9
+      internalID: 21300392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_197
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 977
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12df1274a4ac2514f96609e098dc43b4
+      internalID: 21300394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_198
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 967
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077efe3f03f386e4985cc939c4e11a7c
+      internalID: 21300396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_199
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 970
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9133ceb49e24fe9489c3810a7edf98ca
+      internalID: 21300398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_200
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 963
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8313fdd802a9a9548aa6bc8f8e60f689
+      internalID: 21300400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_201
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 963
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e651d05b47b949e4793ebb195b8226db
+      internalID: 21300402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_202
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 964
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d2c1e2d024acb41ab3e1fe6ab66fb4
+      internalID: 21300404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_203
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 808
+        width: 166
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799331ff9f96d874d82680f576177887
+      internalID: 21300406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_204
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 808
+        width: 166
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ea0771ac58abc49bb97ab508b6658a
+      internalID: 21300408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_205
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 808
+        width: 166
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98343f8371fbfc449904c0240fefd0fc
+      internalID: 21300410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_206
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 807
+        width: 166
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a03d623e6b89a042a30cfd178bf8725
+      internalID: 21300412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_207
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 821
+        width: 128
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acaf15795f5dc9408a8b56acdbf94b1
+      internalID: 21300414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_208
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 629
+        width: 128
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7104dd2c6dd9a45be3701c49e02fdf
+      internalID: 21300416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_209
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 629
+        width: 128
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0357045a7d019c41b4c1455ac48b89e
+      internalID: 21300418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_210
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 629
+        width: 128
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4f8885d07522142825c9fa78eabf75
+      internalID: 21300420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_211
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 635
+        width: 132
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abb116bdeaff1d448c3d80d6889c239
+      internalID: 21300422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_212
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 634
+        width: 134
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c94dbd276b8df84bb3b62d44329307a
+      internalID: 21300424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_213
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 443
+        width: 135
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01ff7e0194b8ba4f80f3d92471ce1e2
+      internalID: 21300426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_214
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 488
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f038c58eb1517fa46861145bfdab7e45
+      internalID: 21300428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_215
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 481
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e8e5cda18aa7c4cb47929def3fc79c
+      internalID: 21300430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_216
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 453
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a063647afada0be44bfbae7f14647926
+      internalID: 21300432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_217
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 444
+        width: 138
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429ff10b31b9cfe40a9f80956036aee4
+      internalID: 21300434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_218
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 499
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6f907d86aeff74cb465ea9eaaff733
+      internalID: 21300436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_219
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 436
+        width: 122
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba510ca4b32bc6b46a79b19737c17671
+      internalID: 21300438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_220
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 451
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5126d273bfd4c974eb0a4090da788293
+      internalID: 21300440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_221
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 473
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7139fbdae5b574aa76074fd8c1044e
+      internalID: 21300442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_222
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 462
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bad50144c0a90f49bf9f67b73b83db7
+      internalID: 21300444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_223
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 449
+        width: 134
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c529b81216f3104cbff247e7e1e86fe
+      internalID: 21300446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_224
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 478
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2775b2bdacac2bf4aa1da0db1ccf9fd8
+      internalID: 21300448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_225
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 453
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8044287191a7c404f881ac8f8eff589a
+      internalID: 21300450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_226
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 446
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fad0d12ccaa614438fa726ab09cd342
+      internalID: 21300452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_227
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 265
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41859c61cab8ef49a393c11f466b6d8
+      internalID: 21300454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_228
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 289
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f96d12ad41e058498f8608e5969264a
+      internalID: 21300456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_229
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 293
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79e6e0c0647551418f314b121b7fbec
+      internalID: 21300458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_230
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 260
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9094db4b252944e42a8d2bef287cee41
+      internalID: 21300460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_231
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 199
+        width: 178
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f384ed1351fe24c96df03d6298bca4
+      internalID: 21300462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_232
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 209
+        width: 157
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18de763cf14c506439ff2a14e07a02f3
+      internalID: 21300464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_233
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 219
+        width: 137
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ed4b53a8b682f4992c9ad51511aff7
+      internalID: 21300466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_234
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 224
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf7ee1664012db47abb8c9d02d1ed71
+      internalID: 21300468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_235
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 256
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3a49d9a5f784244a508ec25490d7e5
+      internalID: 21300470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Darkness4_236
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 35
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5380c0209f35e6047ba7c789d0635a31
+      internalID: 21300472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5b0dfea641e7a8c419e1a82721cbfabb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

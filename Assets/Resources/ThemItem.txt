@@ -1,0 +1,24 @@
+﻿Them weapon moi:
+ - Tao weapon o player ( object weapon o ban tay phai)
+ - Gan script Weapon, AudioSource vao weapon moi, gan them script MeeleWeaponTrail neu la kiem
+ - Neu la sung thi them object firePoint vao Weapon, neu la kiem thi them Object DealDamageTrigger va Tip
+ - Them weaponId o PlayerAttacking.cs (Trong ham ChangeWeapon)
+ - Them weapon skill o Weapon.cs neu muon weapon co skill rieng
+ - Tao prefab Item de hien tren bag cho weapon theo duong dan "Resources\Prefabs\Items\Weapon", thay doi cac thong so trong ItemScript dac biet la WeaponID
+ - Them currenWeaponId trong ham ButtonEquipItem cua script ItemManagerAction.cs
+ - Tao prefab Loot de co the loot weapon theo duong dan "Resources\Prefabs\Loot\Weapons", thay doi item to add trong collider2d
+ - Neu weapon co the craft duoc thi thuc hien cac buoc tiep theo
+ - Vao Scene Home -> UICanvas -> CraftPanel/ExchangePanel -> CraftList -> ViewPort -> ItemManager, tạo item craft ( copy lai tu cai co roi, doi ten cho dung voi weapon, doi hinh va doi requiment item)
+ 
+ Them Consumable moi:
+ - Tao prefab Item de hien tren bag cho comsumable theo duong dan "Resources\Prefabs\Items\Comsumable", thay doi cac chi so trong script ItemScript
+ - Tao prefab Loot de co the loot comsumable theo duong dan "Resources\Prefabs\Loot\Comsumable", thay doi item to add trong collider2d
+ - Neu comsumable co the craft duoc thi thuc hien cac buoc tiep theo
+ - Vao Scene Home -> UICanvas -> CraftPanel/ExchangePanel -> CraftList -> ViewPort -> ItemManager, tạo item craft ( copy lai tu cai co roi, doi ten cho dung voi item, doi hinh va doi requiment item)
+ 
+  Them other moi:
+ - Tao prefab Other de hien tren bag cho Other theo duong dan "Resources\Prefabs\Items\Other"
+ - Tao prefab Loot de co the loot Other theo duong dan "Resources\Prefabs\Loot\Other", thay doi item to add trong collider2d
+ - Neu Other co the craft/Exchange duoc thi thuc hien cac buoc tiep theo
+ - Vao Scene Home -> UICanvas -> CraftPanel/ExchangePanel -> CraftList -> ViewPort -> ItemManager, tạo item craft ( copy lai tu cai co roi, doi ten cho dung voi item, doi hinh va doi requiment item)
+ 

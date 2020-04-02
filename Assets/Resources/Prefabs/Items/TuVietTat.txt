@@ -1,0 +1,5 @@
+R - Rifle
+LS - Laser Sword
+S - Sword
+HS - Heavy Sword
+P - Pistol

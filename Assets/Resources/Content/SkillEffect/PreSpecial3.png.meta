@@ -1,0 +1,1243 @@
+fileFormatVersion: 2
+guid: e590a92c07a3c054396d714cec449032
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8845055185422605749
+    second: PreSpecial3_0
+  - first:
+      213: 7625771199802941547
+    second: PreSpecial3_1
+  - first:
+      213: -3527932482084274188
+    second: PreSpecial3_2
+  - first:
+      213: -3968338117297325669
+    second: PreSpecial3_3
+  - first:
+      213: 1627125083334549679
+    second: PreSpecial3_4
+  - first:
+      213: -8415805234076990426
+    second: PreSpecial3_5
+  - first:
+      213: -184962280770434809
+    second: PreSpecial3_6
+  - first:
+      213: -582600972006123410
+    second: PreSpecial3_7
+  - first:
+      213: 4092726025168316706
+    second: PreSpecial3_8
+  - first:
+      213: 496236511847023676
+    second: PreSpecial3_9
+  - first:
+      213: 739181159957902307
+    second: PreSpecial3_10
+  - first:
+      213: -7649645237492081579
+    second: PreSpecial3_11
+  - first:
+      213: 6500154355427894638
+    second: PreSpecial3_12
+  - first:
+      213: -2086845275114575798
+    second: PreSpecial3_13
+  - first:
+      213: 8555881914826670245
+    second: PreSpecial3_14
+  - first:
+      213: -3061670143186815956
+    second: PreSpecial3_15
+  - first:
+      213: -8886488771311026239
+    second: PreSpecial3_16
+  - first:
+      213: 1376351256875875245
+    second: PreSpecial3_17
+  - first:
+      213: 1763410035601427521
+    second: PreSpecial3_18
+  - first:
+      213: -2208299367312473297
+    second: PreSpecial3_19
+  - first:
+      213: 5871204385471124174
+    second: PreSpecial3_20
+  - first:
+      213: 4813102220236788973
+    second: PreSpecial3_21
+  - first:
+      213: -962591161347569988
+    second: PreSpecial3_22
+  - first:
+      213: -7744947792066369503
+    second: PreSpecial3_23
+  - first:
+      213: -2924412007669564055
+    second: PreSpecial3_24
+  - first:
+      213: -6785904007996479306
+    second: PreSpecial3_25
+  - first:
+      213: 6595611364903920198
+    second: PreSpecial3_26
+  - first:
+      213: 8715786038306640997
+    second: PreSpecial3_27
+  - first:
+      213: 1007309997804700074
+    second: PreSpecial3_28
+  - first:
+      213: 3705466124199592769
+    second: PreSpecial3_29
+  - first:
+      213: -4716159417927732303
+    second: PreSpecial3_30
+  - first:
+      213: -7146686851770573837
+    second: PreSpecial3_31
+  - first:
+      213: -8154301588040734701
+    second: PreSpecial3_32
+  - first:
+      213: 3862831375736854251
+    second: PreSpecial3_33
+  - first:
+      213: -535932247743011109
+    second: PreSpecial3_34
+  - first:
+      213: -1877780922229848402
+    second: PreSpecial3_35
+  - first:
+      213: 3251337208227877898
+    second: PreSpecial3_36
+  - first:
+      213: 6794589976978553511
+    second: PreSpecial3_37
+  - first:
+      213: -9210696938986395140
+    second: PreSpecial3_38
+  - first:
+      213: -5097707123265523990
+    second: PreSpecial3_39
+  - first:
+      213: 8638923131589804973
+    second: PreSpecial3_40
+  - first:
+      213: -5797849898686020932
+    second: PreSpecial3_41
+  - first:
+      213: 7545934929944323373
+    second: PreSpecial3_42
+  - first:
+      213: -2863969014533776601
+    second: PreSpecial3_43
+  - first:
+      213: -6870934964646353035
+    second: PreSpecial3_44
+  - first:
+      213: 3298678003832608164
+    second: PreSpecial3_45
+  - first:
+      213: -1119015580955696189
+    second: PreSpecial3_46
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PreSpecial3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 988
+        width: 192
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42a8260c2d004580800000000000000
+      internalID: -8845055185422605749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 988
+        width: 184
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60a8aec08e24d960800000000000000
+      internalID: 7625771199802941547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 992
+        width: 184
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fffdcd69144a0fc0800000000000000
+      internalID: -3527932482084274188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_3
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 968
+        width: 184
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99b9d9e181ade8c0800000000000000
+      internalID: -3968338117297325669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_4
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 972
+        width: 180
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0a84574a5b49610800000000000000
+      internalID: 1627125083334549679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 788
+        width: 175
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624c7fb7abd053b80800000000000000
+      internalID: -8415805234076990426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 796
+        width: 172
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70905dd19c1ee6df0800000000000000
+      internalID: -184962280770434809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_7
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 800
+        width: 164
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6817c1b08f2ae7f0800000000000000
+      internalID: -582600972006123410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_8
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 800
+        width: 172
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229672db2a84cc830800000000000000
+      internalID: 4092726025168316706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_9
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 800
+        width: 148
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3488357a7cf2e600800000000000000
+      internalID: 496236511847023676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 600
+        width: 154
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3b3ff3959124a00800000000000000
+      internalID: 739181159957902307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 588
+        width: 172
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c9681af2007d590800000000000000
+      internalID: -7649645237492081579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 576
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65ec7c62ff253a50800000000000000
+      internalID: 6500154355427894638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 416
+        width: 160
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48e79367490a03e0800000000000000
+      internalID: -2086845275114575798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_14
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 512
+        width: 151
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0ce6145499cb670800000000000000
+      internalID: 8555881914826670245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_15
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 481
+        width: 84
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c243ee7e933c285d0800000000000000
+      internalID: -3061670143186815956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_16
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 488
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf328d8b89dca480800000000000000
+      internalID: -8886488771311026239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_17
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 488
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabbf380d28c91310800000000000000
+      internalID: 1376351256875875245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_18
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 484
+        width: 68
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cc16d9514e87810800000000000000
+      internalID: 1763410035601427521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_19
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 480
+        width: 78
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23ce9dec6b8a51e0800000000000000
+      internalID: -2208299367312473297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_20
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 484
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2d8b71845ba7150800000000000000
+      internalID: 5871204385471124174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_21
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 482
+        width: 70
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de49bd8e7f29bc240800000000000000
+      internalID: 4813102220236788973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_22
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 420
+        width: 138
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb682f3507034a2f0800000000000000
+      internalID: -962591161347569988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_23
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 468
+        width: 155
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12820f1840b648490800000000000000
+      internalID: -7744947792066369503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_24
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 460
+        width: 81
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96df7f1f5c66a67d0800000000000000
+      internalID: -2924412007669564055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_25
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 420
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8687b0240a3d1a0800000000000000
+      internalID: -6785904007996479306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_26
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 417
+        width: 76
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642a0a16791588b50800000000000000
+      internalID: 6595611364903920198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_27
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 470
+        width: 83
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564939f3931b4f870800000000000000
+      internalID: 8715786038306640997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_28
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 417
+        width: 152
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa149d52b1faafd00800000000000000
+      internalID: 1007309997804700074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_29
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 472
+        width: 88
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143092cbec57c6330800000000000000
+      internalID: 3705466124199592769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_30
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 416
+        width: 160
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3fd462ff5dc8eb0800000000000000
+      internalID: -4716159417927732303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_31
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 244
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb924f4c2ed1dc90800000000000000
+      internalID: -7146686851770573837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_32
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 257
+        width: 108
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318ad65b8e916de80800000000000000
+      internalID: -8154301588040734701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_33
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 248
+        width: 136
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6570a8ba88b9530800000000000000
+      internalID: 3862831375736854251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_34
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 236
+        width: 168
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6e99dc57cff88f0800000000000000
+      internalID: -535932247743011109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_35
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 232
+        width: 188
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea60c7c3338c0f5e0800000000000000
+      internalID: -1877780922229848402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 56
+        width: 90
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04de6de6f11f1d20800000000000000
+      internalID: 3251337208227877898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_37
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 98
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa7c34b59b3b4e50800000000000000
+      internalID: 6794589976978553511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_38
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 77
+        width: 90
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf920f13fe70d2080800000000000000
+      internalID: -9210696938986395140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_39
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 58
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeea7c4516e4149b0800000000000000
+      internalID: -5097707123265523990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 100
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3c05431de93e770800000000000000
+      internalID: 8638923131589804973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_41
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 100
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb209c74c36e98fa0800000000000000
+      internalID: -5797849898686020932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_42
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 96
+        width: 88
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d252b85b6db88b860800000000000000
+      internalID: 7545934929944323373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_43
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 33
+        width: 111
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b1df0fa532148d0800000000000000
+      internalID: -2863969014533776601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_44
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 33
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577617dad0985a0a0800000000000000
+      internalID: -6870934964646353035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_45
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 40
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a556d6da2247cd20800000000000000
+      internalID: 3298678003832608164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PreSpecial3_46
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 76
+        width: 85
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3220702457870f0800000000000000
+      internalID: -1119015580955696189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: be9cfac5ce885c548b73d7ea0cadca8a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

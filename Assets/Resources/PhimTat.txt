@@ -1,0 +1,5 @@
+﻿Crtl + Shift + Kéo object nối với object khác mà không bị chồng lên
+Giữ V + kéo vị trí object tương tự nhưng theo góc
+bấm vào object và bấm f để đưa màn hình ra chỗ object đó
+Giữ shift + F + kéo để vừa di chuyển chuyển object màn hình cũng chạy theo
+Chọn object và bấm crtl + Shift + F để đưa object đó đến vị trí đang nhìn ( Thích hợp cho camera)

@@ -1,0 +1,1627 @@
+fileFormatVersion: 2
+guid: afc7902bb4cd4a247aa1b2733ea272cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8760251067000246521
+    second: Cure3_0
+  - first:
+      213: -4604325471467047859
+    second: Cure3_1
+  - first:
+      213: -4750824337732512056
+    second: Cure3_2
+  - first:
+      213: 2087470578473389500
+    second: Cure3_3
+  - first:
+      213: -8186421287072253098
+    second: Cure3_4
+  - first:
+      213: 6049013983380317438
+    second: Cure3_5
+  - first:
+      213: 6997011492431229938
+    second: Cure3_6
+  - first:
+      213: 1723965091977422919
+    second: Cure3_7
+  - first:
+      213: 3893550188307284642
+    second: Cure3_8
+  - first:
+      213: 6226157808005681692
+    second: Cure3_9
+  - first:
+      213: 6762504886066923366
+    second: Cure3_10
+  - first:
+      213: -453977187741792718
+    second: Cure3_11
+  - first:
+      213: 911549074004153223
+    second: Cure3_12
+  - first:
+      213: -6392669265983363352
+    second: Cure3_13
+  - first:
+      213: 3729663299321218556
+    second: Cure3_14
+  - first:
+      213: -7853678179090906722
+    second: Cure3_15
+  - first:
+      213: 6081074736261570362
+    second: Cure3_16
+  - first:
+      213: -7538449913406071436
+    second: Cure3_17
+  - first:
+      213: -6706753810918716585
+    second: Cure3_18
+  - first:
+      213: 4727038524523077676
+    second: Cure3_19
+  - first:
+      213: 8662648109836443511
+    second: Cure3_20
+  - first:
+      213: 7754037820286372112
+    second: Cure3_21
+  - first:
+      213: -1850429757458673097
+    second: Cure3_22
+  - first:
+      213: -4404851843146286926
+    second: Cure3_23
+  - first:
+      213: -6262995177121913294
+    second: Cure3_24
+  - first:
+      213: 5205196434256955521
+    second: Cure3_25
+  - first:
+      213: 767678906079535331
+    second: Cure3_26
+  - first:
+      213: -6757065413066358066
+    second: Cure3_27
+  - first:
+      213: 3605166117291807495
+    second: Cure3_28
+  - first:
+      213: -5818522377885565291
+    second: Cure3_29
+  - first:
+      213: -4914391093982758949
+    second: Cure3_30
+  - first:
+      213: 3276610467037100071
+    second: Cure3_31
+  - first:
+      213: 1711553558612314742
+    second: Cure3_32
+  - first:
+      213: 8065511292633074878
+    second: Cure3_33
+  - first:
+      213: 2070974651822831522
+    second: Cure3_34
+  - first:
+      213: 84220138265612117
+    second: Cure3_35
+  - first:
+      213: -8393683081969485335
+    second: Cure3_36
+  - first:
+      213: 4758900197434750817
+    second: Cure3_37
+  - first:
+      213: 2187595347376299014
+    second: Cure3_38
+  - first:
+      213: -5308284917093952451
+    second: Cure3_39
+  - first:
+      213: 8195608198302082414
+    second: Cure3_40
+  - first:
+      213: 3026363863257888075
+    second: Cure3_41
+  - first:
+      213: 6647062224525964909
+    second: Cure3_42
+  - first:
+      213: 8515648495206528040
+    second: Cure3_43
+  - first:
+      213: -6191809513660568607
+    second: Cure3_44
+  - first:
+      213: -1216527411148601265
+    second: Cure3_45
+  - first:
+      213: -4705398394512678596
+    second: Cure3_46
+  - first:
+      213: 1239118186349950344
+    second: Cure3_47
+  - first:
+      213: 1775815525384000879
+    second: Cure3_48
+  - first:
+      213: -8358071252064424269
+    second: Cure3_49
+  - first:
+      213: 519199615364317608
+    second: Cure3_50
+  - first:
+      213: -6051593395480828425
+    second: Cure3_51
+  - first:
+      213: 3507074265666115715
+    second: Cure3_52
+  - first:
+      213: -6652991503773716395
+    second: Cure3_53
+  - first:
+      213: 4545444405199651723
+    second: Cure3_54
+  - first:
+      213: 6943165865722270314
+    second: Cure3_55
+  - first:
+      213: -1544050276557531773
+    second: Cure3_56
+  - first:
+      213: -1453831347775408275
+    second: Cure3_57
+  - first:
+      213: 4932459809287314422
+    second: Cure3_58
+  - first:
+      213: -6959439374247092256
+    second: Cure3_59
+  - first:
+      213: 8120912804640198119
+    second: Cure3_60
+  - first:
+      213: -6441598880839817968
+    second: Cure3_61
+  - first:
+      213: -3277040664810090803
+    second: Cure3_62
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cure3_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1036
+        width: 135
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c24e02136b1f8a44a77bf12fbc0469c
+      internalID: 8760251067000246521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_1
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 976
+        width: 82
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4affc7ae23ed2de48b9b77c48823f9e2
+      internalID: -4604325471467047859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_2
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 972
+        width: 84
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5022a08af57ed4dae355f4e342d41b
+      internalID: -4750824337732512056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_3
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 980
+        width: 41
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa2e23ce3e763047bf0e7f2f5d9a7bc
+      internalID: 2087470578473389500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_4
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 980
+        width: 82
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ed05fb4273cfb44ba202c8bd1e4766
+      internalID: -8186421287072253098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 788
+        width: 42
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77bb5f903c9f63418b16a4568595f12
+      internalID: 6049013983380317438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 784
+        width: 44
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe561023e26395c439f5cf31e9a3bbd1
+      internalID: 6997011492431229938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_7
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 864
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4801552b17965a644947a603a8f10f96
+      internalID: 1723965091977422919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_8
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 874
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa5555fc5cceaf47a3e7f1f45d9884d
+      internalID: 3893550188307284642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_9
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 852
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e17100d2e51d654c887216c35ece1dc
+      internalID: 6226157808005681692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_10
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 880
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5859639d3b1451748bb303198224008f
+      internalID: 6762504886066923366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_11
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 856
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bf4ab8f42ba3b4f9bb04df4478b5d8
+      internalID: -453977187741792718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_12
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 845
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24e84e7e90ab8c41872d582f944b454
+      internalID: 911549074004153223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_13
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 856
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea7ad8cad40b724e8308f5913a31d2d
+      internalID: -6392669265983363352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_14
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 836
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1d9cce746a54a4fabb872e32becb4a
+      internalID: 3729663299321218556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_15
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 836
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35901d24db89374ea7a32771b5ce3b4
+      internalID: -7853678179090906722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_16
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 805
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d9cc494d926ec448a61bb390dd9df2
+      internalID: 6081074736261570362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_17
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 824
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e973a4aeebbd9604bb6cffe2dc2880b7
+      internalID: -7538449913406071436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_18
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 784
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0aadeb7e4967c94bb89ae8c290d7ba6
+      internalID: -6706753810918716585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_19
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 796
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d362099133fa4d44aa645257178ae15
+      internalID: 4727038524523077676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_20
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 676
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f091600970ba7994eb2ecd331302e8cb
+      internalID: 8662648109836443511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 672
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041f58696a15a364481687c951636185
+      internalID: 7754037820286372112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_22
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 576
+        width: 120
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973e63824d4039a4cb3066a85fbe1e6f
+      internalID: -1850429757458673097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_23
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 576
+        width: 156
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ceaa83a72041c4997e3bc96a42dbab
+      internalID: -4404851843146286926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 176
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216664208805654449a5cebaad886931
+      internalID: -6262995177121913294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_25
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 650
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74368a9e40d8e8b41b26e877cf44bcb1
+      internalID: 5205196434256955521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_26
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 576
+        width: 108
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3066cee71b84e724fa1b24b5b61993b8
+      internalID: 767678906079535331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 180
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f853ad4fa9e1d84cabb8f97af934d00
+      internalID: -6757065413066358066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 184
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bbac27e6d456f4ca9e717cbbf46595
+      internalID: 3605166117291807495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_29
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 384
+        width: 179
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfabe1bde11487d4dbca5b806b1ed0e1
+      internalID: -5818522377885565291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_30
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 384
+        width: 104
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12af368d0303e7498a44cad9eb16ed8
+      internalID: -4914391093982758949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_31
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 384
+        width: 124
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e42b1ea0a68a404795865ab85db34e2
+      internalID: 3276610467037100071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_32
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 336
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357757911823c7c449be2c1bacbdbdf1
+      internalID: 1711553558612314742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_33
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 212
+        width: 128
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4238961b48ee2024399d8214b0d5314e
+      internalID: 8065511292633074878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_34
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 215
+        width: 124
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df30eb436b05274bb969e036c5cab95
+      internalID: 2070974651822831522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_35
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 192
+        width: 144
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365b3984b1bd8324790805cd51e2dde7
+      internalID: 84220138265612117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_36
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 196
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06227115929a3447bc63394766535f0
+      internalID: -8393683081969485335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_37
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 204
+        width: 124
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000d2e9e252e9214bb5c58ca26524d5d
+      internalID: 4758900197434750817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_38
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 22
+        width: 132
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8224fcbdcfe681f46a30a37d54a55905
+      internalID: 2187595347376299014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_39
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 26
+        width: 132
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486e39565603ae848bac4ca25d86b53a
+      internalID: -5308284917093952451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_40
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 26
+        width: 136
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69d2901c21ce5445a1742c29809cc17
+      internalID: 8195608198302082414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_41
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 48
+        width: 111
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d221c3a7c6cbd3c4f9771cf12abfdf5a
+      internalID: 3026363863257888075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_42
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 52
+        width: 102
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fcaa3b6776a814d9def615d6be443a
+      internalID: 6647062224525964909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_43
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 50
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7c730f4e4e30442b9f1bbf88345d0b
+      internalID: 8515648495206528040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_44
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 24
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d754ac33df59647932ef98f9061543
+      internalID: -6191809513660568607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_45
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 46
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62103dcbe41e21642a82f4cf4db2ac44
+      internalID: -1216527411148601265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_46
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4d7e990ae062e46aaf82ddaa54d539
+      internalID: -4705398394512678596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_47
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45d82daa2b2c8942a30c212cff30a78
+      internalID: 1239118186349950344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_48
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 46
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497820c7da797ff4b9ce80adcf59d028
+      internalID: 1775815525384000879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_49
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 41
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12eedd9dafbd4342a7081954a1d8da3
+      internalID: -8358071252064424269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_50
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 24
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f272443af03db645bff0edb5827cd94
+      internalID: 519199615364317608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_51
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 38
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333b823a354aa3149861899c8fd0060f
+      internalID: -6051593395480828425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_52
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 39
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79919be6eaa5bfd429f5a299b5450a3b
+      internalID: 3507074265666115715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_53
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 28
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2d237b11121f34baa09ad0bab37341
+      internalID: -6652991503773716395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_54
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 40
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159bbeb146ce8a1469fc935ae48c97c7
+      internalID: 4545444405199651723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_55
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 28
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00d1872d7e6e8d47861f58906963c84
+      internalID: 6943165865722270314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_56
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 39
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705be1b137a26da44a6745fd94ed51f8
+      internalID: -1544050276557531773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_57
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c08938487cd1643811269531cbda29
+      internalID: -1453831347775408275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_58
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 25
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b9f3b3ed8bd1540b0bb48645dda78e
+      internalID: 4932459809287314422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_59
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 30
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b490e09505d694a9c19b771e685f18
+      internalID: -6959439374247092256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_60
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 28
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979c18b0e0effac46977964ce44bbc95
+      internalID: 8120912804640198119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_61
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 26
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67260a365d1041f49b879dc271d4d8d4
+      internalID: -6441598880839817968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cure3_62
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 29
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021b2cd3b2a76ba44afbe7328965f478
+      internalID: -3277040664810090803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b79baa171bf789249aab1f63bfc1f779
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
