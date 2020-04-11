@@ -395,7 +395,7 @@ public class EventController : MonoBehaviour
                 yield return new WaitForSeconds(1f);
                 StartCoroutine(gc.StartLoading());
                 yield return new WaitForSeconds(1f);
-                SceneManager.LoadScene(5, LoadSceneMode.Single);
+                SceneManager.LoadScene(2, LoadSceneMode.Single);
                 break;
         }
     }

@@ -17,12 +17,14 @@ public class SoldierController : MonoBehaviour
         ene = gameObject.GetComponent<EnemyController>();
     }
 
+    #region Action void
     private void PerformAttackAction()
     {
         weapon.GetComponent<Weapon>().WeaponStatInit(ene.charObj);
         switch (soldierType)
         {
             case Type.Ranged:
+                ene.charObj.weaponAnimId = 1;
                 if (ene.charObj.holdWeapon && ene.charObj.attackable && ene.charObj.grounded && ene.charObj.canAttack && !ene.charObj.roll)
                 {
                     StartCoroutine(PerformShoot(2));
@@ -35,6 +37,42 @@ public class SoldierController : MonoBehaviour
         }
     }
 
+    private void PerformAvoidAction()
+    {
+        if (ene.canRoll && !ene.charObj.takeDam)
+        {
+            switch (soldierType)
+            {
+                case Type.Ranged:
+                    StopAllCoroutines();
+                    ene.charObj.attackable = true;
+                    ene.charObj.weaponAttack = 0;
+                    gameObject.SendMessage("RollBackward");
+                    break;
+                case Type.Closed:
+
+                    break;
+            }           
+        }
+        else
+        {
+            ene.detected = true;
+            ene.charObj.atHome = false;
+            ene.charObj.holdWeapon = true;
+            ene.curious = false;
+            gameObject.SendMessage("PerformAttackAction");
+        }
+    }
+
+    private void MakeVoice()
+    {
+        if (!voiceSound)
+            StartCoroutine(VoiceSound());
+    }
+
+    #endregion
+
+    #region Soldier Attack
     IEnumerator PerformShoot(int soLanBan)
     {
         ene.charObj.r2.velocity = Vector2.zero;
@@ -58,13 +96,7 @@ public class SoldierController : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         ene.canRoll = true;
         ene.charObj.attackable = true;       
-    }
-
-    private void MakeVoice()
-    {
-        if (!voiceSound)
-            StartCoroutine(VoiceSound());       
-    }
+    }    
 
     IEnumerator VoiceSound()
     {
@@ -76,12 +108,13 @@ public class SoldierController : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         voiceSound = false;
     }
+    #endregion
 
     public void DeathFromBack()
     {
         ene.charObj.DiChuyenNhanVat(0);
         ene.charObj.anim.SetBool("DeathFromBack", true);
-        ene.charObj.charStat.hp -= 999999;
+        ene.charObj.charStat.hp -= ene.charObj.charStat.maxHp * 2;
         if (!ene.charObj.death)
         {
             ene.charObj.death = true;

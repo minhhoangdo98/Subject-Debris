@@ -78,7 +78,13 @@ public class InputController : MonoBehaviour
 
         if (Input.GetButtonDown("ChangeView"))
         {
-            gc.viewObj.SendMessage("ChangeView", SendMessageOptions.DontRequireReceiver);
+            if (gc.viewObj.player2d.GetComponent<PlayerController>().canChangeView)
+                gc.viewObj.SendMessage("ChangeView", SendMessageOptions.DontRequireReceiver);
+        }
+
+        if (Input.GetButtonDown("BagButton"))
+        {
+            gc.SendMessage("BagAction", SendMessageOptions.DontRequireReceiver);
         }
     }
 

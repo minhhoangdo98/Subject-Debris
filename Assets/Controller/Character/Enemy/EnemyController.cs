@@ -71,22 +71,7 @@ public class EnemyController : MonoBehaviour
 
         if (hit.distance < avoidDistance && charObj.diChuyen && charObj.canMove)//lui lai
         {
-            if (canRoll && !charObj.takeDam)
-            {
-                StopAllCoroutines();
-                charObj.attackable = true;
-                charObj.weaponAttack = 0;
-                gameObject.SendMessage("RollBackward");
-            }
-            else
-            {
-                detected = true;
-                charObj.atHome = false;
-                charObj.holdWeapon = true;
-                charObj.weaponAnimId = 1;
-                curious = false;
-                gameObject.SendMessage("PerformAttackAction");
-            }  
+            gameObject.SendMessage("PerformAvoidAction");
         }
 
         if (hit.distance < attackDistance && hit.distance >= avoidDistance)//Tan cong nguoi choi
@@ -94,7 +79,6 @@ public class EnemyController : MonoBehaviour
             detected = true;
             charObj.atHome = false;
             charObj.holdWeapon = true;
-            charObj.weaponAnimId = 1;
             curious = false;
             gameObject.SendMessage("PerformAttackAction");
         }

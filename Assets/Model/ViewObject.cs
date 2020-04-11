@@ -36,7 +36,18 @@ public class ViewObject : MonoBehaviour
         {
             GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().CapNhatColliderIgnore();
             player2d.GetComponent<CharacterObject>().enableFootSound = false;
-        }            
+#if UNITY_STANDALONE || UNITY_EDITOR
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+#endif
+        }
+#if UNITY_STANDALONE || UNITY_EDITOR
+        else
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }       
+#endif
         fpsPlayer.GetComponent<FirstPersonController>().enabled = false;
         yield return new WaitForSeconds(0.1f);
         fpsPlayer.GetComponent<FirstPersonController>().enabled = true;

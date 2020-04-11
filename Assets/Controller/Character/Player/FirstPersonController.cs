@@ -6,7 +6,7 @@ public class FirstPersonController : MonoBehaviour
     Transform myTransform, cameraTransform;
     CharacterController controller;
     float rotation;
-    bool prevGrounded, isPorjectileCube;
+    public bool prevGrounded, canRotate = true;
     [SerializeField]
     private float speed = 1f;
     public ItemManager bag;
@@ -22,16 +22,28 @@ public class FirstPersonController : MonoBehaviour
     // Update
     void Update()
     {
+        if (canRotate)
+        {
+#if UNITY_ANDROID
+            Vector2 look = TCKInput.GetAxis("Touchpad");
+            PlayerRotation(look.x, look.y);
+#endif
 
-        Vector2 look = TCKInput.GetAxis("Touchpad");
-        PlayerRotation(look.x, look.y);
+#if UNITY_STANDALONE || UNITY_EDITOR
+            float mouseX = Input.GetAxis("Mouse X");
+            float mouseY = Input.GetAxis("Mouse Y");
+            PlayerRotation(mouseX / 2, mouseY / 2);
+#endif
+        }
     }
 
     // FixedUpdate
     void FixedUpdate()
     {
+#if UNITY_ANDROID
         Vector2 move = TCKInput.GetAxis("Joystick");
-#if UNITY_EDITOR
+#endif
+#if UNITY_STANDALONE || UNITY_EDITOR
         float moveX = Input.GetAxis("Horizontal");
         float moveY = Input.GetAxis("Vertical");
         PlayerMovement(moveX / 10, moveY / 10);

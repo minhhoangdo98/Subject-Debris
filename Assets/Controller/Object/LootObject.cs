@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class LootObject : MonoBehaviour
 {
@@ -14,10 +15,13 @@ public class LootObject : MonoBehaviour
     [SerializeField]
     private UnityEvent eventWhenAdd;
 
-    private void ActionPerform()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        eventWhenAdd.Invoke();
-        Loot();        
+        if (collision.CompareTag("PlayerCollider"))
+        {
+            eventWhenAdd.Invoke();
+            Loot();
+        }     
     }
 
     private void Loot()
@@ -34,6 +38,6 @@ public class LootObject : MonoBehaviour
             Destroy(soundObj, 2f);
             Destroy(item, 0.1f);
             Destroy(gameObject.transform.parent.gameObject);
-        }        
+        }      
     }
 }

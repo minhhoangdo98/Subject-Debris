@@ -8,7 +8,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(CharacterObject))]
 public class PlayerController : MonoBehaviour
 {
-    public bool dieuKhien = true;
+    public bool dieuKhien = true, canChangeView = false, canOpenBag = true;
     public CharacterObject charObj;
     public ItemManager bag;
     private Image playerImage, hpBar, energyBar;
