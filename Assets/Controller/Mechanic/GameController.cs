@@ -46,7 +46,6 @@ public class GameController : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
 
         LoadPlayerPrefab();
-        panel.bagPanel.SetActive(true);
         panel.loadingPanel.GetComponentInChildren<Slider>().value += 1;
         yield return new WaitForSeconds(0.1f);
 
@@ -61,7 +60,6 @@ public class GameController : MonoBehaviour
 
         music = GameObject.FindGameObjectWithTag("Music").GetComponent<AudioSource>();
         BgmManager.SetBgmVolumeToObject(music.gameObject);
-        panel.bagPanel.SetActive(false);
         panel.loadingPanel.GetComponentInChildren<Slider>().value += 1;
         yield return new WaitForSeconds(0.1f);
 
@@ -90,6 +88,7 @@ public class GameController : MonoBehaviour
 
     public IEnumerator StartLoading()
     {
+        panel.loadingPanel.transform.Find("TextLoadingHud").transform.Find("LoadingText").gameObject.GetComponent<Text>().text = "Loading";
         panel.loadingPanel.SetActive(true);
         panel.loadingPanel.GetComponent<Animation>().Play("LoadingStart");
         panel.loadingPanel.GetComponentInChildren<Slider>().value = 0;
@@ -198,6 +197,63 @@ public class GameController : MonoBehaviour
         PlayerPrefs.SetInt("Checkpoint" + SceneManager.GetActiveScene().buildIndex, 0);
     }
 
+    public void UnlockCursor()
+    {
+#if UNITY_STANDALONE || UNITY_EDITOR
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+#endif
+    }
+
+    public void LockCursor()
+    {
+#if UNITY_STANDALONE || UNITY_EDITOR
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+#endif
+    }
+
+    public void BagAction()
+    { 
+        if (viewObj.player2d.GetComponent<PlayerController>().dieuKhien && !viewObj.player2d.GetComponent<CharacterObject>().holdWeapon && viewObj.player2d.GetComponent<PlayerController>().canOpenBag)
+        {
+            PlayASound(Resources.Load<AudioClip>("Audio/SoundEffect/UISound/click4"));
+            if (panel.bagPanel.GetComponent<RectTransform>().offsetMax.y != 0)//Hien bag
+            {
+                panel.bagPanel.GetComponent<RectTransform>().SetTop(0);
+                panel.bagPanel.GetComponent<RectTransform>().SetBottom(0);
+                viewObj.player2d.GetComponent<CharacterObject>().attackable = false;
+#if UNITY_STANDALONE || UNITY_EDITOR
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+#endif
+                if (viewObj.fpsPlayer.activeInHierarchy)
+                {
+                    viewObj.fpsPlayer.GetComponent<FirstPersonController>().canRotate = false;
+                }
+            }
+            else//an Bag di
+            {
+                panel.bagPanel.GetComponent<RectTransform>().SetTop(-769);
+                panel.bagPanel.GetComponent<RectTransform>().SetBottom(769);
+                viewObj.player2d.GetComponent<CharacterObject>().attackable = true;
+#if UNITY_STANDALONE || UNITY_EDITOR
+                if (viewObj.fpsPlayer.activeInHierarchy)
+                {
+                    Cursor.lockState = CursorLockMode.Locked;
+                    Cursor.visible = false;
+                }
+#endif
+                if (viewObj.fpsPlayer.activeInHierarchy)
+                {
+                    viewObj.fpsPlayer.GetComponent<FirstPersonController>().canRotate = true;
+                }
+            }
+            viewObj.player2d.GetComponent<PlayerController>().bag.DestroyAllItemSlot();
+            viewObj.player2d.GetComponent<PlayerController>().bag.LoadItemIntoSlot();
+        }    
+    }
+
     #region screenEvent
     public IEnumerator FadeOutScreenWhite()//Lam man hinh trang dan
     {
@@ -267,12 +323,6 @@ public class GameController : MonoBehaviour
     //    }
     //    sfx.clip = Resources.Load<AudioClip>("Audio/SFX/" + sfxName);
     //    sfx.Play();
-    //}
-
-    //public void ChaySE(string seName)
-    //{
-    //    se.clip = Resources.Load<AudioClip>("Audio/SE/" + seName);
-    //    se.Play();
     //}
     #endregion
 

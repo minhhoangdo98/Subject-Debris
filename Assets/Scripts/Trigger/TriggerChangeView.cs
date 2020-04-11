@@ -21,6 +21,10 @@ public class TriggerChangeView : MonoBehaviour
         {
             gc.viewObj.ChangeView();
             gc.touchButton.button3DView.SetActive(!disableButton);
+            if (disableButton)
+                gc.viewObj.player2d.GetComponent<CharacterObject>().DisableChangeView();
+            else
+                gc.viewObj.player2d.GetComponent<CharacterObject>().EnableChangeView();
         }  
     }
 
@@ -28,6 +32,12 @@ public class TriggerChangeView : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("PlayerCollider"))
+        {
             gc.touchButton.button3DView.SetActive(!disableButton);
+            if (disableButton)
+                gc.viewObj.player2d.GetComponent<CharacterObject>().DisableChangeView();
+            else
+                gc.viewObj.player2d.GetComponent<CharacterObject>().EnableChangeView();
+        }          
     }
 }

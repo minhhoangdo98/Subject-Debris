@@ -10,7 +10,7 @@ public class CharacterObject : MonoBehaviour
 {
     [Header("Static Trigger")]
     public bool canAttack = true;
-    public bool canMove = true, canJump = true, isPlayer = false;
+    public bool canMove = true, canJump = true, isPlayer = false; 
 
     [Header("Ienumarator Trigger")]
     public bool grounded = true;
@@ -85,7 +85,12 @@ public class CharacterObject : MonoBehaviour
     {
         canAttack = true;
         canJump = true;
-        canMove = true; 
+        canMove = true;
+        if (isPlayer)
+        {
+            gameObject.GetComponent<PlayerController>().dieuKhien = true;
+            gameObject.GetComponent<PlayerController>().canOpenBag = true;
+        }            
     }
 
     public void DisableCharacter()
@@ -94,6 +99,24 @@ public class CharacterObject : MonoBehaviour
         canAttack = false;
         canJump = false;
         canMove = false;
+        if (isPlayer)
+        {
+            gameObject.GetComponent<PlayerController>().dieuKhien = false;
+            gameObject.GetComponent<PlayerController>().canOpenBag = false;
+        }
+            
+    }
+
+    public void DisableChangeView()
+    {
+        if (isPlayer)
+            gameObject.GetComponent<PlayerController>().canChangeView = false;
+    }
+
+    public void EnableChangeView()
+    {
+        if (isPlayer)
+            gameObject.GetComponent<PlayerController>().canChangeView = true;
     }
 
     public void SetAnimatiorAndValuesUpdate()
@@ -216,7 +239,8 @@ public class CharacterObject : MonoBehaviour
     public void Flip() // Chuyen huong nhan vat
     {
         faceRight = -faceRight;
-        gameObject.GetComponent<Transform>().localScale = new Vector3(1, 1, -gameObject.GetComponent<Transform>().localScale.z);
+        //gameObject.GetComponent<Transform>().localScale = new Vector3(1, 1, -gameObject.GetComponent<Transform>().localScale.z);
+        gameObject.GetComponent<Transform>().eulerAngles = new Vector3(0, 90f * faceRight, 0);
     }
 
     public void Jump()

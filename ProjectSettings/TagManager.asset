@@ -33,6 +33,9 @@ TagManager:
   - Model
   - Ally
   - AllyCollider
+  - Bullet
+  - ReadyObject
+  - ChuongNgaiVat
   layers:
   - Default
   - TransparentFX
