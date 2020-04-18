@@ -8,7 +8,7 @@ public class ThunderBall : MonoBehaviour
     [SerializeField]
     private Canvas canvasEffect;
     private DealDamageTrigger dDTrigger;
-    public float timeToStart = 1, timeEffect = 1, speed = 1f;
+    public float timeToStart = 1, timeEffect = 1, speed = 1f, strikePosX = 0f, strikePosY = -2.5f;
     public bool moveable = false;
     public Transform targetMove;
 
@@ -36,7 +36,7 @@ public class ThunderBall : MonoBehaviour
         SoundManager.SetSoundVolumeToObject(thunder);
         dDTrigger.CopyValueTo(thunder.GetComponent<DealDamageTrigger>());
         thunder.transform.localEulerAngles = gameObject.transform.localEulerAngles;
-        thunder.transform.localPosition = new Vector3(thunder.transform.localPosition.x, thunder.transform.localPosition.y - 2.5f, thunder.transform.localPosition.z);
+        thunder.transform.localPosition = new Vector3(thunder.transform.localPosition.x + strikePosX, thunder.transform.localPosition.y + strikePosY, thunder.transform.localPosition.z);
         iTween.ShakePosition(mainCam, new Vector3(0.2f, 0.2f, 0.2f), 0.5f);
         yield return new WaitForSeconds(0.05f);
         canvasEffect.gameObject.SetActive(false);

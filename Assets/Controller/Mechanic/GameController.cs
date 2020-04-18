@@ -54,10 +54,6 @@ public class GameController : MonoBehaviour
         panel.loadingPanel.GetComponentInChildren<Slider>().value += 1;
         yield return new WaitForSeconds(0.1f);
 
-        CapNhatColliderIgnore();
-        panel.loadingPanel.GetComponentInChildren<Slider>().value += 1;
-        yield return new WaitForSeconds(0.1f);
-
         music = GameObject.FindGameObjectWithTag("Music").GetComponent<AudioSource>();
         BgmManager.SetBgmVolumeToObject(music.gameObject);
         panel.loadingPanel.GetComponentInChildren<Slider>().value += 1;
@@ -125,6 +121,7 @@ public class GameController : MonoBehaviour
         panel.loadingPanel.SetActive(false);
     }
 
+    #region event
     private void CheckStoryAutoPlay()
     {
         if (PlayerPrefs.GetInt("TryAgain") == 1 && PlayerPrefs.GetInt("Checkpoint" + SceneManager.GetActiveScene().buildIndex) == 1)
@@ -146,27 +143,16 @@ public class GameController : MonoBehaviour
 
     }
 
-    public void CapNhatColliderIgnore()
-    {
-        GameObject[] allEnemy;
-        GameObject[] allBlockEnemy;
-        allEnemy = GameObject.FindGameObjectsWithTag("Enemy");
-        allBlockEnemy = GameObject.FindGameObjectsWithTag("BlockEnemy");
-        GameObject boss = GameObject.FindGameObjectWithTag("Boss");
-        GameObject[] allAlly = GameObject.FindGameObjectsWithTag("Ally");
-        if (boss != null)
-            Physics2D.IgnoreCollision(viewObj.player2d.transform.Find("Collider").GetComponent<Collider2D>(), boss.transform.Find("Collider").GetComponent<Collider2D>());
-        for (int i = 0; i < allEnemy.Length; i++)
-            Physics2D.IgnoreCollision(viewObj.player2d.transform.Find("Collider").GetComponent<Collider2D>(), allEnemy[i].transform.Find("Collider").GetComponent<Collider2D>());
-        for (int i = 0; i < allBlockEnemy.Length; i++)
-            Physics2D.IgnoreCollision(viewObj.player2d.transform.Find("Collider").GetComponent<Collider2D>(), allBlockEnemy[i].GetComponent<Collider2D>());
-        for (int i = 0; i < allAlly.Length; i++)
-            Physics2D.IgnoreCollision(viewObj.player2d.transform.Find("Collider").GetComponent<Collider2D>(), allAlly[i].transform.Find("Collider").GetComponent<Collider2D>());
-    }
-
     public void ChangeScene(int sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex, LoadSceneMode.Single);
+    }
+
+    public IEnumerator LoadingAndChangeScene(int sceneIndex)
+    {
+        StartCoroutine(StartLoading());
+        yield return new WaitForSeconds(1f);
+        ChangeScene(sceneIndex);
     }
 
     public void ActiveDeactivePanel(GameObject panel)
@@ -213,6 +199,15 @@ public class GameController : MonoBehaviour
 #endif
     }
 
+    public void HienThongBao(string thongBaoText)
+    {
+        panel.eventPanel.SetActive(true);
+        eve.hoiThoaiPanel.SetActive(false);
+        eve.warnMessPanel.SetActive(true);
+        eve.messText.text = thongBaoText;
+    }
+    #endregion
+
     public void BagAction()
     { 
         if (viewObj.player2d.GetComponent<PlayerController>().dieuKhien && !viewObj.player2d.GetComponent<CharacterObject>().holdWeapon && viewObj.player2d.GetComponent<PlayerController>().canOpenBag)
@@ -252,6 +247,27 @@ public class GameController : MonoBehaviour
             viewObj.player2d.GetComponent<PlayerController>().bag.DestroyAllItemSlot();
             viewObj.player2d.GetComponent<PlayerController>().bag.LoadItemIntoSlot();
         }    
+    }
+
+    public void ChangeCameraToTalkObject(GameObject obj)
+    {
+        GameObject cam = Camera.main.gameObject;
+        cam.GetComponent<CameraFollowPlayer>().smoothSpeed = 0.1f;
+        cam.GetComponent<CameraFollowPlayer>().target = obj.transform.Find("PointLightFace").transform;
+        int facePosition = viewObj.player2d.GetComponent<CharacterObject>().faceRight;
+        if (facePosition == obj.GetComponent<CharacterObject>().faceRight)//neu 2 doi tuong quay cung mot phia
+            obj.GetComponent<CharacterObject>().Flip();//cho talk object quay ve phia player
+        cam.GetComponent<CameraFollowPlayer>().offset = new Vector3(-0.8f * facePosition, 0, 0);
+        viewObj.player2d.SetActive(false);
+    }
+
+    public void ChangeCameraToPlayer2d()
+    {
+        viewObj.player2d.SetActive(true);
+        GameObject cam = Camera.main.gameObject;
+        cam.GetComponent<CameraFollowPlayer>().target = viewObj.player2d.transform.Find("PointLightFace").transform;
+        cam.GetComponent<CameraFollowPlayer>().offset = new Vector3(0, 0.2f, -10f);
+        cam.GetComponent<CameraFollowPlayer>().smoothSpeed = 0.5f;
     }
 
     #region screenEvent

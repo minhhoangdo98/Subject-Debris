@@ -84,34 +84,33 @@ public class CraftManagerAction : MonoBehaviour
 
     public void ButtonCraft()
     {
-        int slotUsed = PlayerPrefs.GetInt("BagslotUsed");
+        ItemManager bag = player.GetComponent<PlayerController>().bag;
         CraftItem itemCraft = currentSelectedItem.GetComponent<CraftItem>();
         ItemScript item = currentSelectedItem.GetComponent<ItemScript>();
-        for (int i = 0; i < itemCraft.requiredItem.Length; i++)
+        if (bag.slotUsed < bag.maxSlot)
         {
-            int itemCountInBag = PlayerPrefs.GetInt("Bag" + itemCraft.requiredItem[i].itemName + "count");
-            itemCountInBag -= itemCraft.requiredItem[i].soLuong;//giam so luong xuong
-            //neu bang 0 thi remove item khoi bag
-            if (itemCountInBag <= 0)
+            for (int i = 0; i < itemCraft.requiredItem.Length; i++)
             {
-                PlayerPrefs.SetInt("Bag" + itemCraft.requiredItem[i].itemName + "count", 0);
-                for (int j = 0; j < slotUsed; j++)
+                int itemCountInBag = PlayerPrefs.GetInt("Bag" + itemCraft.requiredItem[i].itemName + "count");
+                itemCountInBag -= itemCraft.requiredItem[i].soLuong;//giam so luong xuong
+                //neu bang 0 thi remove item khoi bag
+                if (itemCountInBag <= 0)
                 {
-                    string slotUrl = PlayerPrefs.GetString("Bag" + "slotUrl" + j);
-                    if (("Prefabs/Items/Other/" + itemCraft.requiredItem[i].itemName) == slotUrl)
-                        PlayerPrefs.SetString("Bag" + "slotUrl" + j, "");
-                }
+                    PlayerPrefs.SetInt("Bag" + itemCraft.requiredItem[i].itemName + "count", 0);
+                    for (int j = 0; j < bag.slotUsed; j++)
+                    {
+                        string slotUrl = PlayerPrefs.GetString("Bag" + "slotUrl" + j);
+                        if (("Prefabs/Items/Other/" + itemCraft.requiredItem[i].itemName) == slotUrl)
+                            PlayerPrefs.SetString("Bag" + "slotUrl" + j, "");
+                    }
 
+                }
+                else
+                {
+                    PlayerPrefs.SetInt("Bag" + itemCraft.requiredItem[i].itemName + "count", itemCountInBag);
+                }
             }
-            else
-            {
-                PlayerPrefs.SetInt("Bag" + itemCraft.requiredItem[i].itemName + "count", itemCountInBag);
-            }
-        }
-        //Them item vua craft vao bag
-        ItemManager bag = player.GetComponent<PlayerController>().bag;
-        if (PlayerPrefs.GetInt("BagslotUsed") < bag.maxSlot)
-        {
+            //Them item vua craft vao bag
             bag.LootItem(currentSelectedItem);
             completeImage.sprite = currentSelectedItem.transform.Find("Image").GetComponent<Image>().sprite;
             completeText.text = item.itemName + " Complete!";
@@ -121,8 +120,7 @@ public class CraftManagerAction : MonoBehaviour
         else
         {
             GameController gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
-            gc.eve.messText.text = "Bag full!";
-            gc.eve.warnMessPanel.SetActive(true);
+            gc.HienThongBao("Bag full!");
         }
     }
 }

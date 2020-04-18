@@ -21,7 +21,8 @@ public class PlayerLookTrigger : MonoBehaviour
 
     public void PressAction()
     {
-        onAction2dPress = true;
+        if (on2D)
+            onAction2dPress = true;
     }
 
     public void DePressAction()

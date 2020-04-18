@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class TalkObject : MonoBehaviour
 {
+    public GameObject talkCharacter;
     private GameController gc;
     [SerializeField]
     private bool interacable = true, storyTalk = false;
@@ -38,6 +39,12 @@ public class TalkObject : MonoBehaviour
 
     private void Talk()
     {
+        if (talkCharacter != null)
+        {
+            gc.ChangeCameraToTalkObject(talkCharacter);
+            gc.eve.talkCharacter = new GameObject[1];
+            gc.eve.talkCharacter[0] = talkCharacter;
+        }      
         gc.evc.someOneTalk = !storyTalk;
         gc.evc.PlayStory();
     }

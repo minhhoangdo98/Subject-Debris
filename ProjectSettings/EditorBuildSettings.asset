@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/View/RacerGame.unity
     guid: f8924a24c86a037459143579637c06c0
+  - enabled: 1
+    path: Assets/View/Stage1.unity
+    guid: 889010e4c1d2a3b44b850dd7e853e77c
   m_configObjects: {}

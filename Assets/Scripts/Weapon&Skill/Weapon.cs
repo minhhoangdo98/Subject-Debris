@@ -28,13 +28,13 @@ public class Weapon : MonoBehaviour
     private GameObject bulletPrefab;
     [SerializeField]
     private float bulletSpeed = 15f, delayTimeShoot = 0.5f;
-
-    [SerializeField]
-    private GameObject weaponDealDamageCollider, firePoint;
+    [HideInInspector]
+    public GameObject weaponDealDamageCollider, firePoint;
     private float timeStartCombo = 0;
     private float atk = 1;
     private string target1Tag, target2Tag;
-    private MeleeWeaponTrail weaponTrail;
+    [HideInInspector]
+    public MeleeWeaponTrail weaponTrail;
     private CharacterObject charObj;
 
     public void WeaponStatInit(CharacterObject charObject)
@@ -80,6 +80,7 @@ public class Weapon : MonoBehaviour
                 break;
         }
         weaponTypeString = type.ToString();
+        WeaponDealDamageInit();
     }
 
     public void WeaponDealDamageInit()
@@ -148,7 +149,7 @@ public class Weapon : MonoBehaviour
                 StartCoroutine(LaserSwordChargedAttack());
                 break;
             case WeaponType.Sword:
-
+                StartCoroutine(CombatSwordChargedAttack());
                 break;
             case WeaponType.Rifle:
 
@@ -161,13 +162,16 @@ public class Weapon : MonoBehaviour
         switch (gameObject.name)
         {
             case "LS Spark":
-                StartCoroutine(LaserSwordSkill());
+                if (charObj.charStat.energy >= 1)
+                    StartCoroutine(LaserSwordSkill());
                 break;
             case "R Thunder":
-
+                if (charObj.charStat.energy >= 5)
+                    StartCoroutine(ElectricShoot());
                 break;
             case "Combat Sword":
-
+                if (charObj.charStat.energy >= 1)
+                    StartCoroutine(CombatSwordSkill());
                 break;
             default:
                 WeaponAttack();
@@ -319,6 +323,57 @@ public class Weapon : MonoBehaviour
         charObj.attackable = true;
         charObj.diChuyen = true;
     }
+
+    IEnumerator CombatSwordChargedAttack()
+    {
+        charObj.invisible = true;
+        charObj.r2.velocity = Vector2.zero;
+        charObj.diChuyen = false;
+        charObj.attackable = false;
+        weaponTrail.enabled = true;
+        charObj.anim.SetLayerWeight(0, 1);
+        charObj.anim.SetLayerWeight(1, 0);
+        charObj.anim.SetLayerWeight(2, 0);
+        charObj.weaponAttack = 9;
+        List<AudioClip> soundList;
+        weaponDealDamageCollider.SetActive(true);
+        soundList = new List<AudioClip> { Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing1"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing2"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing3") };
+        yield return new WaitForSeconds(0.3f);
+        SoundManager.PlayRandomSound(gameObject, soundList);
+        yield return new WaitForSeconds(0.5f);
+        weaponDealDamageCollider.SetActive(false);
+        charObj.invisible = false;
+        charObj.weaponAttack = 0;
+        charObj.attackable = true;
+        weaponTrail.enabled = false;
+        charObj.diChuyen = true;
+    }
+
+    IEnumerator CombatSwordSkill()
+    {
+        charObj.invisible = true;
+        charObj.r2.velocity = Vector2.zero;
+        charObj.diChuyen = false;
+        charObj.attackable = false;
+        weaponTrail.enabled = true;
+        charObj.anim.SetLayerWeight(0, 1);
+        charObj.anim.SetLayerWeight(1, 0);
+        charObj.anim.SetLayerWeight(2, 0);
+        charObj.weaponAttack = 10;
+        List<AudioClip> soundList;
+        weaponDealDamageCollider.SetActive(true);
+        charObj.charStat.energy -= 1;
+        soundList = new List<AudioClip> { Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing1"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing2"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing3") };
+        yield return new WaitForSeconds(0.3f);
+        SoundManager.PlayRandomSound(gameObject, soundList);
+        yield return new WaitForSeconds(0.5f);
+        weaponDealDamageCollider.SetActive(false);
+        charObj.invisible = false;
+        charObj.weaponAttack = 0;
+        charObj.attackable = true;
+        weaponTrail.enabled = false;
+        charObj.diChuyen = true;
+    }
     #endregion
 
     #region Gun
@@ -328,7 +383,7 @@ public class Weapon : MonoBehaviour
         if (charObj.r2.velocity != Vector2.zero)
         {
             charObj.r2.velocity = Vector2.zero;
-            yield return new WaitForSeconds(0.1f);            
+            yield return new WaitForSeconds(0.1f);
         }       
         charObj.attackable = false;
         charObj.anim.SetLayerWeight(0, 1);
@@ -339,8 +394,7 @@ public class Weapon : MonoBehaviour
         charObj.weaponAttack = 0;
         charObj.diChuyen = true;
         yield return new WaitForSeconds(delayTimeShoot);
-        charObj.attackable = true;
-        
+        charObj.attackable = true;       
     }
 
     public IEnumerator ShootAPrefab(GameObject effectOnTarget, AudioClip shootSound, GameObject bulletPrefab, GameObject firePoint, float bulletSpeed, float bulletDestroyTime, string damageType, float atkAmount, bool destroyOnCollision)
@@ -356,6 +410,41 @@ public class Weapon : MonoBehaviour
         Destroy(soundObj, 1f);
         yield return new WaitForSeconds(0.1f);
         firePoint.SetActive(false);
+    }
+
+    IEnumerator ElectricShoot()
+    {
+        if (charObj.r2.velocity != Vector2.zero)
+        {
+            charObj.r2.velocity = Vector2.zero;
+            yield return new WaitForSeconds(0.1f);
+        }
+        charObj.diChuyen = false;
+        charObj.attackable = false;
+        charObj.anim.SetLayerWeight(0, 1);
+        charObj.anim.SetLayerWeight(1, 0);
+        charObj.anim.SetLayerWeight(2, 0);
+        charObj.weaponAttack = 1;
+        firePoint.SetActive(true);
+        charObj.gc.PlayASound(Resources.Load<AudioClip>("Audio/SoundEffect/Effect/Thunder8"));
+        GameObject thunderBall = Instantiate(Resources.Load<GameObject>("Prefabs/Effect/ThunderBall2"), firePoint.transform.position, Quaternion.identity);
+        SoundManager.SetSoundVolumeToObject(thunderBall);
+        thunderBall.GetComponent<DealDamageTrigger>().DealDamageInit(charObj.charStat.matk, "Phep", Resources.Load<GameObject>("Prefabs/Effect/HitEffect2"), 0.2f, charObj.target1Tag, charObj.target2Tag, 1, 50);
+        thunderBall.transform.position = new Vector3(thunderBall.transform.position.x, thunderBall.transform.position.y, thunderBall.transform.position.z - 0.1f);
+        thunderBall.GetComponent<ThunderBall>().timeToStart = 1.5f;
+        thunderBall.GetComponent<ThunderBall>().timeEffect = 0.5f;
+        thunderBall.GetComponent<ThunderBall>().moveable = false;
+        thunderBall.GetComponent<ThunderBall>().strikePosY = 0.2f * charObj.faceRight;
+        thunderBall.GetComponent<ThunderBall>().strikePosX = 4f * charObj.faceRight;
+        thunderBall.transform.localEulerAngles = new Vector3(0, 0, 90f * charObj.faceRight);
+        charObj.charStat.energy -= 5;
+        yield return new WaitForSeconds(0.1f);
+        charObj.weaponAttack = 0;
+        firePoint.SetActive(false);
+        charObj.diChuyen = true;
+        charObj.weaponAttack = 0;
+        yield return new WaitForSeconds(0.5f);
+        charObj.attackable = true;
     }
     #endregion
 }

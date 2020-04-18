@@ -5,34 +5,52 @@ using AudioConfig;
 
 public class SoldierController : MonoBehaviour
 {
-    public enum Type { Ranged, Closed};
+    public enum Type { Rifle, Sword, Sniper, Shield};
     public Type soldierType;
     private EnemyController ene;
     [SerializeField]
     private GameObject weapon;
+    public bool canVoice = false;
     private bool voiceSound = false;
 
     private void Start()
     {
         ene = gameObject.GetComponent<EnemyController>();
+        StartCoroutine(CapNhatWeapon());
+    }
+
+    IEnumerator CapNhatWeapon()
+    {
+        yield return new WaitForSeconds(1f);
+        weapon.SetActive(true);
+        weapon.GetComponent<Weapon>().WeaponStatInit(ene.charObj);
     }
 
     #region Action void
     private void PerformAttackAction()
     {
-        weapon.GetComponent<Weapon>().WeaponStatInit(ene.charObj);
         switch (soldierType)
         {
-            case Type.Ranged:
+            case Type.Rifle:
                 ene.charObj.weaponAnimId = 1;
                 if (ene.charObj.holdWeapon && ene.charObj.attackable && ene.charObj.grounded && ene.charObj.canAttack && !ene.charObj.roll)
                 {
                     StartCoroutine(PerformShoot(2));
-                }
-                
+                }              
                 break;
-            case Type.Closed:
-                ene.charObj.DiChuyenNhanVat(ene.charObj.faceRight);
+            case Type.Sword:
+                ene.charObj.weaponAnimId = 1;
+                if (ene.charObj.holdWeapon && ene.charObj.attackable && ene.charObj.grounded && ene.charObj.canAttack && !ene.charObj.roll)
+                {
+                    StartCoroutine(PerformSword());
+                }
+                break;
+            case Type.Sniper:
+                ene.charObj.weaponAnimId = 1;
+                if (ene.charObj.holdWeapon && ene.charObj.attackable && ene.charObj.grounded && ene.charObj.canAttack && !ene.charObj.roll)
+                {
+                    StartCoroutine(PerformSniper(1));
+                }
                 break;
         }
     }
@@ -43,14 +61,12 @@ public class SoldierController : MonoBehaviour
         {
             switch (soldierType)
             {
-                case Type.Ranged:
+                case Type.Rifle:
+                case Type.Sword:
                     StopAllCoroutines();
                     ene.charObj.attackable = true;
                     ene.charObj.weaponAttack = 0;
                     gameObject.SendMessage("RollBackward");
-                    break;
-                case Type.Closed:
-
                     break;
             }           
         }
@@ -66,7 +82,7 @@ public class SoldierController : MonoBehaviour
 
     private void MakeVoice()
     {
-        if (!voiceSound)
+        if (canVoice && !voiceSound)
             StartCoroutine(VoiceSound());
     }
 
@@ -101,12 +117,62 @@ public class SoldierController : MonoBehaviour
     IEnumerator VoiceSound()
     {
         voiceSound = true;
+        string voicePath = "Audio/SoundEffect/SoldierVoice/";
         GameObject soundObj = Instantiate(Resources.Load<GameObject>("Prefabs/EmptySoundObject"), gameObject.transform.position, Quaternion.identity);
-        List<AudioClip> soundList = new List<AudioClip> { Resources.Load<AudioClip>("Audio/SoundEffect/SoldierVoice/EnemySpotted"), Resources.Load<AudioClip>("Audio/SoundEffect/SoldierVoice/Hostiles"), Resources.Load<AudioClip>("Audio/SoundEffect/SoldierVoice/In_Range"), Resources.Load<AudioClip>("Audio/SoundEffect/SoldierVoice/Locked_On_Target"), Resources.Load<AudioClip>("Audio/SoundEffect/SoldierVoice/Target_Spotted") };
+        List<AudioClip> soundList = new List<AudioClip> { Resources.Load<AudioClip>(voicePath + "EnemySpotted"), Resources.Load<AudioClip>(voicePath + "Hostiles"), Resources.Load<AudioClip>(voicePath + "In_Range"), Resources.Load<AudioClip>(voicePath + "Locked_On_Target"), Resources.Load<AudioClip>(voicePath + "Target_Spotted") };
         SoundManager.PlayRandomSound(soundObj, soundList);
         Destroy(soundObj, 2f);
         yield return new WaitForSeconds(1.5f);
         voiceSound = false;
+    }
+
+    IEnumerator PerformSword()
+    {
+        ene.charObj.r2.velocity = Vector2.zero;
+        ene.charObj.diChuyen = false;
+        ene.charObj.attackable = false;
+        weapon.GetComponent<Weapon>().weaponTrail.enabled = true;
+        ene.charObj.anim.SetLayerWeight(0, 1);
+        ene.charObj.anim.SetLayerWeight(1, 0);
+        ene.charObj.anim.SetLayerWeight(2, 0);
+        ene.charObj.weaponAttack = 1;
+        List<AudioClip> soundList;
+        yield return new WaitForSeconds(0.1f);
+        soundList = new List<AudioClip> { Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing1"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing2"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing3") };
+        SoundManager.PlayRandomSound(gameObject, soundList);
+        weapon.GetComponent<Weapon>().weaponDealDamageCollider.SetActive(true);
+        yield return new WaitForSeconds(0.3f);
+        weapon.GetComponent<Weapon>().weaponDealDamageCollider.SetActive(false);
+        ene.charObj.weaponAttack = 0;
+        weapon.GetComponent<Weapon>().weaponTrail.enabled = false;
+        ene.charObj.diChuyen = true;
+        yield return new WaitForSeconds(1f);
+        ene.charObj.attackable = true;
+    }
+
+    IEnumerator PerformSniper(int soLanBan)
+    {
+        ene.charObj.r2.velocity = Vector2.zero;
+        ene.charObj.diChuyen = false;
+        ene.charObj.attackable = false;
+        ene.canRoll = false;
+        ene.charObj.anim.SetLayerWeight(0, 1);
+        ene.charObj.anim.SetLayerWeight(1, 0);
+        ene.charObj.anim.SetLayerWeight(2, 0);
+        yield return new WaitForSeconds(1);
+        ene.charObj.weaponAttack = 1;
+
+        for (int i = 0; i < soLanBan; i++)
+        {
+            StartCoroutine(weapon.GetComponent<Weapon>().ShootAPrefab(Resources.Load<GameObject>("Prefabs/Effect/HitEffect2"), Resources.Load<AudioClip>("Audio/SoundEffect/Gun/SniperShot"), Resources.Load<GameObject>("Prefabs/Effect/Bullet"), weapon.transform.Find("FirePoint").gameObject, 30f, 2f, "VatLy", ene.charObj.charStat.atk, true));
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        ene.charObj.diChuyen = true;
+        ene.charObj.weaponAttack = 0;
+        yield return new WaitForSeconds(0.5f);
+        ene.canRoll = true;
+        ene.charObj.attackable = true;
     }
     #endregion
 

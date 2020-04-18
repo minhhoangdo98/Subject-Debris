@@ -34,7 +34,6 @@ public class ViewObject : MonoBehaviour
         touchControll3DPanel.SetActive(!touchControll3DPanel.activeInHierarchy);
         if (player2d.activeInHierarchy)
         {
-            GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>().CapNhatColliderIgnore();
             player2d.GetComponent<CharacterObject>().enableFootSound = false;
 #if UNITY_STANDALONE || UNITY_EDITOR
             Cursor.lockState = CursorLockMode.None;

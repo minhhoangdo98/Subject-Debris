@@ -4,29 +4,16 @@ using UnityEngine;
 
 public class CameraFollowPlayer : MonoBehaviour {
     //Script duoc dung boi object Main Camera
-    public GameObject player;       //Public variable to store a reference to the player game object
-    private Vector3 offset;         //Private variable to store the offset distance between the player and camera
-    public Vector2 minpos, maxpos;
-    public bool bound = true;
+    public Transform target;
 
-    // Use this for initialization
-    void Start()
+    public float smoothSpeed = 0.5f;
+    public Vector3 offset;
+
+    void Update()
     {
-        //Calculate and store the offset value by getting the distance between the player's position and camera's position.
-        offset = transform.position - player.transform.position;
-    }
-
-    // LateUpdate is called after Update each frame
-    void LateUpdate()
-    {
-        // Set the position of the camera's transform to be the same as the player's, but offset by the calculated offset distance.
-        transform.position = player.transform.position + offset;
-        if (bound)
-        {
-            transform.position = new Vector3(Mathf.Clamp(transform.position.x, minpos.x, maxpos.x),
-                Mathf.Clamp(transform.position.y, minpos.y, maxpos.y),
-                Mathf.Clamp(transform.position.z, transform.position.z, transform.position.z));
-
-        }
+        Vector3 desiredPosition = target.position + offset;
+        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+        transform.position = smoothedPosition;
+        transform.LookAt(target);
     }
 }

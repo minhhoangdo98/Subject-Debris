@@ -4,7 +4,7 @@
  - Neu la sung thi them object firePoint vao Weapon, neu la kiem thi them Object DealDamageTrigger va Tip
  - Them weaponId o PlayerAttacking.cs (Trong ham ChangeWeapon)
  - Them weapon skill o Weapon.cs neu muon weapon co skill rieng
- - Tao prefab Item de hien tren bag cho weapon theo duong dan "Resources\Prefabs\Items\Weapon", thay doi cac thong so trong ItemScript dac biet la WeaponID
+ - Tao prefab Item de hien tren bag cho weapon theo duong dan "Resources\Prefabs\Items\Weapon", thay doi cac thong so trong ItemScript dac biet la WeaponID (la weaponId trong playerAttacking)
  - Them currenWeaponId trong ham ButtonEquipItem cua script ItemManagerAction.cs
  - Tao prefab Loot de co the loot weapon theo duong dan "Resources\Prefabs\Loot\Weapons", thay doi item to add trong collider2d
  - Neu weapon co the craft duoc thi thuc hien cac buoc tiep theo

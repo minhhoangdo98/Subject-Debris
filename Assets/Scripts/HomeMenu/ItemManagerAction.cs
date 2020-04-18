@@ -127,9 +127,6 @@ public class ItemManagerAction : MonoBehaviour
         transNumPanel.SetActive(true);
         int itemCount = PlayerPrefs.GetInt("Inventory" + currentSelectedItem.GetComponent<ItemScript>().itemName + "count");
         maxNumText.text = itemCount.ToString();
-        //bag.CLoneFromItem(currentSelectedItem);
-        //inventory.RemoveItem(currentSelectedItem);
-        //EmptySelected();
     }
 
     public void ButtonToInventory()
@@ -137,9 +134,6 @@ public class ItemManagerAction : MonoBehaviour
         transNumPanel.SetActive(true);
         int itemCount = PlayerPrefs.GetInt("Bag" + currentSelectedItem.GetComponent<ItemScript>().itemName + "count");
         maxNumText.text = itemCount.ToString();
-        //inventory.CLoneFromItem(currentSelectedItem);
-        //bag.RemoveItem(currentSelectedItem);
-        //EmptySelected();
     }
 
     public void ButtonOkToTrans()//Nut ok chuyen item tu bag/inventoy qua inventory/bag
@@ -149,46 +143,68 @@ public class ItemManagerAction : MonoBehaviour
         int currentSlot = currentSelectedItem.GetComponent<ItemScript>().slotId;
         string managerName = currentSelectedItem.GetComponent<ItemScript>().itemManager.managerName;
         string currentItemName = currentSelectedItem.GetComponent<ItemScript>().itemName;
-        if (numItem <= maxItem)
+        transNumPanel.SetActive(false);
+        //kiem tra xem inventory/bag da full chua
+        switch (managerName)
         {
-            for (int i = 0; i < numItem; i++)
-            {
-                GameObject itemClone = Instantiate(Resources.Load<GameObject>(currentSelectedItem.GetComponent<ItemScript>().itemUrl));
-                switch (managerName)
+            case "Bag":
+                if (inventory.slotUsed >= inventory.maxSlot)
                 {
-                    case "Bag":
-                        inventory.CLoneFromItem(itemClone);
-                        if(PlayerPrefs.GetInt("Bag" + currentItemName + "count") == 1)
-                        {
-                            bag.RemoveItemInSlot(currentSlot);
-                        }
-                        PlayerPrefs.SetInt("Bag" + currentItemName + "count", maxItem - (i + 1));
-                        break;
-                    case "Inventory":
-                        bag.CLoneFromItem(itemClone);
-                        if (PlayerPrefs.GetInt("Inventory" + currentItemName + "count") == 1)
-                        {
-                            inventory.RemoveItemInSlot(currentSlot);
-                        }
-                        PlayerPrefs.SetInt("Inventory" + currentItemName + "count", maxItem - (i + 1));
-                        break;
+                    GameController gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+                    gc.HienThongBao("Inventory full!");
+                    return;
                 }
-                Destroy(itemClone);
-            }
+                break;
+            case "Inventory":
+                if (bag.slotUsed >= bag.maxSlot)
+                {
+                    GameController gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+                    gc.HienThongBao("Bag full!");
+                    return;
+                }
+                break;
+        }
+        if (numItem > maxItem)//neu so luong item nhap vao lon hon max thi cho bang max
+            numItem = maxItem;
+        for (int i = 0; i < numItem; i++)
+        {
+            //tao item clone de lay du lieu
+            GameObject itemClone = Instantiate(Resources.Load<GameObject>(currentSelectedItem.GetComponent<ItemScript>().itemUrl));
+            //them item clone vao inventory/bag va xoa item tu bag/inventory
             switch (managerName)
             {
                 case "Bag":
-                    bag.DestroyAllItemSlot();
-                    bag.LoadItemIntoSlot();
+                    inventory.CLoneFromItem(itemClone);
+                    if (PlayerPrefs.GetInt("Bag" + currentItemName + "count") == 1)
+                    {
+                        bag.RemoveItemInSlot(currentSlot);
+                    }
+                    PlayerPrefs.SetInt("Bag" + currentItemName + "count", maxItem - (i + 1));
                     break;
                 case "Inventory":
-                    inventory.DestroyAllItemSlot();
-                    inventory.LoadItemIntoSlot();
+                    bag.CLoneFromItem(itemClone);
+                    if (PlayerPrefs.GetInt("Inventory" + currentItemName + "count") == 1)
+                    {
+                        inventory.RemoveItemInSlot(currentSlot);
+                    }
+                    PlayerPrefs.SetInt("Inventory" + currentItemName + "count", maxItem - (i + 1));
                     break;
             }
-            transNumPanel.SetActive(false);
-            EmptySelected();
+            Destroy(itemClone);
         }
+        //Reload item trong bag/inventory
+        switch (managerName)
+        {
+            case "Bag":
+                bag.DestroyAllItemSlot();
+                bag.LoadItemIntoSlot();
+                break;
+            case "Inventory":
+                inventory.DestroyAllItemSlot();
+                inventory.LoadItemIntoSlot();
+                break;
+        }
+        EmptySelected();
     }
 
     private void EmptySelected()
@@ -234,43 +250,54 @@ public class ItemManagerAction : MonoBehaviour
 
     public void ButtonEquipItem()
     {
-        int currentWeaponId = player.GetComponent<PlayerAttacking>().weaponId;
-        int itemWeaponId = currentSelectedItem.GetComponent<ItemScript>().weaponId;
-        if (player.GetComponent<PlayerAttacking>().weapon[currentWeaponId].GetComponent<Weapon>().statAdded)
+        if (bag.slotUsed < bag.maxSlot)
         {
-            player.GetComponent<CharacterStat>().atk -= currentSelectedItem.GetComponent<ItemScript>().atkBonus;
-            player.GetComponent<CharacterStat>().matk -= currentSelectedItem.GetComponent<ItemScript>().matkBonus;
-            player.GetComponent<CharacterStat>().def -= currentSelectedItem.GetComponent<ItemScript>().defBonus;
-            player.GetComponent<CharacterStat>().mdef -= currentSelectedItem.GetComponent<ItemScript>().mdefBonus;
-            player.GetComponent<CharacterStat>().maxHp -= currentSelectedItem.GetComponent<ItemScript>().hpBonus;
-            if (player.GetComponent<CharacterStat>().hp > player.GetComponent<CharacterStat>().maxHp)
-                player.GetComponent<CharacterStat>().hp = player.GetComponent<CharacterStat>().maxHp;
-            player.GetComponent<CharacterStat>().maxEnergy -= currentSelectedItem.GetComponent<ItemScript>().energyBonus;
-            if (player.GetComponent<CharacterStat>().energy > player.GetComponent<CharacterStat>().maxEnergy)
-                player.GetComponent<CharacterStat>().energy = player.GetComponent<CharacterStat>().maxEnergy;
-            player.GetComponent<PlayerAttacking>().weapon[currentWeaponId].GetComponent<Weapon>().statAdded = false;
+            int currentWeaponId = player.GetComponent<PlayerAttacking>().weaponId;
+            int itemWeaponId = currentSelectedItem.GetComponent<ItemScript>().weaponId;
+            if (player.GetComponent<PlayerAttacking>().weapon[currentWeaponId].GetComponent<Weapon>().statAdded)
+            {
+                player.GetComponent<CharacterStat>().atk -= currentSelectedItem.GetComponent<ItemScript>().atkBonus;
+                player.GetComponent<CharacterStat>().matk -= currentSelectedItem.GetComponent<ItemScript>().matkBonus;
+                player.GetComponent<CharacterStat>().def -= currentSelectedItem.GetComponent<ItemScript>().defBonus;
+                player.GetComponent<CharacterStat>().mdef -= currentSelectedItem.GetComponent<ItemScript>().mdefBonus;
+                player.GetComponent<CharacterStat>().maxHp -= currentSelectedItem.GetComponent<ItemScript>().hpBonus;
+                if (player.GetComponent<CharacterStat>().hp > player.GetComponent<CharacterStat>().maxHp)
+                    player.GetComponent<CharacterStat>().hp = player.GetComponent<CharacterStat>().maxHp;
+                player.GetComponent<CharacterStat>().maxEnergy -= currentSelectedItem.GetComponent<ItemScript>().energyBonus;
+                if (player.GetComponent<CharacterStat>().energy > player.GetComponent<CharacterStat>().maxEnergy)
+                    player.GetComponent<CharacterStat>().energy = player.GetComponent<CharacterStat>().maxEnergy;
+                player.GetComponent<PlayerAttacking>().weapon[currentWeaponId].GetComponent<Weapon>().statAdded = false;
+            }
+            bag.RemoveItem(currentSelectedItem);
+            switch (currentWeaponId)
+            {
+                case 0:
+                    bag.AddWeaponString("LS Spark");
+                    break;
+                case 1:
+                    bag.AddWeaponString("R Blue");
+                    break;
+                case 2:
+                    bag.AddWeaponString("P Lite");
+                    break;
+                case 3:
+                    bag.AddWeaponString("R Thunder");
+                    break;
+                case 4:
+                    bag.AddWeaponString("Combat Sword");
+                    break;
+                case 5:
+                    bag.AddWeaponString("Sniper rifle");
+                    break;
+            }
+            player.GetComponent<PlayerAttacking>().SetCurrentWeaponId(itemWeaponId);
+            EmptySelected();
         }
-        switch (currentWeaponId)
+        else
         {
-            case 0:
-                bag.AddWeaponString("LS Spark");
-                break;
-            case 1:
-                bag.AddWeaponString("R Blue");
-                break;
-            case 2:
-                bag.AddWeaponString("P Lite");
-                break;
-            case 3:
-                bag.AddWeaponString("R Thunder");
-                break;
-            case 4:
-                bag.AddWeaponString("Combat Sword");
-                break;
+            GameController gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+            gc.HienThongBao("Bag full!");
         }
-        player.GetComponent<PlayerAttacking>().SetCurrentWeaponId(itemWeaponId);
-        bag.RemoveItem(currentSelectedItem);
-        EmptySelected();
     }
 
     public void ButtonDiscard()
@@ -293,6 +320,11 @@ public class ItemManagerAction : MonoBehaviour
         {
             ButtonDiscard();
             bag.AddKeyString("Energy shard");
-        }        
+        }
+        else
+        {
+            GameController gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+            gc.HienThongBao("Bag full!");
+        }
     }
 }
