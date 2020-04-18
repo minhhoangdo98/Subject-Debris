@@ -35,7 +35,6 @@ public class PlayerAttacking : MonoBehaviour
         {
             weaponId = PlayerPrefs.GetInt("currentWeaponId");
             weapon[weaponId].GetComponent<Weapon>().WeaponStatInit(player.charObj);
-            weapon[weaponId].GetComponent<Weapon>().WeaponDealDamageInit();
             player.charObj.gc.touchButton.buttonAttack.SetActive(!player.charObj.gc.touchButton.buttonAttack.activeInHierarchy);
             player.charObj.gc.touchButton.button3DView.GetComponent<Button>().interactable = !player.charObj.gc.touchButton.button3DView.GetComponent<Button>().interactable;
             player.charObj.gc.touchButton.bagButton.SetActive(!player.charObj.gc.touchButton.bagButton.activeInHierarchy);
@@ -59,6 +58,9 @@ public class PlayerAttacking : MonoBehaviour
                     break;
                 case 4://Combat Sword
                     player.charObj.weaponAnimId = 1;
+                    break;
+                case 5://Sniper
+                    player.charObj.weaponAnimId = 2;
                     break;
             }
             if (player.charObj.holdWeapon)
@@ -98,7 +100,7 @@ public class PlayerAttacking : MonoBehaviour
     //Skill vu khi
     private void Skill()
     {
-        if (player.charObj.holdWeapon && player.charObj.attackable && player.charObj.grounded && player.charObj.canAttack && !player.charObj.roll && player.charObj.charStat.energy >= 1)
+        if (player.charObj.holdWeapon && player.charObj.attackable && player.charObj.grounded && player.charObj.canAttack && !player.charObj.roll)
         {
             weapon[weaponId].GetComponent<Weapon>().WeaponSkillAttack();
         }

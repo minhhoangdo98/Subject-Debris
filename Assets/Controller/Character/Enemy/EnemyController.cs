@@ -39,7 +39,8 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         charObj.SetAnimatiorAndValuesUpdate();
-        hit = Physics2D.Raycast(charObj.colider.transform.position, Vector2.right * charObj.faceRight, lookDistance);
+        LayerMask mask = LayerMask.GetMask("Default");
+        hit = Physics2D.Raycast(charObj.colider.transform.position, Vector2.right * charObj.faceRight, lookDistance, mask);
         if (hit && hit.collider.CompareTag(charObj.target1Tag))//neu thay nguoi choi
         {
             canPatrol = false;
@@ -64,6 +65,7 @@ public class EnemyController : MonoBehaviour
 
     private void PerformDetectedAction()
     {
+        detected = true;
         if (!popUped && charObj.canMove)
         {
             StartCoroutine(PopupExclamationMark());
@@ -76,19 +78,21 @@ public class EnemyController : MonoBehaviour
 
         if (hit.distance < attackDistance && hit.distance >= avoidDistance)//Tan cong nguoi choi
         {
-            detected = true;
             charObj.atHome = false;
             charObj.holdWeapon = true;
             curious = false;
             gameObject.SendMessage("PerformAttackAction");
         }
 
-        if (hit.distance >= attackDistance && curious && charObj.diChuyen && charObj.canMove)//duoi theo nguoi choi
+        if (hit.distance >= attackDistance && charObj.diChuyen && charObj.canMove)//duoi theo nguoi choi
         {
-            charObj.atHome = false;
-            charObj.holdWeapon = false;
-            charObj.weaponAnimId = 0;
-            charObj.DiChuyenNhanVat(charObj.faceRight);
+            if(curious || detected)
+            {
+                charObj.atHome = false;
+                charObj.holdWeapon = false;
+                charObj.weaponAnimId = 0;
+                charObj.DiChuyenNhanVat(charObj.faceRight);
+            }           
         }
     }
 

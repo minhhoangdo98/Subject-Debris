@@ -46,6 +46,11 @@ public class CharacterObject : MonoBehaviour
     public string target1Tag, target2Tag;
     public bool layDsBieuCam = false;
 
+    private void OnEnable()
+    {
+        CapNhatColliderIgnore();
+    }
+
     public void SetValuesStart()
     {
         gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
@@ -79,6 +84,28 @@ public class CharacterObject : MonoBehaviour
             writer.WriteLine("--------------------");
             writer.Close();
         }
+    }
+
+    public void CapNhatColliderIgnore()
+    {
+        GameObject[] allEnemy = GameObject.FindGameObjectsWithTag("Enemy");
+        GameObject boss = GameObject.FindGameObjectWithTag("Boss");
+        if (boss != null)
+            Physics2D.IgnoreCollision(gameObject.transform.Find("Collider").GetComponent<Collider2D>(), boss.transform.Find("Collider").GetComponent<Collider2D>());
+        for (int i = 0; i < allEnemy.Length; i++)
+        {
+            if (allEnemy[i] != gameObject)
+                Physics2D.IgnoreCollision(gameObject.transform.Find("Collider").GetComponent<Collider2D>(), allEnemy[i].transform.Find("Collider").GetComponent<Collider2D>());
+        }
+        if (gameObject.CompareTag("Player"))
+        {
+            GameObject[] allBlockEnemy= GameObject.FindGameObjectsWithTag("BlockEnemy");
+            for (int i = 0; i < allBlockEnemy.Length; i++)
+                Physics2D.IgnoreCollision(gameObject.transform.Find("Collider").GetComponent<Collider2D>(), allBlockEnemy[i].GetComponent<Collider2D>());
+            GameObject[] allAlly = GameObject.FindGameObjectsWithTag("Ally");
+            for (int i = 0; i < allAlly.Length; i++)
+                Physics2D.IgnoreCollision(gameObject.transform.Find("Collider").GetComponent<Collider2D>(), allAlly[i].transform.Find("Collider").GetComponent<Collider2D>());
+        }           
     }
 
     public void EnableCharacter()
@@ -239,7 +266,6 @@ public class CharacterObject : MonoBehaviour
     public void Flip() // Chuyen huong nhan vat
     {
         faceRight = -faceRight;
-        //gameObject.GetComponent<Transform>().localScale = new Vector3(1, 1, -gameObject.GetComponent<Transform>().localScale.z);
         gameObject.GetComponent<Transform>().eulerAngles = new Vector3(0, 90f * faceRight, 0);
     }
 
@@ -322,7 +348,7 @@ public class CharacterObject : MonoBehaviour
         if (weaponAttack > 0)
         {
             weaponAttack = 0;
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.2f);
         }       
         r2.velocity = Vector2.zero;
         roll = true;
@@ -376,12 +402,19 @@ public class CharacterObject : MonoBehaviour
             charStat.hp -= damageAmount;
             if (gameObject.CompareTag("Enemy") && !gameObject.GetComponent<EnemyController>().detected && !gameObject.GetComponent<EnemyController>().curious)
             {
-                charStat.hp -= (damageAmount * 14);
+                charStat.hp -= (damageAmount * 2);
                 gameObject.GetComponent<EnemyController>().detected = true;
                 gameObject.GetComponent<EnemyController>().curious = true;
                 if (charStat.hp > 0)
+                {
                     Flip();
-            }                           
+                }       
+            }
+            if (gameObject.CompareTag("Player"))
+            {
+                GameObject mainCam = Camera.main.gameObject;
+                iTween.ShakePosition(mainCam, new Vector3(0.1f, 0.1f, 0.1f), 0.1f);
+            }
         }
     }
 

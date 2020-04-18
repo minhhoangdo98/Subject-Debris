@@ -76,7 +76,6 @@ public class SpecialSoldier : MonoBehaviour
     private void PerformClosedAction()
     {
         weapon2.GetComponent<Weapon>().WeaponStatInit(boss.charObj);
-        weapon2.GetComponent<Weapon>().WeaponDealDamageInit();
         if (!boss.rage)
         {
             int r = Random.Range(0, 3);
@@ -100,7 +99,7 @@ public class SpecialSoldier : MonoBehaviour
                 default:
                     if (boss.charObj.holdWeapon && boss.charObj.attackable && boss.charObj.grounded && boss.charObj.canAttack && !boss.charObj.roll)
                     {
-                        StartCoroutine(AttackComboSword());
+                        StartCoroutine(AttackWithSword());
                     }
                     break;
             }
@@ -142,7 +141,7 @@ public class SpecialSoldier : MonoBehaviour
         weapon.SetActive(false);
     }
 
-    IEnumerator AttackComboSword()
+    IEnumerator AttackWithSword()
     {
         weapon.SetActive(false);
         weapon2.SetActive(true);
@@ -158,11 +157,7 @@ public class SpecialSoldier : MonoBehaviour
         List<AudioClip> soundList;
         dealDamageCollider.SetActive(true);
         soundList = new List<AudioClip> { Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing1"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing2"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing3") };
-        for (int i = 0; i <= 4; i++)
-        {
-            yield return new WaitForSeconds(0.15f);
-            SoundManager.PlayRandomSound(weapon2, soundList);
-        }
+        SoundManager.PlayRandomSound(weapon2, soundList);
         yield return new WaitForSeconds(0.6f);
         dealDamageCollider.SetActive(false);
         boss.charObj.weaponAttack = 0;

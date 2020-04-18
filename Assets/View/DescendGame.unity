@@ -808,7 +808,6 @@ MonoBehaviour:
   delayTime: 15
   delaySpawn: 3
   point: 0
-  result: lose
   pointNum: {fileID: 428337387}
   minRange: -6.5
   maxRange: 6.5
@@ -822,7 +821,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9e2299b8d4f32eb46b50676b8fd4cc64, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b468319da11f10040a091be525f22ede, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

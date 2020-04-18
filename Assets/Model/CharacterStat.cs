@@ -50,4 +50,41 @@ public class CharacterStat : MonoBehaviour
         hp = maxHp;
         energy = maxEnergy;
     }
+
+    public void SaveStat()
+    {
+        PlayerPrefs.SetInt("str", str - level);
+        PlayerPrefs.SetInt("intl", intl - level);
+        PlayerPrefs.SetInt("vit", vit - level);
+    }
+
+    public void AddStatToPlayer(string statName,int numberToAdd)
+    {
+        switch (statName)
+        {
+            case "str":
+                str += numberToAdd;
+                break;
+            case "intl":
+                intl += numberToAdd;
+                break;
+            case "vit":
+                vit += numberToAdd;
+                break;
+            case "level":
+                level += numberToAdd;
+                break;
+        }
+        SaveStat();
+        StatInit();
+    }
+
+    public void ResetStat()
+    {
+        str = 1;
+        intl = 1;
+        vit = 1;
+        level = 1;
+        SaveStat();
+    }
 }
