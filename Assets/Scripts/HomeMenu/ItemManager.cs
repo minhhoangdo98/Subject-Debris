@@ -94,6 +94,13 @@ public class ItemManager : MonoBehaviour
             });
     }
 
+    public void ReloadManager()
+    {
+        DestroyAllItemSlot();
+        LoadItemIntoSlot();
+    }
+
+    #region ThemItem
     //Them item vao slot
     public void AddItemToSlot(GameObject item, int slotIndex)
     {
@@ -107,8 +114,7 @@ public class ItemManager : MonoBehaviour
         PlayerPrefs.SetInt(managerName + itemObject[slotIndex].GetComponent<ItemScript>().itemName + "count", itemCount);
         Destroy(oldItem);
         //Reset
-        DestroyAllItemSlot();
-        LoadItemIntoSlot();
+        ReloadManager();
     }
 
     //Them item vao slot rong gan nhat
@@ -151,20 +157,40 @@ public class ItemManager : MonoBehaviour
     {
         slotUsed = PlayerPrefs.GetInt("BagslotUsed");
         int itemCount = PlayerPrefs.GetInt("Bag" + item.GetComponent<ItemScript>().itemName + "count");
-        if (slotUsed < maxSlot)
+        //neu item da co trong bag thi tang so luong item len
+        if (itemCount > 0)
         {
-            PlayerPrefs.SetString("BagslotUrl" + slotUsed, item.GetComponent<ItemScript>().itemUrl);
-            //luu so luong item duoc dua vao
             itemCount++;
             PlayerPrefs.SetInt("Bag" + item.GetComponent<ItemScript>().itemName + "count", itemCount);
-            slotUsed++;
-            PlayerPrefs.SetInt("BagslotUsed", slotUsed);
-            DestroyAllItemSlot();
-            LoadItemIntoSlot();
+            ReloadManager();
         }
-        
+        else//neu chua co trong bag thi add vao slot moi
+        {
+            if (slotUsed < maxSlot)
+            {
+                PlayerPrefs.SetString("BagslotUrl" + slotUsed, item.GetComponent<ItemScript>().itemUrl);
+                //luu so luong item duoc dua vao
+                itemCount++;
+                PlayerPrefs.SetInt("Bag" + item.GetComponent<ItemScript>().itemName + "count", itemCount);
+                slotUsed++;
+                PlayerPrefs.SetInt("BagslotUsed", slotUsed);
+                ReloadManager();
+            }
+        }      
     }
 
+    public void ThemItemVoiSoLuong(GameObject item, int soLuong)
+    {
+        int itemCount = PlayerPrefs.GetInt(managerName + item.GetComponent<ItemScript>().itemName + "count");
+        if (soLuong > 0)
+        {
+            PlayerPrefs.SetInt(managerName + item.GetComponent<ItemScript>().itemName + "count", itemCount + soLuong - 1);
+            CLoneFromItem(item);
+        }
+    }
+    #endregion
+
+    #region RemoveItem
     public void RemoveItem(GameObject item)
     {
         int slotIndex = item.GetComponent<ItemScript>().slotId;
@@ -183,8 +209,7 @@ public class ItemManager : MonoBehaviour
         }
         else
             itemObject[slotIndex].GetComponent<ItemScript>().stackText.text = itemCount.ToString();
-        DestroyAllItemSlot();
-        LoadItemIntoSlot();
+        ReloadManager();
     }
 
     public void RemoveItemInSlot(int slotIndex)
@@ -203,8 +228,7 @@ public class ItemManager : MonoBehaviour
             PlayerPrefs.SetInt(managerName + itemObject[i].GetComponent<ItemScript>().itemName + "count", 0);
             RemoveItemInSlot(i);        
         }
-        DestroyAllItemSlot();
-        LoadItemIntoSlot();
+        ReloadManager();
     }
 
     public void DestroyAllItemSlot()
@@ -214,4 +238,5 @@ public class ItemManager : MonoBehaviour
             Destroy(itemObject[i]);
         }
     }
+    #endregion
 }

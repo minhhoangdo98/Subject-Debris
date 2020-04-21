@@ -73,7 +73,7 @@ public class EnemyController : MonoBehaviour
 
         if (hit.distance < avoidDistance && charObj.diChuyen && charObj.canMove)//lui lai
         {
-            gameObject.SendMessage("PerformAvoidAction");
+            gameObject.SendMessage("PerformAvoidAction", SendMessageOptions.DontRequireReceiver);
         }
 
         if (hit.distance < attackDistance && hit.distance >= avoidDistance)//Tan cong nguoi choi
@@ -81,7 +81,7 @@ public class EnemyController : MonoBehaviour
             charObj.atHome = false;
             charObj.holdWeapon = true;
             curious = false;
-            gameObject.SendMessage("PerformAttackAction");
+            gameObject.SendMessage("PerformAttackAction", SendMessageOptions.DontRequireReceiver);
         }
 
         if (hit.distance >= attackDistance && charObj.diChuyen && charObj.canMove)//duoi theo nguoi choi

@@ -10,7 +10,7 @@ public class CharacterObject : MonoBehaviour
 {
     [Header("Static Trigger")]
     public bool canAttack = true;
-    public bool canMove = true, canJump = true, isPlayer = false; 
+    public bool canMove = true, canJump = true, isPlayer = false, haveFace = true; 
 
     [Header("Ienumarator Trigger")]
     public bool grounded = true;
@@ -63,32 +63,36 @@ public class CharacterObject : MonoBehaviour
         charStat = gameObject.GetComponent<CharacterStat>();
         SoundManager.SetSoundVolumeToObject(gameObject);
         //Khoi tao cac bien bieu cam nhan vat
-        GameObject face = gameObject.transform.Find("Face").gameObject;
-        if (face != null)
+        if (haveFace)
         {
-            skinnedMeshRenderer = face.GetComponentInChildren<SkinnedMeshRenderer>();
-            skinnedMesh = skinnedMeshRenderer.sharedMesh;
-            blendShapeCount = skinnedMesh.blendShapeCount;
-        }
-        //Lay danh sach bieu cam cua nhan vat
-        if (skinnedMesh != null && layDsBieuCam)
-        {
-            string path = "Assets/Resources/BieuCam.txt";
-            StreamWriter writer = new StreamWriter(path, true);
-            writer.WriteLine(gameObject.name + ":");
-            for (int i = 0; i < blendShapeCount; i++)
+            GameObject face = gameObject.transform.Find("Face").gameObject;
+            if (face != null)
             {
-                Debug.Log(i + " " + skinnedMesh.GetBlendShapeName(i));
-                writer.WriteLine(i + " - " + skinnedMesh.GetBlendShapeName(i));
+                skinnedMeshRenderer = face.GetComponentInChildren<SkinnedMeshRenderer>();
+                skinnedMesh = skinnedMeshRenderer.sharedMesh;
+                blendShapeCount = skinnedMesh.blendShapeCount;
             }
-            writer.WriteLine("--------------------");
-            writer.Close();
-        }
+            //Lay danh sach bieu cam cua nhan vat
+            if (skinnedMesh != null && layDsBieuCam)
+            {
+                string path = "Assets/Resources/BieuCam.txt";
+                StreamWriter writer = new StreamWriter(path, true);
+                writer.WriteLine(gameObject.name + ":");
+                for (int i = 0; i < blendShapeCount; i++)
+                {
+                    Debug.Log(i + " " + skinnedMesh.GetBlendShapeName(i));
+                    writer.WriteLine(i + " - " + skinnedMesh.GetBlendShapeName(i));
+                }
+                writer.WriteLine("--------------------");
+                writer.Close();
+            }
+        }           
     }
 
     public void CapNhatColliderIgnore()
     {
         GameObject[] allEnemy = GameObject.FindGameObjectsWithTag("Enemy");
+        GameObject[] allRobot = GameObject.FindGameObjectsWithTag("Robot");
         GameObject boss = GameObject.FindGameObjectWithTag("Boss");
         if (boss != null)
             Physics2D.IgnoreCollision(gameObject.transform.Find("Collider").GetComponent<Collider2D>(), boss.transform.Find("Collider").GetComponent<Collider2D>());
@@ -96,6 +100,11 @@ public class CharacterObject : MonoBehaviour
         {
             if (allEnemy[i] != gameObject)
                 Physics2D.IgnoreCollision(gameObject.transform.Find("Collider").GetComponent<Collider2D>(), allEnemy[i].transform.Find("Collider").GetComponent<Collider2D>());
+        }
+        for (int i = 0; i < allRobot.Length; i++)
+        {
+            if (allRobot[i] != gameObject)
+                Physics2D.IgnoreCollision(gameObject.transform.Find("Collider").GetComponent<Collider2D>(), allRobot[i].transform.Find("Collider").GetComponent<Collider2D>());
         }
         if (gameObject.CompareTag("Player"))
         {
@@ -144,6 +153,11 @@ public class CharacterObject : MonoBehaviour
     {
         if (isPlayer)
             gameObject.GetComponent<PlayerController>().canChangeView = true;
+    }
+
+    public void SwitchInvisible()
+    {
+        invisible = !invisible;
     }
 
     public void SetAnimatiorAndValuesUpdate()

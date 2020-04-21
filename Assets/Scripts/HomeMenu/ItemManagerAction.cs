@@ -108,7 +108,7 @@ public class ItemManagerAction : MonoBehaviour
                 buttonRecycle.gameObject.SetActive(false);
         }
 
-        if(toBagButton!=null)
+        if (toBagButton != null)
             switch (type)
             {
                 case ItemManager.ManagerType.Inventory:
@@ -122,18 +122,39 @@ public class ItemManagerAction : MonoBehaviour
             }
     }
 
-    public void ButtonToBag()
+    public void ButtonTrans()
     {
-        transNumPanel.SetActive(true);
-        int itemCount = PlayerPrefs.GetInt("Inventory" + currentSelectedItem.GetComponent<ItemScript>().itemName + "count");
-        maxNumText.text = itemCount.ToString();
-    }
-
-    public void ButtonToInventory()
-    {
-        transNumPanel.SetActive(true);
-        int itemCount = PlayerPrefs.GetInt("Bag" + currentSelectedItem.GetComponent<ItemScript>().itemName + "count");
-        maxNumText.text = itemCount.ToString();
+        string managerName = currentSelectedItem.GetComponent<ItemScript>().itemManager.managerName;
+        string currentItemName = currentSelectedItem.GetComponent<ItemScript>().itemName;
+        int itemCount = PlayerPrefs.GetInt(managerName + currentItemName + "count");
+        switch (managerName)
+        {
+            case "Bag":
+                if (inventory.slotUsed >= inventory.maxSlot)
+                {
+                    GameController gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+                    gc.HienThongBao("Inventory full!");
+                    return;
+                }
+                break;
+            case "Inventory":
+                if (bag.slotUsed >= bag.maxSlot)
+                {
+                    GameController gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+                    gc.HienThongBao("Bag full!");
+                    return;
+                }
+                break;
+        }
+        if (itemCount > 1)
+        {
+            transNumPanel.SetActive(true);
+            maxNumText.text = itemCount.ToString();
+        }
+        else
+        {
+            TransItem(1);
+        }
     }
 
     public void ButtonOkToTrans()//Nut ok chuyen item tu bag/inventoy qua inventory/bag
@@ -166,44 +187,49 @@ public class ItemManagerAction : MonoBehaviour
         }
         if (numItem > maxItem)//neu so luong item nhap vao lon hon max thi cho bang max
             numItem = maxItem;
-        for (int i = 0; i < numItem; i++)
+        TransItem(numItem);
+    }
+
+    private void TransItem(int numItem)
+    {
+        int currentSlot = currentSelectedItem.GetComponent<ItemScript>().slotId;
+        string managerName = currentSelectedItem.GetComponent<ItemScript>().itemManager.managerName;
+        string currentItemName = currentSelectedItem.GetComponent<ItemScript>().itemName;
+        int maxItem = PlayerPrefs.GetInt(managerName + currentItemName + "count");
+        //tao item clone de lay du lieu
+        GameObject itemClone = Instantiate(Resources.Load<GameObject>(currentSelectedItem.GetComponent<ItemScript>().itemUrl));
+        int rootItemCount = maxItem - numItem;
+        //them item clone vao inventory/bag va xoa item tu bag/inventory
+        switch (managerName)
         {
-            //tao item clone de lay du lieu
-            GameObject itemClone = Instantiate(Resources.Load<GameObject>(currentSelectedItem.GetComponent<ItemScript>().itemUrl));
-            //them item clone vao inventory/bag va xoa item tu bag/inventory
-            switch (managerName)
-            {
-                case "Bag":
-                    inventory.CLoneFromItem(itemClone);
-                    if (PlayerPrefs.GetInt("Bag" + currentItemName + "count") == 1)
-                    {
-                        bag.RemoveItemInSlot(currentSlot);
-                    }
-                    PlayerPrefs.SetInt("Bag" + currentItemName + "count", maxItem - (i + 1));
-                    break;
-                case "Inventory":
-                    bag.CLoneFromItem(itemClone);
-                    if (PlayerPrefs.GetInt("Inventory" + currentItemName + "count") == 1)
-                    {
-                        inventory.RemoveItemInSlot(currentSlot);
-                    }
-                    PlayerPrefs.SetInt("Inventory" + currentItemName + "count", maxItem - (i + 1));
-                    break;
-            }
-            Destroy(itemClone);
+            case "Bag":
+                PlayerPrefs.SetInt("Bag" + currentItemName + "count", rootItemCount);
+                if (rootItemCount <= 0)
+                {
+                    bag.RemoveItemInSlot(currentSlot);
+                }
+                inventory.ThemItemVoiSoLuong(itemClone, numItem);
+                break;
+            case "Inventory":
+                PlayerPrefs.SetInt("Inventory" + currentItemName + "count", rootItemCount);
+                if (rootItemCount <= 0)
+                {
+                    inventory.RemoveItemInSlot(currentSlot);
+                }
+                bag.ThemItemVoiSoLuong(itemClone, numItem);
+                break;
         }
         //Reload item trong bag/inventory
         switch (managerName)
         {
             case "Bag":
-                bag.DestroyAllItemSlot();
-                bag.LoadItemIntoSlot();
+                bag.ReloadManager();
                 break;
             case "Inventory":
-                inventory.DestroyAllItemSlot();
-                inventory.LoadItemIntoSlot();
+                inventory.ReloadManager();
                 break;
         }
+        Destroy(itemClone);
         EmptySelected();
     }
 

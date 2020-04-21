@@ -36,6 +36,7 @@ TagManager:
   - Bullet
   - ReadyObject
   - ChuongNgaiVat
+  - Robot
   layers:
   - Default
   - TransparentFX
