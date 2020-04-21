@@ -35,7 +35,7 @@ public class SoldierController : MonoBehaviour
                 ene.charObj.weaponAnimId = 1;
                 if (ene.charObj.holdWeapon && ene.charObj.attackable && ene.charObj.grounded && ene.charObj.canAttack && !ene.charObj.roll)
                 {
-                    StartCoroutine(PerformShoot(2));
+                    StartCoroutine(PerformShoot(3));
                 }              
                 break;
             case Type.Sword:

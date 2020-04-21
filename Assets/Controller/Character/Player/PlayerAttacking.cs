@@ -11,7 +11,6 @@ public class PlayerAttacking : MonoBehaviour
     [HideInInspector]
     public GameObject[] weapon; 
     private GameObject[] weaponDealDamageCollider;
-    private float timeStartCombo = 0;
     public int weaponId = 0;
 
     void Start()

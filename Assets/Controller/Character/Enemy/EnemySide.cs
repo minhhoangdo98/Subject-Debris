@@ -61,7 +61,7 @@ public class EnemySide : MonoBehaviour
     private void MiddleStayAction(Collider2D collision)
     {
         if (collision.CompareTag(chara.GetComponent<CharacterObject>().target1Tag))
-            chara.SendMessage("RollBackward");
+            chara.SendMessage("PerformAvoidAction", SendMessageOptions.DontRequireReceiver);
     }
     #endregion
 

@@ -270,7 +270,7 @@ public class EventController : MonoBehaviour
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(3, 50);
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetInteger("EmotionId", 4);
                 HoiThoai("Lily",
-                   "[Please help me save her!]");
+                   "[Please help me save her before being killed!]");
                 break;
             case 16:
                 HoiThoai("???",
@@ -350,15 +350,15 @@ public class EventController : MonoBehaviour
                 gc.eve.luaChonPanel.SetActive(false);
                 gc.eve.hoiThoaiPanel.SetActive(true);
                 HoiThoai("Lily",
-                   "[There is one thing I want you to take]");
+                   "[Look like we may not be able to make it in time]");
                 break;
             case 31:
                 HoiThoai("???",
-                   "[What thing?]");
+                   "[What now?]");
                 break;
             case 32:
                 HoiThoai("Lily",
-                   "[It's called Star Core]");
+                   "[We need something to distract them, maybe the Star Core in this room can do the trick]");
                 break;
             case 33:
                 HoiThoai("???",
@@ -366,11 +366,11 @@ public class EventController : MonoBehaviour
                 break;
             case 34:
                 HoiThoai("Lily",
-                   "[It's in this room, a glittering object, you will see soon!]");
+                   "[It's a glittering object, you will see soon! Take it and the alarm will be turned on!]");
                 break;
             case 35:
                 HoiThoai("???",
-                  "[Ok, I will take this for you.]");
+                  "[Ok, I will take this to distract them.]");
                 break;
             case 36:
                 HoiThoai("Lily",
@@ -378,7 +378,7 @@ public class EventController : MonoBehaviour
                 break;
             case 37:
                 HoiThoai("Lily",
-                   "[And be careful, when you steal it, the alarm will be on!]");
+                   "[And be careful with the security systems]");
                 break;
             case 38:
                 CompleteEvent();
