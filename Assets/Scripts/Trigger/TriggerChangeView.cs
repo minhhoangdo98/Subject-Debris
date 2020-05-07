@@ -19,10 +19,12 @@ public class TriggerChangeView : MonoBehaviour
     {
         if (other.CompareTag("Player3d"))
         {
-            gc.viewObj.ChangeView();
             gc.touchButton.button3DView.SetActive(!disableButton);
             if (disableButton)
+            {
+                gc.viewObj.ChangeView();
                 gc.viewObj.player2d.GetComponent<CharacterObject>().DisableChangeView();
+            }
             else
                 gc.viewObj.player2d.GetComponent<CharacterObject>().EnableChangeView();
         }  

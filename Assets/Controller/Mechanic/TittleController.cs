@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Android;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -10,7 +9,7 @@ using AudioConfig;
 public class TittleController : MonoBehaviour
 {
     EventSystem system;
-    public GameObject fadeIn, blackScreen, titleScreen, loadingPanel, music, rainSound, buttonClickSound;
+    public GameObject fadeIn, blackScreen, titleScreenMobile, tittleScreenWindow, loadingPanel, music, rainSound, buttonClickSound, mobileRain, windowRain;
 
     private void Awake()
     {
@@ -18,28 +17,30 @@ public class TittleController : MonoBehaviour
         {
             BgmManager.SetBgmVolume(10);
             SoundManager.SetSoundVolume(10);
+            QualitySettings.SetQualityLevel(2, true);
+            PlayerPrefs.SetInt("Quality", 2);
             PlayerPrefs.SetInt("FirstTimeOpen", 1);
         }
+        QualitySettings.SetQualityLevel(PlayerPrefs.GetInt("Quality"), true);
         SoundManager.SetSoundVolumeToObject(rainSound);
         SoundManager.SetSoundVolumeToObject(buttonClickSound);
         BgmManager.SetBgmVolumeToObject(music);
+#if UNITY_STANDALONE || UNITY_EDITOR
+        windowRain.SetActive(true);
+        return;
+#endif
+#if PLATFORM_ANDROID 
+        mobileRain.SetActive(true);
+#endif
     }
 
     void Start()
     {
         system = EventSystem.current;
-        titleScreen.SetActive(false);
+        titleScreenMobile.SetActive(false);
+        tittleScreenWindow.SetActive(false);
         blackScreen.SetActive(true);
         StartCoroutine(FadeInScreenblack());
-        GameObject dialog = null;
-        //Neu la nen tang android thi se can nguoi dung cho phep chia se vi tri
-#if PLATFORM_ANDROID
-        if (!Permission.HasUserAuthorizedPermission(Permission.FineLocation))
-        {
-            Permission.RequestUserPermission(Permission.FineLocation);
-            dialog = new GameObject();
-        }
-#endif
     }
 
     private IEnumerator FadeInScreenblack()//lam man hinh sang len va hien title screen
@@ -49,7 +50,13 @@ public class TittleController : MonoBehaviour
         fadeIn.SetActive(true);
         yield return new WaitForSeconds(1.5f);
         fadeIn.SetActive(false);
-        titleScreen.SetActive(true);
+#if UNITY_STANDALONE || UNITY_EDITOR
+        tittleScreenWindow.SetActive(true);
+        yield break;
+#endif
+#if UNITY_ANDROID
+        titleScreenMobile.SetActive(true);
+#endif
     }
 
     void Update()
@@ -79,6 +86,27 @@ public class TittleController : MonoBehaviour
     public void Thoat()
     {
         Application.Quit();
+    }
+
+    public void ButtonLogin()
+    {
+        StartGame();
+    }
+
+    public void ButtonStartGame()
+    {
+        PlayerPrefs.SetInt("story", 0);
+        StartGame();
+    }
+
+    public void ButtonContinue()
+    {
+        StartGame();
+    }
+
+    private void StartGame()
+    {
+        ChangeScene(2);
     }
 
     public void ChangeScene(int sceneIndex)

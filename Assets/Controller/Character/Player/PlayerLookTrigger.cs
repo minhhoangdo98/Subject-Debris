@@ -7,15 +7,23 @@ using UnityEngine.UI;
 public class PlayerLookTrigger : MonoBehaviour
 {
     [SerializeField]
-    private GameObject actionText;
+    private GameObject actionButton, killButton;
     [SerializeField]
     private bool on2D = false, onAction2dPress = false;
+    private GameObject collider2d;
+
+    private void OnEnable()
+    {
+        if (on2D)
+            collider2d = gameObject.transform.Find("Collider").gameObject;
+    }
 
     void FixedUpdate()
     {
         if (!on2D)
             CheckObjectForward();
         else
+        if (gameObject.GetComponent<CharacterObject>().gc.loadComplete)
             CheckObject2D();
     }
 
@@ -34,13 +42,13 @@ public class PlayerLookTrigger : MonoBehaviour
     {
         RaycastHit hit;
         Vector3 fwd = transform.TransformDirection(Vector3.forward);
-        if (Physics.Raycast(transform.position, fwd, out hit, 1.5f))
+        if (Physics.Raycast(transform.position, fwd, out hit, 3f))
         {
             //neu truoc mat la object co the tuong tac
             if (hit.transform.CompareTag("InteractObject"))
             {
-                actionText.SetActive(true);
-                hit.transform.SendMessage("ChangeText", actionText.GetComponent<Text>(), SendMessageOptions.DontRequireReceiver);
+                actionButton.SetActive(true);
+                hit.transform.SendMessage("ChangeText", actionButton.GetComponent<Text>(), SendMessageOptions.DontRequireReceiver);
                 if (Input.GetButtonDown("ActionButton") || TCKInput.GetAction("ActionButton", EActionEvent.Press))
                 {
                     //goi ham tuong tac cua object do
@@ -49,28 +57,28 @@ public class PlayerLookTrigger : MonoBehaviour
             }
             else
             {
-                actionText.GetComponent<Text>().text = "";
-                actionText.gameObject.SetActive(false);
+                actionButton.GetComponent<Text>().text = "";
+                actionButton.gameObject.SetActive(false);
             }
         }
         else
         {
-            actionText.GetComponent<Text>().text = "";
-            actionText.gameObject.SetActive(false);
+            actionButton.GetComponent<Text>().text = "";
+            actionButton.gameObject.SetActive(false);
         }
     }
 
     private void CheckObject2D()
     {
-        Vector2 fwd = transform.TransformDirection(Vector2.up);
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, fwd, 5f);
+        Vector2 uwd = transform.TransformDirection(Vector2.up);
+        RaycastHit2D hit = Physics2D.Raycast(collider2d.transform.position, uwd, 5f);
         if (hit)
         {
             //neu truoc mat la object co the tuong tac
-            if (hit.transform.CompareTag("InteractObject"))
+            if (hit.transform.CompareTag("InteractObject") || hit.transform.Find("TalkObject"))
             {
-                actionText.SetActive(true);
-                hit.transform.SendMessage("ChangeText", actionText.GetComponentInChildren<Text>(), SendMessageOptions.DontRequireReceiver);
+                actionButton.SetActive(true);
+                hit.transform.SendMessage("ChangeText", actionButton.GetComponentInChildren<Text>(), SendMessageOptions.DontRequireReceiver);
                 if (Input.GetButtonDown("ActionButton") || onAction2dPress)
                 {
                     //goi ham tuong tac cua object do
@@ -80,14 +88,54 @@ public class PlayerLookTrigger : MonoBehaviour
             }
             else
             {
-                actionText.GetComponentInChildren<Text>().text = "";
-                actionText.gameObject.SetActive(false);
+                actionButton.GetComponentInChildren<Text>().text = "";
+                actionButton.gameObject.SetActive(false);
             }
         }
         else
         {
-            actionText.GetComponentInChildren<Text>().text = "";
-            actionText.gameObject.SetActive(false);
+            actionButton.GetComponentInChildren<Text>().text = "";
+            actionButton.gameObject.SetActive(false);
+        }
+
+        //Stealth Kill action
+        Vector2 rwd = transform.TransformDirection(-Vector2.right * gameObject.GetComponent<CharacterObject>().faceRight);
+        RaycastHit2D hit2 = Physics2D.Raycast(gameObject.transform.Find("Collider").transform.position, rwd, 0.5f);
+        Button buttonAttack = gameObject.GetComponent<CharacterObject>().gc.touchButton.buttonAttack.GetComponent<Button>();
+        ColorBlock colorButton = buttonAttack.colors;
+        if (hit2)
+        {
+            if (hit2.transform.CompareTag("Enemy"))
+            {
+                if (!hit2.transform.GetComponent<EnemyController>().curious && !hit2.transform.GetComponent<EnemyController>().detected && !hit2.transform.GetComponent<CharacterObject>().holdWeapon && gameObject.GetComponent<PlayerAttacking>().weapon[PlayerPrefs.GetInt("currentWeaponId")].GetComponent<Weapon>().weaponTypeString.Contains("Sword"))
+                {
+                    killButton.SetActive(true);
+                    hit2.transform.SendMessage("ChangeText", killButton.GetComponentInChildren<Text>(), SendMessageOptions.DontRequireReceiver);
+                    colorButton.normalColor = new Color((float)255 / 255, (float)0 / 255, (float)0 / 255, (float)150 / 255);
+                    buttonAttack.colors = colorButton;
+                }
+                else
+                {
+                    colorButton.normalColor = new Color((float)255 / 255, (float)255 / 255, (float)255 / 255, (float)100 / 255);
+                    buttonAttack.colors = colorButton;
+                    killButton.GetComponentInChildren<Text>().text = "";
+                    killButton.gameObject.SetActive(false);
+                }
+            }
+            else
+            {
+                colorButton.normalColor = new Color((float)255 / 255, (float)255 / 255, (float)255 / 255, (float)100 / 255);
+                buttonAttack.colors = colorButton;
+                killButton.GetComponentInChildren<Text>().text = "";
+                killButton.gameObject.SetActive(false);
+            }
+        }
+        else
+        {
+            colorButton.normalColor = new Color((float)255 / 255, (float)255 / 255, (float)255 / 255, (float)100 / 255);
+            buttonAttack.colors = colorButton;
+            killButton.GetComponentInChildren<Text>().text = "";
+            killButton.gameObject.SetActive(false);
         }
     }
 }

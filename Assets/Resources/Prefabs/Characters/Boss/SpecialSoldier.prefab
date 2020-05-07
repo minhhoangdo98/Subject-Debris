@@ -3434,6 +3434,7 @@ MonoBehaviour:
   delayTimeShoot: 0.05
   weaponDealDamageCollider: {fileID: 0}
   firePoint: {fileID: 0}
+  weaponTrail: {fileID: 0}
 --- !u!1 &5991082140075417635
 GameObject:
   m_ObjectHideFlags: 0
@@ -3885,6 +3886,7 @@ MonoBehaviour:
   delayTimeShoot: 0.5
   weaponDealDamageCollider: {fileID: 0}
   firePoint: {fileID: 0}
+  weaponTrail: {fileID: 0}
 --- !u!1 &6605249962895296822
 GameObject:
   m_ObjectHideFlags: 0
@@ -4543,10 +4545,11 @@ MonoBehaviour:
   canMove: 0
   canJump: 0
   isPlayer: 0
+  haveFace: 1
   grounded: 1
   death: 0
   run: 0
-  invisible: 0
+  invisible: 1
   diChuyen: 0
   attackable: 1
   flipable: 1
@@ -4563,7 +4566,6 @@ MonoBehaviour:
   r2: {fileID: 0}
   anim: {fileID: 0}
   colider: {fileID: 0}
-  noise: {fileID: 0}
   audioSource: {fileID: 0}
   charStat: {fileID: 0}
   gc: {fileID: 0}
@@ -4573,7 +4575,8 @@ MonoBehaviour:
   jumpPow: 350
   defaultSpeed: 0
   target1Tag: PlayerCollider
-  target2Tag: Destroyable
+  target2Tag: AllyCollider
+  layDsBieuCam: 0
 --- !u!114 &5582195314234513759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4586,10 +4589,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4f11771cffd5ec40b9621fdee04f219, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  str: 3
+  str: 2
   intl: 3
   vit: 5
-  level: 2
+  level: 1
   atk: 0
   matk: 0
   def: 0
@@ -4720,7 +4723,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  lootDrop: []
+  lootDrop:
+  - {fileID: 5437861865547656236, guid: 0b9cb23172bb8974cbc4f844a0d3aeac, type: 3}
+  - {fileID: 5437861865547656236, guid: 6db22dda69437174fa3fb56b42b59feb, type: 3}
+  - {fileID: 5437861865547656236, guid: e78b80606fb1dc140a9f6c93156f34ec, type: 3}
+  - {fileID: 5437861865547656236, guid: 11141958a7d229245a8639d5f61a5eca, type: 3}
+  - {fileID: 5437861865547656236, guid: 90de25e06baaf31459c141e859a94e7b, type: 3}
+  - {fileID: 5437861865547656236, guid: 71a2622399e03fd44b9c7c780167fe3d, type: 3}
 --- !u!1 &7653396186083333777
 GameObject:
   m_ObjectHideFlags: 0
