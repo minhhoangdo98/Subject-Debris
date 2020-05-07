@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using AudioConfig;
+using UnityEngine.UI;
 
 public class SoldierController : MonoBehaviour
 {
@@ -175,6 +176,11 @@ public class SoldierController : MonoBehaviour
         ene.charObj.attackable = true;
     }
     #endregion
+
+    private void ChangeText(Text actionText)
+    {
+        actionText.text = "Stealth Kill";
+    }
 
     public void DeathFromBack()
     {

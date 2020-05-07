@@ -59,7 +59,7 @@ public class InputController : MonoBehaviour
                 if (hit)
                 {
                     if (hit.transform.CompareTag("Enemy"))
-                        if (!hit.transform.GetComponent<EnemyController>().curious && !hit.transform.GetComponent<EnemyController>().detected && gc.viewObj.player2d.GetComponent<PlayerAttacking>().weapon[PlayerPrefs.GetInt("currentWeaponId")].GetComponent<Weapon>().weaponTypeString != "Gun")
+                        if (!hit.transform.GetComponent<EnemyController>().curious && !hit.transform.GetComponent<EnemyController>().detected && !hit.transform.GetComponent<CharacterObject>().holdWeapon && gc.viewObj.player2d.GetComponent<PlayerAttacking>().weapon[PlayerPrefs.GetInt("currentWeaponId")].GetComponent<Weapon>().weaponTypeString.Contains("Sword"))
                         {
                             gc.viewObj.player2d.SendMessage("StealthAttack", SendMessageOptions.DontRequireReceiver);
                             hit.transform.SendMessage("DeathFromBack", SendMessageOptions.DontRequireReceiver);

@@ -26,11 +26,9 @@ public class GroundCheck : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        //if (collision.isTrigger == false || collision.CompareTag("Dat"))
-        //    chara.grounded = true;
         if (collision.isTrigger == false)
         {
-            if (collision.CompareTag("Tuong"))
+            if (collision.CompareTag("Tuong") && !chara.doubleJump)
             {
                 chara.enableJumpDouble = true;
             }

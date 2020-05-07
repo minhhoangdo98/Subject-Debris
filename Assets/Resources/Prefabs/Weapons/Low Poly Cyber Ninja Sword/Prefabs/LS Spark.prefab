@@ -34,6 +34,7 @@ Transform:
   m_Children:
   - {fileID: 6268390633023707741}
   - {fileID: 7287490587461369808}
+  - {fileID: 34869289254668582}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -108,7 +109,7 @@ MonoBehaviour:
   _maxAngle: 3
   _autoDestruct: 0
   subdivisions: 4
-  _base: {fileID: 4811373077540758}
+  _base: {fileID: 34869289254668582}
   _tip: {fileID: 7287490587461369808}
 --- !u!82 &768457908121976755
 AudioSource:
@@ -236,6 +237,7 @@ MonoBehaviour:
   delayTimeShoot: 0.5
   weaponDealDamageCollider: {fileID: 0}
   firePoint: {fileID: 0}
+  weaponTrail: {fileID: 0}
 --- !u!1 &3498074917491439522
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,7 +262,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3498074917491439522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.791, z: -0}
+  m_LocalPosition: {x: -0, y: 1.213, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4811373077540758}
@@ -345,3 +347,33 @@ MonoBehaviour:
   damageType: VatLy
   target1Tag: 
   target2Tag: 
+--- !u!1 &5638362430391315143
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 34869289254668582}
+  m_Layer: 0
+  m_Name: Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &34869289254668582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5638362430391315143}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.179, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4811373077540758}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

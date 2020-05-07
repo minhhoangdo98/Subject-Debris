@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class TalkObject : MonoBehaviour
 {
+    [HideInInspector]
     public GameObject talkCharacter;
     private GameController gc;
     [SerializeField]
@@ -18,6 +19,7 @@ public class TalkObject : MonoBehaviour
     private void Start()
     {
         gc = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+        talkCharacter = gameObject.transform.parent.gameObject;
     }
 
     private void ActionPerform()
