@@ -69,8 +69,6 @@ public class GameController : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
 
         StartCoroutine(EndLoading());
-        if (panel.readyPanel != null)
-            panel.readyPanel.SetActive(true);
         yield return new WaitForSeconds(1f);
         gameObject.GetComponent<InputController>().enabled = true;
         loadComplete = true;
@@ -206,6 +204,13 @@ public class GameController : MonoBehaviour
         eve.warnMessPanel.SetActive(true);
         eve.messText.text = thongBaoText;
     }
+
+    public void ActiveStory1obj(GameObject obj)
+    {
+        if (eve.story == 1)
+            obj.SetActive(true);
+    }
+
     #endregion
 
     public void BagAction()
@@ -252,12 +257,14 @@ public class GameController : MonoBehaviour
     public void ChangeCameraToTalkObject(GameObject obj)
     {
         GameObject cam = Camera.main.gameObject;
+        cam.GetComponent<Camera>().cullingMask |= 1 << LayerMask.NameToLayer("Not2D");
         cam.GetComponent<CameraFollowPlayer>().smoothSpeed = 0.1f;
         cam.GetComponent<CameraFollowPlayer>().target = obj.transform.Find("PointLightFace").transform;
         int facePosition = viewObj.player2d.GetComponent<CharacterObject>().faceRight;
         if (facePosition == obj.GetComponent<CharacterObject>().faceRight)//neu 2 doi tuong quay cung mot phia
             obj.GetComponent<CharacterObject>().Flip();//cho talk object quay ve phia player
         cam.GetComponent<CameraFollowPlayer>().offset = new Vector3(-0.8f * facePosition, 0, 0);
+        
         viewObj.player2d.SetActive(false);
     }
 
@@ -265,6 +272,7 @@ public class GameController : MonoBehaviour
     {
         viewObj.player2d.SetActive(true);
         GameObject cam = Camera.main.gameObject;
+        cam.GetComponent<Camera>().cullingMask &= ~(1 << LayerMask.NameToLayer("Not2D"));
         cam.GetComponent<CameraFollowPlayer>().target = viewObj.player2d.transform.Find("PointLightFace").transform;
         cam.GetComponent<CameraFollowPlayer>().offset = new Vector3(0, 0.2f, -10f);
         cam.GetComponent<CameraFollowPlayer>().smoothSpeed = 0.5f;
