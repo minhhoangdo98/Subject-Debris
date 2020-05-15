@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class Panel : MonoBehaviour
 {
-    public GameObject hud, touch2dPanel, touch3dPanel, bagPanel, eventPanel, warningPanel, readyPanel, targetDestroyPanel, loadingPanel, homePanel, missionCompletePanel;
+    public GameObject hud, touch2dPanel, touch3dPanel, bagPanel, eventPanel, warningPanel, targetDestroyPanel, loadingPanel, homePanel, missionCompletePanel;
 }

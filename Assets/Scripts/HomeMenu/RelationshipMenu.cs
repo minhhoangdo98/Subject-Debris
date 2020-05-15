@@ -41,14 +41,14 @@ public class RelationshipMenu : MonoBehaviour
             npcName[i].text = RelationshipSystem.npcName[i];
             //-------------Load Face-----------------
             npcFace[i]= relationshipObject[i].transform.Find("NpcFace").GetComponent<Image>();
-            npcFace[i].sprite = Resources.Load<Sprite>("Content/Faces/" + npcName[i].text.ToString() + "/" + npcName[i].text.ToString());
+            npcFace[i].sprite = Resources.Load<Sprite>("Content/Faces/" + npcName[i].text + "/" + npcName[i].text.ToString());
             //-------------Load Relationship slider-----------------
             relationshipLevel[i] = relationshipObject[i].transform.Find("NpcRelationship").GetComponent<Slider>();
-            relationshipLevel[i].minValue = 0;
-            relationshipLevel[i].maxValue = 10;
-            relationshipLevel[i].value = PlayerPrefs.GetInt(npcName[i].ToString() + "Relationship");
+            relationshipLevel[i].minValue = RelationshipSystem.relaMinValue;
+            relationshipLevel[i].maxValue = RelationshipSystem.relaMaxValue;
+            relationshipLevel[i].value = PlayerPrefs.GetInt(npcName[i].text + "Relationship");
             if (relationshipLevel[i].value > relationshipLevel[i].maxValue)
-                relationshipLevel[i].value = relationshipLevel[i].maxValue;        
+                relationshipLevel[i].value = relationshipLevel[i].maxValue;
         }
     }
 
@@ -63,5 +63,10 @@ public class RelationshipMenu : MonoBehaviour
         {
             Destroy(relationshipObject[i]);
         }
+    }
+
+    public void ButtonDecreaseRelationship(string npcName)
+    {
+        RelationshipSystem.DecreaseRelationship(npcName, 1);
     }
 }

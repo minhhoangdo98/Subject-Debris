@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class AllyController : MonoBehaviour
 {
     public CharacterObject charObj;
+    
 
     void Start()
     {
@@ -28,5 +29,22 @@ public class AllyController : MonoBehaviour
     private void ActionPerform()
     {
         gameObject.transform.Find("TalkObject").SendMessage("ActionPerform", SendMessageOptions.DontRequireReceiver);
+    }
+
+    private void FixedUpdate()
+    {
+        //Npc di chuyen den vi tri la positionMove
+        if(charObj.movePos && charObj.postionMove!=null && charObj.diChuyen && charObj.canMove)
+        {
+            //kiem tra diem den la o ben trai hay phai, quay ve huong diem den
+            if (charObj.objOnTheRight != charObj.faceRight)
+                charObj.Flip();
+            charObj.DiChuyenNhanVat(charObj.faceRight);//di chuyen ve phia truoc
+            if (Vector2.Distance(transform.position, charObj.postionMove.transform.position) <= 0.5f)//neu den noi thi dung lai
+            {
+                charObj.movePos = false;
+                charObj.r2.velocity = Vector2.zero;
+            }
+        }
     }
 }

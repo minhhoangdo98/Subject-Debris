@@ -46,6 +46,11 @@ public class CharacterObject : MonoBehaviour
     public string target1Tag, target2Tag;
     public bool layDsBieuCam = false;
 
+    [Header("NpcMove")]
+    public GameObject postionMove;
+    public bool movePos = false;
+    public int objOnTheRight = 1;
+
     private void OnEnable()
     {
         CapNhatColliderIgnore();
@@ -114,7 +119,11 @@ public class CharacterObject : MonoBehaviour
             GameObject[] allAlly = GameObject.FindGameObjectsWithTag("Ally");
             for (int i = 0; i < allAlly.Length; i++)
                 Physics2D.IgnoreCollision(gameObject.transform.Find("Collider").GetComponent<Collider2D>(), allAlly[i].transform.Find("Collider").GetComponent<Collider2D>());
-        }           
+        }
+        else
+        {
+            Physics2D.IgnoreCollision(gameObject.transform.Find("Collider").GetComponent<Collider2D>(), GameObject.FindGameObjectWithTag("Player").transform.Find("Collider").GetComponent<Collider2D>());
+        }
     }
 
     public void EnableCharacter()

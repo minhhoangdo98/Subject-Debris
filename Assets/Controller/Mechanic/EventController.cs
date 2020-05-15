@@ -1,5 +1,6 @@
 ﻿using AudioConfig;
 using FIMSpace.FLook;
+using Relationship;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -163,7 +164,7 @@ public class EventController : MonoBehaviour
                     StartCoroutine(Intro());
                     break;
                 case 1:
-
+                    StartCoroutine(Story1());
                     break;
                 case 2:
 
@@ -190,12 +191,12 @@ public class EventController : MonoBehaviour
                 gc.eve.luaChonPanel.SetActive(false);
                 gc.eve.hoiThoaiPanel.SetActive(true);
                 HoiThoai("???", "",
-                    "[Can you hear me?]");
+                    "Can you hear me?");
                 gc.eve.enableNext = true;
                 break;
             case 1:
                 HoiThoai("???", "",
-                    "[Please wake up!]");
+                    "Please wake up!");
                 break;
             case 2:
                 gc.viewObj.player2d.GetComponent<CharacterObject>().weaponAnimId = -2;
@@ -207,7 +208,7 @@ public class EventController : MonoBehaviour
                 break;
             case 3:
                 HoiThoai("???", "Lily",
-                    "[Over here!]");
+                    "Over here!");
                 break;
             case 4:
                 CompleteEvent();
@@ -220,7 +221,7 @@ public class EventController : MonoBehaviour
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetLayerWeight(5, 1);
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetInteger("EmotionId", 4);
                 HoiThoai("???", "Lily",
-                     "[Do you remember what happened?]");
+                     "Do you remember what happened?");
                 gc.eve.luaChon1.text = "I don't";
                 gc.eve.luaChon2.text = "I remember";
                 gc.eve.choiceNumAdd = 5;
@@ -229,87 +230,87 @@ public class EventController : MonoBehaviour
             case 6:
                 gc.eve.luaChonPanel.SetActive(false);
                 HoiThoai("???", "Reid",
-                     "[I don't remember anything!]");
+                     "I don't remember anything!");
                 break;
             case 7:
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(3, 0);
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetInteger("EmotionId", 0);
                 HoiThoai("???", "Lily",
-                     "[Ok! I will briefly explain the current situation]");
+                     "Ok! I will briefly explain the current situation");
                 break;
             case 8:
                 HoiThoai("???", "Lily",
-                    "[You are failed test subjects and will be executed by those bastards outside!]");
+                    "You are failed test subjects and will be executed by those bastards outside!");
                 break;
             case 9:
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(25, 50);
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetInteger("EmotionId", 2);
                 HoiThoai("Lily", "LilySmile",
-                   "[My name is Lily, I'm here to save you, so please trust me!]");
+                   "My name is Lily, I'm here to save you, so please trust me!");
                 gc.eve.textNum += 2;
                 break;
             case 10:
                 gc.eve.luaChonPanel.SetActive(false);
                 HoiThoai("???", "Reid",
-                   "[I remember! You take down this soldier to save me]");
+                   "I remember! You take down this soldier to save me");
                 break;
             case 11:
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(3, 0);
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetInteger("EmotionId", 0);
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(25, 50);
                 HoiThoai("Lily", "LilySmile",
-                     "[That good! I'm Lily, nice to meet you!]");
+                     "That good! I'm Lily, nice to meet you!");
                 break;
             case 12:
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(25, 0);
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetInteger("EmotionId", 0);
                 HoiThoai("Lily", "Lily",
-                   "[We don't have much time so let's get straight to the point!]");
+                   "We don't have much time so let's get straight to the point!");
                 break;
             case 13:
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(0, 50);
                 HoiThoai("Lily","Lily",
-                   "[There is still another test subject here that needs to be rescued!]");
+                   "There is still another test subject here that needs to be rescued!");
                 break;
             case 14:
                 HoiThoai("Lily","Lily",
-                   "[But I've reached my limit!]");
+                   "But I've reached my limit!");
                 break;
             case 15:
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(0, 0);
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(3, 50);
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetInteger("EmotionId", 4);
                 HoiThoai("Lily", "Lily",
-                   "[Please help me save her before being killed!]");
+                   "Please help me save her before being killed!");
                 break;
             case 16:
                 HoiThoai("???", "Reid",
-                   "[Okay! I will help you, but I don't know anything]");
+                   "Okay! I will help you, but I don't know anything");
                 break;
             case 17:
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(3, 0);
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(25, 50);
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetInteger("EmotionId", 0);
                 HoiThoai("Lily", "LilySmile",
-                   "[Here! Take these thing! I will talk to you via this mobile headset!]");
+                   "Here! Take these thing! I will talk to you via this mobile headset!");
                 break;
             case 18:
                 HoiThoai("Lily", "LilySmile",
-                   "[This laser sword will help you defend yourself!]");
+                   "This laser sword will help you defend yourself!");
                 break;
             case 19:
                 HoiThoai("Lily", "LilySmile",
-                   "[And the Teleport Device! You can teleport to our base when this mission is completed!]");
+                   "And the Teleport Device! You can teleport to our base when this mission is completed!");
                 break;
             case 20:
                 HoiThoai("???", "Reid",
-                   "[Thank you!]");
+                   "Thank you!");
                 break;
             case 21:
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(25, 0);
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(3, 50);
                 HoiThoai("Lily", "Lily",
-                   "[I was the one who had to say that! Anyway, good luck!]");             
+                   "I was the one who had to say that! Anyway, good luck!");             
                 break;
             case 22:
                 gc.touchButton.bagButton.SetActive(true);
@@ -330,15 +331,15 @@ public class EventController : MonoBehaviour
             case 23:
                 gc.eve.hoiThoaiPanel.SetActive(true);
                 HoiThoai("Lily", "Lily",
-                   "[The door is locked]");
+                   "The door is locked");
                 break;
             case 24:
                 HoiThoai("Lily", "Lily",
-                   "[You need to find a keycard to unlock it]");
+                   "You need to find a keycard to unlock it");
                 break;
             case 25:
                 HoiThoai("Lily", "Lily",
-                   "[Look in this room]");
+                   "Look in this room");
                 break;
             case 26:
                 CompleteEvent();
@@ -346,12 +347,12 @@ public class EventController : MonoBehaviour
             case 27:
                 gc.eve.hoiThoaiPanel.SetActive(true);
                 HoiThoai("Lily", "Lily",
-                   "[See that soldier ahead? Use your sword to take him down!]");
+                   "See that soldier ahead? Use your sword to take him down!");
                 break;
             case 28:
                 gc.eve.hoiThoaiPanel.SetActive(true);
                 HoiThoai("Lily", "Lily",
-                   "[Approach the enemy slowly and attack them from behind!]");
+                   "Approach the enemy slowly and attack them from behind!");
                 break;
             case 29:
                 CompleteEvent();
@@ -360,35 +361,35 @@ public class EventController : MonoBehaviour
                 gc.eve.luaChonPanel.SetActive(false);
                 gc.eve.hoiThoaiPanel.SetActive(true);
                 HoiThoai("Lily", "Lily",
-                   "[Look like we may not be able to make it in time]");
+                   "Look like we may not be able to make it in time");
                 break;
             case 31:
                 HoiThoai("???", "Reid",
-                   "[What now?]");
+                   "What now?");
                 break;
             case 32:
                 HoiThoai("Lily", "Lily",
-                   "[We need something to distract them, maybe the Star Core in this room can do the trick]");
+                   "We need something to distract them, maybe the Star Core in this room can do the trick");
                 break;
             case 33:
                 HoiThoai("???", "Reid",
-                   "[Star Core?]");
+                   "Star Core?");
                 break;
             case 34:
                 HoiThoai("Lily", "Lily",
-                   "[It's a glittering object, you will see soon! Take it and the alarm will be turned on!]");
+                   "It's a glittering object, you will see soon! Take it and the alarm will be turned on!");
                 break;
             case 35:
                 HoiThoai("???", "Reid",
-                  "[Ok, I will take this to distract them.]");
+                  "Ok, I will take this to distract them.");
                 break;
             case 36:
                 HoiThoai("Lily", "Lily",
-                   "[Thank you!]");
+                   "Thank you!");
                 break;
             case 37:
                 HoiThoai("Lily", "Lily",
-                   "[And be careful with the security systems]");
+                   "And be careful with the security systems");
                 break;
             case 38:
                 CompleteEvent();
@@ -398,19 +399,19 @@ public class EventController : MonoBehaviour
                 gc.eve.luaChonPanel.SetActive(false);
                 gc.eve.hoiThoaiPanel.SetActive(true);
                 HoiThoai("???", "Reid",
-                   "[All of them are dead! What happening?]");
+                   "All of them are dead! What happening?");
                 break;
             case 40:
                 HoiThoai("Lily", "LilySad",
-                   "[Something not right!]");
+                   "Something not right!");
                 break;
             case 41:
                 HoiThoai("???", "Reid",
-                   "[Where is the Test Subject?]");
+                   "Where is the Test Subject?");
                 break;
             case 42:
                 HoiThoai("Lily", "Lily",
-                   "[I don't know! But it's too dangerous here, teleport to our base now!]");
+                   "I don't know! But it's too dangerous here, teleport to our base now!");
                 break;
             case 43:
                 CompleteStory();
@@ -430,5 +431,227 @@ public class EventController : MonoBehaviour
         }
     }
 
+    IEnumerator Story1()
+    {
+        yield return new WaitForSeconds(0);
+        switch (gc.eve.textNum)
+        {
+            case 0:
+                gc.eve.luaChonPanel.SetActive(false);
+                gc.eve.hoiThoaiPanel.SetActive(true);
+                gc.eve.talkCharacter[0].GetComponent<FLookAnimator>().ObjectToFollow = Camera.main.transform;
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(3, 80);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetLayerWeight(5, 1);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetInteger("EmotionId", 4);
+                HoiThoai("Lily", "LilySad",
+                     "Sorry for putting you in danger! Are you alright?");
+                RelationshipSystem.IncreaseRelationship("Lily", 5);
+                break;
+            case 1:
+                HoiThoai("???", "Reid", 
+                    "No need to worry! But you need to explain me everything!");
+                break;
+            case 2:
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(3, 0);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetInteger("EmotionId", 0);
+                HoiThoai("Lily", "Lily",
+                     "Right! But first...");
+                break;
+            case 3:
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(6, 80);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(25, 80);
+                HoiThoai("Lily", "LilySmile",
+                     "Do you remember your name?");
+                break;
+            case 4:
+                HoiThoai("???", "Reid",
+                    "My name?");
+                break;
+            case 5:
+                HoiThoai("Lily", "LilySmile",
+                    "Yes, your name.");
+                break;
+            case 6:
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(6, 80);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(25, 80);
+                HoiThoai("Reid", "Reid",
+                    "I'm Reid!");
+                break;
+            case 7:
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(5, 60);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(25, 50);
+                HoiThoai("Lily", "lily",
+                    "Is that... your real name?");
+                break;
+            case 8:
+                HoiThoai("Reid", "Reid",
+                    "...");
+                break;
+            case 9:
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(5, 0);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(25, 0);
+                HoiThoai("Reid", "Reid",
+                    "That my real name!");
+                break;
+            case 10:
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(3, 60);
+                HoiThoai("Lily", "lilySad",
+                    "Um... Reid?");
+                break;
+            case 11:
+                HoiThoai("Reid", "Reid",
+                    "What wrong?");
+                break;
+            case 12:
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(3, 30);
+                HoiThoai("Lily", "Lily",
+                    "Nevermind, I just feel like something's not right!");
+                break;
+            case 13:
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(3, 0);
+                HoiThoai("Reid", "Reid",
+                    "Just ignore it, can you explain it to me now?");
+                break;
+            case 14:
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(0, 50);
+                HoiThoai("Lily", "Lily",
+                    "Okay but I don't know that much!");
+                break;
+            case 15:
+                HoiThoai("Lily", "Lily",
+                    "Like I said before, we are the failed test subject, the organization decided to kill us!");
+                break;
+            case 16:
+                HoiThoai("Lily", "Lily",
+                   "No one can help us, we need to survive together!");
+                break;
+            case 17:
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(0, 0);
+                HoiThoai("Reid", "Reid",
+                    "Is that all?");      
+                break;
+            case 18:
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(3, 50);
+                HoiThoai("Lily", "Lily",
+                    "Yes, That's all I know!");
+                break;
+            case 19:
+                gc.eve.enableNext = false;
+                gc.eve.luaChon1.text = "Agree!";
+                gc.eve.luaChon2.text = "I don't trust you!";
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetInteger("EmotionId", 4);
+                HoiThoai("Lily", "Lily",
+                    "Can you cooperate with me? To survive!");
+                gc.eve.luaChonPanel.SetActive(true);
+                gc.eve.choiceNumAdd = 3;
+                break;
+            case 20:
+                gc.eve.luaChonPanel.SetActive(false);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(3, 0);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetInteger("EmotionId", 0);
+                HoiThoai("Reid", "Reid",
+                    "Okay! Nice to working with you, Lily!");
+                break;
+            case 21:
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(8, 20);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(15, 10);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(25, 80);
+                HoiThoai("Lily", "LilySmile",
+                    "Me too, Reid!");
+                RelationshipSystem.IncreaseRelationship("Lily", 1);
+                gc.eve.textNum += 14;
+                break;
+            case 22:
+                gc.eve.luaChonPanel.SetActive(false);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(3, 0);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(9, 60);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(19, 60);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetInteger("EmotionId", 0);
+                HoiThoai("Reid", "Reid",
+                    "No! I don't trust you!");
+                break;
+            case 23:
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(9, 0);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(19, 0);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(8, 80);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(18, 60);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(23, 60);
+                HoiThoai("Lily", "LilySad",
+                    "Wh-why?");
+                RelationshipSystem.DecreaseRelationship("Lily", 2);
+                break;
+            case 24:
+                HoiThoai("Reid", "Reid",
+                    "Although I have lost my memory, I have a hunch that I shouldn't trust anyone!");
+                break;
+            case 25:
+                HoiThoai("Lily", "LilySad",
+                    "But I trust you!");
+                break;
+            case 26:
+                HoiThoai("Reid", "Reid",
+                    "I don't care! I will do what I want!");
+                break;
+            case 27:
+                HoiThoai("Lily", "LilySad",
+                    "I-I mean we need to help each other to survival!");
+                break;
+            case 28:
+                HoiThoai("Reid", "Reid",
+                    "I can do it alone!");
+                break;
+            case 29:
+                HoiThoai("Lily", "LilySad",
+                    "But what about me?");
+                break;
+            case 30:
+                HoiThoai("Reid", "Reid",
+                    "Well, You don't need to do anything, I'll do it all, okay?");
+                break;
+            case 31:
+                HoiThoai("Lily", "LilySad",
+                    "Not like that! I can help you!");
+                break;
+            case 32:
+                HoiThoai("Reid", "Reid",
+                    "You saved my life so I will repay you!");
+                break;
+            case 33:
+                HoiThoai("Reid", "Reid",
+                    "Until it's over, we're done! Just don't get in my way!");
+                break;
+            case 34:
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(8, 0);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(18, 0);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(23, 0);
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(0, 60);
+                HoiThoai("Lily", "Lily",
+                    "...");
+                break;
+            case 35:
+                HoiThoai("Lily", "Lily",
+                    "Okay! If that's what you want!");
+                break;
+            case 36:
+                HoiThoai("Lily", "Lily",
+                    "I will return to my room, if you need anything just call me!");
+                break;
+            case 37:
+                gc.ChangeCameraToPlayer2d();
+                CompleteEvent();
+                GameObject lily = gc.eve.talkCharacter[0];
+                lily.GetComponent<FLookAnimator>().ObjectToFollow = gc.viewObj.player2d.transform.Find("PointLightFace");
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetLayerWeight(5, 0);
+                //Move Lily
+                GameObject posMove = lily.transform.parent.Find("LilyMovePos").gameObject;
+                lily.GetComponent<CharacterObject>().postionMove = posMove;
+                lily.GetComponent<CharacterObject>().objOnTheRight = -1;
+                lily.GetComponent<CharacterObject>().movePos = true;
+                yield return new WaitForSeconds(1.5f);
+                lily.SetActive(false);
+                posMove.SetActive(false);
+                break;
+        }
+    }
     #endregion
 }
