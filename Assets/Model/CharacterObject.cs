@@ -122,7 +122,9 @@ public class CharacterObject : MonoBehaviour
         }
         else
         {
-            Physics2D.IgnoreCollision(gameObject.transform.Find("Collider").GetComponent<Collider2D>(), GameObject.FindGameObjectWithTag("Player").transform.Find("Collider").GetComponent<Collider2D>());
+            GameObject pl = GameObject.FindGameObjectWithTag("Player");
+            if (pl != null)
+                Physics2D.IgnoreCollision(gameObject.transform.Find("Collider").GetComponent<Collider2D>(), pl.transform.Find("Collider").GetComponent<Collider2D>());
         }
     }
 

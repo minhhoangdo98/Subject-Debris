@@ -184,11 +184,18 @@ public class SoldierController : MonoBehaviour
 
     public void DeathFromBack()
     {
+        StartCoroutine(DeathFromStealth());
+    }
+
+    IEnumerator DeathFromStealth()
+    {   
         ene.charObj.DiChuyenNhanVat(0);
         ene.charObj.anim.SetBool("DeathFromBack", true);
         ene.charObj.charStat.hp -= ene.charObj.charStat.maxHp * 2;
         if (!ene.charObj.death)
         {
+            GameObject cam = Camera.main.gameObject;
+            cam.GetComponent<CameraFollowPlayer>().offset = new Vector3(0, 0.2f, -6.5f);
             ene.charObj.death = true;
             ene.charObj.takeDam = false;
             ene.charObj.attackable = false;
@@ -199,12 +206,14 @@ public class SoldierController : MonoBehaviour
             ene.charObj.colider.tag = "Death";
             ene.charObj.invisible = true;
             gameObject.SendMessage("DropLoot", SendMessageOptions.DontRequireReceiver);
+            yield return new WaitForSeconds(1f);
+            cam.GetComponent<CameraFollowPlayer>().offset = new Vector3(0, 0.2f, -10);
             StopAllCoroutines();
         }
         else
         {
             StopAllCoroutines();
-            return;
+            yield break;
         }
     }
 }

@@ -651,6 +651,59 @@ public class EventController : MonoBehaviour
                 lily.SetActive(false);
                 posMove.SetActive(false);
                 break;
+            case 38:
+                gc.eve.luaChonPanel.SetActive(false);
+                gc.eve.hoiThoaiPanel.SetActive(true);
+                gc.eve.talkCharacter[0].GetComponent<FLookAnimator>().ObjectToFollow = Camera.main.transform;
+                gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetLayerWeight(5, 1);
+                if (PlayerPrefs.GetInt("LilyRelationship") >= 5)
+                {
+                    gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(8, 20);
+                    gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(15, 10);
+                    gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(25, 80);
+                    HoiThoai("Lily", "LilySmile", 
+                        "So you've come!");
+                }
+                else
+                {
+                    gc.eve.talkCharacter[0].GetComponent<CharacterObject>().ThayDoiBieuCam(0, 60);
+                    HoiThoai("Lily", "LilyAngry", 
+                        "What do you want? I thought you will do it alone!");
+                }
+                break;
+            case 39:
+                HoiThoai("Reid", "Reid",
+                    "Sorry! But can you tell me what's next?");
+                break;
+            case 40:
+                if (PlayerPrefs.GetInt("LilyRelationship") >= 5)
+                {
+                    
+                    HoiThoai("Lily", "LilySmile", 
+                        "Go to the Teleport Machine and type 198-307-485.");
+                }
+                else
+                {
+                    HoiThoai("Lily", "LilyAngry", 
+                        "198-307-485! Try to understand that!");
+                }
+                break;
+            case 41:
+                if (PlayerPrefs.GetInt("LilyRelationship") >= 5)
+                {
+
+                    HoiThoai("Lily", "LilySmile",
+                        "Good luck and be safe!");
+                }
+                else
+                {
+                    HoiThoai("Lily", "LilyAngry",
+                        "Bye!");
+                }
+                break;
+            case 42:
+
+                break;
         }
     }
     #endregion

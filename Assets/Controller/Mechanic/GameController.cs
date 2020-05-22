@@ -264,8 +264,30 @@ public class GameController : MonoBehaviour
         if (facePosition == obj.GetComponent<CharacterObject>().faceRight)//neu 2 doi tuong quay cung mot phia
             obj.GetComponent<CharacterObject>().Flip();//cho talk object quay ve phia player
         cam.GetComponent<CameraFollowPlayer>().offset = new Vector3(-0.8f * facePosition, 0, 0);
-        
+        eve.talkCharacter = new GameObject[1];
+        eve.talkCharacter[0] = obj;
+
         viewObj.player2d.SetActive(false);
+    }
+
+    public void ChangeCameraMeetFriend(GameObject obj)
+    {
+        StartCoroutine(ChangingFriendCam(obj));
+    }
+
+    IEnumerator ChangingFriendCam(GameObject obj)
+    {
+        yield return new WaitForSeconds(1f);
+        GameObject cam = Camera.main.gameObject;
+        cam.GetComponent<Camera>().cullingMask |= 1 << LayerMask.NameToLayer("Not2D");
+        cam.GetComponent<CameraFollowPlayer>().smoothSpeed = 0.2f;
+        cam.GetComponent<CameraFollowPlayer>().target = obj.transform.Find("PointLightFace").transform;
+        int facePosition = obj.GetComponent<CharacterObject>().faceRight;
+        cam.GetComponent<CameraFollowPlayer>().offset = new Vector3(0.8f * facePosition, 0, 0);
+        eve.talkCharacter = new GameObject[1];
+        eve.talkCharacter[0] = obj;
+        viewObj.player2d.SetActive(false);
+        evc.PlayStory();
     }
 
     public void ChangeCameraToPlayer2d()
