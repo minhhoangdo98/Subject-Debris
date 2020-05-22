@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/View/Stage1.unity
     guid: 889010e4c1d2a3b44b850dd7e853e77c
+  - enabled: 1
+    path: Assets/View/CreditScreen.unity
+    guid: fadf77c882ce99d4a8688551c4f56156
   m_configObjects: {}

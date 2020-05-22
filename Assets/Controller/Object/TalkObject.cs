@@ -44,8 +44,6 @@ public class TalkObject : MonoBehaviour
         if (talkCharacter != null)
         {
             gc.ChangeCameraToTalkObject(talkCharacter);
-            gc.eve.talkCharacter = new GameObject[1];
-            gc.eve.talkCharacter[0] = talkCharacter;
         }      
         gc.evc.someOneTalk = !storyTalk;
         gc.evc.PlayStory();

@@ -50,13 +50,13 @@ public class TittleController : MonoBehaviour
         fadeIn.SetActive(true);
         yield return new WaitForSeconds(1.5f);
         fadeIn.SetActive(false);
-#if UNITY_STANDALONE || UNITY_EDITOR
+//#if UNITY_STANDALONE || UNITY_EDITOR
         tittleScreenWindow.SetActive(true);
         yield break;
-#endif
-#if UNITY_ANDROID
-        titleScreenMobile.SetActive(true);
-#endif
+//#endif
+//#if UNITY_ANDROID
+//        titleScreenMobile.SetActive(true);
+//#endif
     }
 
     void Update()

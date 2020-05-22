@@ -222,6 +222,10 @@ public class Weapon : MonoBehaviour
         soundList = new List<AudioClip> { Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing1"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing2"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing3") };
         SoundManager.PlayRandomSound(gameObject, soundList);
 
+        //Gay tieng dong
+        GameObject soundObj = Instantiate(Resources.Load<GameObject>("Prefabs/EmptySoundObject"), gameObject.transform.position, Quaternion.identity);
+        Destroy(soundObj, 1f);
+
         weaponDealDamageCollider.SetActive(true);
 
         yield return new WaitForSeconds(0.3f);
@@ -248,6 +252,11 @@ public class Weapon : MonoBehaviour
         List<AudioClip> soundList;
         weaponDealDamageCollider.SetActive(true);
         soundList = new List<AudioClip> { Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing1"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing2"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing3") };
+
+        //Gay tieng dong
+        GameObject soundObj = Instantiate(Resources.Load<GameObject>("Prefabs/EmptySoundObject"), gameObject.transform.position, Quaternion.identity);
+        Destroy(soundObj, 1f);
+
         for (int i = 0; i <= 3; i++)
         {
             yield return new WaitForSeconds(0.15f);
@@ -276,6 +285,11 @@ public class Weapon : MonoBehaviour
         List<AudioClip> soundList;
         weaponDealDamageCollider.SetActive(true);
         soundList = new List<AudioClip> { Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing1"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing2"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing3") };
+
+        //Gay tieng dong
+        GameObject soundObj = Instantiate(Resources.Load<GameObject>("Prefabs/EmptySoundObject"), gameObject.transform.position, Quaternion.identity);
+        Destroy(soundObj, 1f);
+
         yield return new WaitForSeconds(0.3f);
         StartCoroutine(ShootAPrefab(Resources.Load<GameObject>("Prefabs/Effect/HitEffect"), null, Resources.Load<GameObject>("Prefabs/Effect/BulletSlash"), weaponDealDamageCollider, 20f, 1f, "Phep", charObj.charStat.matk, false));
         SoundManager.PlayRandomSound(gameObject, soundList);
@@ -297,6 +311,10 @@ public class Weapon : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         soundList = new List<AudioClip> { Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing1"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing2"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing3") };
         SoundManager.PlayRandomSound(gameObject, soundList);
+
+        //Gay tieng dong
+        GameObject soundObj = Instantiate(Resources.Load<GameObject>("Prefabs/EmptySoundObject"), gameObject.transform.position, Quaternion.identity);
+        Destroy(soundObj, 1f);
 
         weaponDealDamageCollider.SetActive(true);
 
@@ -338,6 +356,11 @@ public class Weapon : MonoBehaviour
         List<AudioClip> soundList;
         weaponDealDamageCollider.SetActive(true);
         soundList = new List<AudioClip> { Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing1"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing2"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing3") };
+
+        //Gay tieng dong
+        GameObject soundObj = Instantiate(Resources.Load<GameObject>("Prefabs/EmptySoundObject"), gameObject.transform.position, Quaternion.identity);
+        Destroy(soundObj, 1f);
+
         yield return new WaitForSeconds(0.3f);
         SoundManager.PlayRandomSound(gameObject, soundList);
         yield return new WaitForSeconds(0.5f);
@@ -364,6 +387,11 @@ public class Weapon : MonoBehaviour
         weaponDealDamageCollider.SetActive(true);
         charObj.charStat.energy -= 1;
         soundList = new List<AudioClip> { Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing1"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing2"), Resources.Load<AudioClip>("Audio/SoundEffect/swordSwing/swordSwing3") };
+
+        //Gay tieng dong
+        GameObject soundObj = Instantiate(Resources.Load<GameObject>("Prefabs/EmptySoundObject"), gameObject.transform.position, Quaternion.identity);
+        Destroy(soundObj, 1f);
+
         yield return new WaitForSeconds(0.3f);
         SoundManager.PlayRandomSound(gameObject, soundList);
         yield return new WaitForSeconds(0.5f);
