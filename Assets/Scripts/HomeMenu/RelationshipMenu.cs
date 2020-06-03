@@ -8,7 +8,7 @@ public class RelationshipMenu : MonoBehaviour
 {
     private GameObject[] relationshipObject;
     private Slider[] relationshipLevel;
-    private Text[] npcName;
+    private Text[] npcName, npcRelaValue;
     private Image[] npcFace;
 
     private void OnEnable()
@@ -23,6 +23,7 @@ public class RelationshipMenu : MonoBehaviour
         npcFace = new Image[relationshipObject.Length];
         npcName = new Text[relationshipObject.Length];
         relationshipLevel = new Slider[relationshipObject.Length];
+        npcRelaValue = new Text[relationshipObject.Length];
         for (int i = 0; i < RelationshipSystem.npcCount; i++)
         {
             GameObject npcRelaDetail = Instantiate(Resources.Load<GameObject>("Prefabs/UIPrefabs/NpcRelaDetail"), gameObject.transform);
@@ -49,6 +50,9 @@ public class RelationshipMenu : MonoBehaviour
             relationshipLevel[i].value = PlayerPrefs.GetInt(npcName[i].text + "Relationship");
             if (relationshipLevel[i].value > relationshipLevel[i].maxValue)
                 relationshipLevel[i].value = relationshipLevel[i].maxValue;
+            //-------------Load Relationship value text-----------------
+            npcRelaValue[i] = relationshipLevel[i].transform.Find("RelaValue").GetComponent<Text>();
+            npcRelaValue[i].text = relationshipLevel[i].value.ToString();
         }
     }
 

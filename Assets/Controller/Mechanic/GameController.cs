@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    public bool loadComplete = false;
+    public bool loadComplete = false, connection = false;
     private GameObject model;
     [HideInInspector]
     public ViewObject viewObj;
@@ -68,6 +68,9 @@ public class GameController : MonoBehaviour
         panel.loadingPanel.GetComponentInChildren<Slider>().value += 1;
         yield return new WaitForSeconds(0.1f);
 
+        StartCoroutine(CheckConnection("google.com"));
+        yield return new WaitForSeconds(0.1f);
+
         StartCoroutine(EndLoading());
         yield return new WaitForSeconds(1f);
         gameObject.GetComponent<InputController>().enabled = true;
@@ -117,6 +120,28 @@ public class GameController : MonoBehaviour
         panel.loadingPanel.GetComponent<Animation>().Play("LoadingComplete");
         yield return new WaitForSeconds(1f);
         panel.loadingPanel.SetActive(false);
+    }
+
+    private IEnumerator CheckConnection(string url)//Kiem tra ket noi
+    {
+        WWW www = new WWW(url);
+        float elapsedTime = 0.0f;
+        while (!www.isDone)
+        {
+            elapsedTime += Time.deltaTime;
+            if (elapsedTime >= 10.0f && www.progress <= 0.5)
+            {
+                connection = false;
+                break;
+            }
+            yield return null;
+        }
+        if (!www.isDone || !string.IsNullOrEmpty(www.error))
+        {
+            connection = false;
+            yield break;
+        }
+        connection = true;
     }
 
     #region event
