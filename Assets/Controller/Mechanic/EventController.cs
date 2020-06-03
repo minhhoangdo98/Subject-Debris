@@ -66,12 +66,12 @@ public class EventController : MonoBehaviour
         gc.viewObj.player2d.GetComponent<CharacterObject>().EnableCharacter();
     }
 
-    public void CompleteEvent()//Hoan thanh 1 su kien nho hon story
+    public void CompleteEvent(bool activeTouchPanel)//Hoan thanh 1 su kien nho hon story
     {
         gc.eve.enableNext = false;
         gc.panel.eventPanel.SetActive(false);
         gc.eve.hoiThoaiPanel.SetActive(false);
-        gc.panel.touch2dPanel.SetActive(true);
+        gc.panel.touch2dPanel.SetActive(activeTouchPanel);
         gc.eve.textNum++;
         gc.viewObj.player2d.GetComponent<CharacterObject>().EnableCharacter();
     }
@@ -211,7 +211,7 @@ public class EventController : MonoBehaviour
                     "Over here!");
                 break;
             case 4:
-                CompleteEvent();
+                CompleteEvent(true);
                 break;
             case 5:
                 gc.eve.hoiThoaiPanel.SetActive(true);
@@ -316,7 +316,7 @@ public class EventController : MonoBehaviour
                 gc.touchButton.bagButton.SetActive(true);
                 gc.touchButton.buttonJump.SetActive(true);
                 gc.ChangeCameraToPlayer2d();
-                CompleteEvent();
+                CompleteEvent(true);
                 GameObject lily = gc.eve.talkCharacter[0];
                 lily.GetComponent<FLookAnimator>().ObjectToFollow = gc.viewObj.player2d.transform.Find("PointLightFace");
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetLayerWeight(5, 0);
@@ -342,7 +342,7 @@ public class EventController : MonoBehaviour
                    "Look in this room");
                 break;
             case 26:
-                CompleteEvent();
+                CompleteEvent(true);
                 break;
             case 27:
                 gc.eve.hoiThoaiPanel.SetActive(true);
@@ -355,7 +355,7 @@ public class EventController : MonoBehaviour
                    "Approach the enemy slowly and attack them from behind!");
                 break;
             case 29:
-                CompleteEvent();
+                CompleteEvent(true);
                 break;
             case 30:
                 gc.eve.luaChonPanel.SetActive(false);
@@ -392,7 +392,7 @@ public class EventController : MonoBehaviour
                    "And be careful with the security systems");
                 break;
             case 38:
-                CompleteEvent();
+                CompleteEvent(true);
                 break;
             case 39:
                 gc.viewObj.player2d.GetComponent<CharacterObject>().weaponAnimId = 0;
@@ -638,7 +638,7 @@ public class EventController : MonoBehaviour
                 break;
             case 37:
                 gc.ChangeCameraToPlayer2d();
-                CompleteEvent();
+                CompleteEvent(true);
                 GameObject lily = gc.eve.talkCharacter[0];
                 lily.GetComponent<FLookAnimator>().ObjectToFollow = gc.viewObj.player2d.transform.Find("PointLightFace");
                 gc.eve.talkCharacter[0].GetComponent<CharacterObject>().anim.SetLayerWeight(5, 0);
@@ -702,7 +702,7 @@ public class EventController : MonoBehaviour
                 }
                 break;
             case 42:
-
+                CompleteEvent(false);
                 break;
         }
     }

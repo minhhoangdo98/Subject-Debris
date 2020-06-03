@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "925905115549",
+    "firebase_url": "https://subject-debris.firebaseio.com",
+    "project_id": "subject-debris",
+    "storage_bucket": "subject-debris.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925905115549:android:0e2938939da97ae0a5b774",
+        "android_client_info": {
+          "package_name": "com.MHDo.SubjectDebris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925905115549-s9nnov9rvc6udd9jjd2god8077t3r6al.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7Jr3DDY4xaQCDvoHECvm1DUQKq6euOY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925905115549-s9nnov9rvc6udd9jjd2god8077t3r6al.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

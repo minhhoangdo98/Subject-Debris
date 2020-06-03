@@ -7,7 +7,7 @@ namespace Relationship
     public static class RelationshipSystem
     {
         public static string[] npcName = { "Lily", "Gildeon", "Mio", "Isaac", "Rosie" };
-        public static int npcCount = npcName.Length, relaMinValue = 0, relaMaxValue = 10;
+        public static int npcCount = npcName.Length, relaMinValue =-10, relaMaxValue = 10;
 
         public static void IncreaseRelationship(string npcName, int num)
         {
@@ -22,8 +22,8 @@ namespace Relationship
         {
             int currentRelaPoint = PlayerPrefs.GetInt(npcName + "Relationship");
             currentRelaPoint -= num;
-            if (currentRelaPoint < 0)
-                currentRelaPoint = 0;
+            if (currentRelaPoint < relaMinValue)
+                currentRelaPoint = relaMinValue;
             PlayerPrefs.SetInt(npcName + "Relationship", currentRelaPoint);
         }
     }
