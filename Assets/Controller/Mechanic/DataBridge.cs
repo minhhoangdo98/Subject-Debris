@@ -87,7 +87,7 @@ public class DataBridge : MonoBehaviour
         PlayerPrefs.SetInt("str", int.Parse(dictUser["str"].ToString()));
         PlayerPrefs.SetInt("intl", int.Parse(dictUser["intl"].ToString()));
         PlayerPrefs.SetInt("vit", int.Parse(dictUser["vit"].ToString()));
-        PlayerPrefs.SetInt("EGem", int.Parse(dictUser["eGem"].ToString()));
+        PlayerPrefs.SetInt("EGem", int.Parse(dictUser["gem"].ToString()));
         PlayerPrefs.SetString("tenCurrent", dictUser["ten"].ToString());
         PlayerPrefs.SetInt("story", int.Parse(dictUser["story"].ToString()));
         gameObject.GetComponent<TittleController>().ButtonLogin();

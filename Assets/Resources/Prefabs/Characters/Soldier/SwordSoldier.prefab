@@ -2742,8 +2742,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5336530565794264690}
   m_Enabled: 1
-  m_Avatar: {fileID: -8805088424695712126, guid: eb14f5368fb40924ebacde0e9952029c,
-    type: 3}
+  m_Avatar: {fileID: 9000000, guid: 27c705469a2900747936417f8ccac580, type: 2}
   m_Controller: {fileID: 9100000, guid: b1e046f9323f87d469022baa79dc63c1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -2922,6 +2921,7 @@ MonoBehaviour:
   canMove: 1
   canJump: 1
   isPlayer: 0
+  haveFace: 1
   grounded: 1
   death: 0
   run: 0
@@ -2953,6 +2953,9 @@ MonoBehaviour:
   target1Tag: PlayerCollider
   target2Tag: Destroyable
   layDsBieuCam: 0
+  postionMove: {fileID: 0}
+  movePos: 0
+  objOnTheRight: 1
 --- !u!114 &397989247
 MonoBehaviour:
   m_ObjectHideFlags: 0

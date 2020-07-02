@@ -4401,8 +4401,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7607035659592903228}
   m_Enabled: 1
-  m_Avatar: {fileID: 3679591529111922852, guid: b672fff266d37be49ad91f5657b4e4c7,
-    type: 3}
+  m_Avatar: {fileID: 9000000, guid: 2e2d157556fac61408b006228093745e, type: 2}
   m_Controller: {fileID: 9100000, guid: 1b301c87ca722d642a908c90c75aa07a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -4577,6 +4576,9 @@ MonoBehaviour:
   target1Tag: PlayerCollider
   target2Tag: AllyCollider
   layDsBieuCam: 0
+  postionMove: {fileID: 0}
+  movePos: 0
+  objOnTheRight: 1
 --- !u!114 &5582195314234513759
 MonoBehaviour:
   m_ObjectHideFlags: 0
