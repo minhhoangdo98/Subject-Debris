@@ -6,33 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/View/IntroScreen.unity
+    path: Assets/Scenes/IntroScreen.unity
     guid: 8d98bfe1bc64a9845978732bdf45280a
   - enabled: 1
-    path: Assets/View/Login.unity
+    path: Assets/Scenes/TittleScreen.unity
     guid: a958659f15f82d14d9f1adffdaf08c94
   - enabled: 1
-    path: Assets/View/Home.unity
+    path: Assets/Scenes/Home.unity
     guid: cbd1edb6c1581a14a86bde3512f01a61
   - enabled: 1
-    path: Assets/View/Stage0.unity
+    path: Assets/Scenes/Stage0.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/View/Gameover.unity
+    path: Assets/Scenes/Gameover.unity
     guid: b9069c660cbba6c4d9b3677bdf8208c1
   - enabled: 1
-    path: Assets/View/DescendGame.unity
+    path: Assets/Scenes/DescendGame.unity
     guid: e85f388cf2d25f141b87c602e4e64a83
   - enabled: 1
-    path: Assets/View/DodgeGame.unity
+    path: Assets/Scenes/DodgeGame.unity
     guid: f4682b9c19b448c4a8f3df2048919cb0
   - enabled: 1
-    path: Assets/View/RacerGame.unity
+    path: Assets/Scenes/RacerGame.unity
     guid: f8924a24c86a037459143579637c06c0
   - enabled: 1
-    path: Assets/View/Stage1.unity
+    path: Assets/Scenes/Stage1.unity
     guid: 889010e4c1d2a3b44b850dd7e853e77c
   - enabled: 1
-    path: Assets/View/CreditScreen.unity
+    path: Assets/Scenes/CreditScreen.unity
     guid: fadf77c882ce99d4a8688551c4f56156
   m_configObjects: {}
